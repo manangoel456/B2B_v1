@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
-import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
+import { LocalBusinessJsonLd, OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { Analytics } from "@vercel/analytics/react";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -97,6 +97,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-ivory text-charcoal font-body">
         <LocalBusinessJsonLd />
+        <OrganizationJsonLd />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -120,3 +120,58 @@ export function ArticleJsonLd({
   };
   return <JsonLd data={data} />;
 }
+
+export function OrganizationJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Barekyne",
+    url: "https://barekyne.in",
+    logo: "https://barekyne.in/images/og-image.jpg",
+    description:
+      "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+    telephone: "+917027572757",
+    email: "info@barekyne.in",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "471, Sector 17 HUDA, Jagadhri",
+      addressLocality: "Yamunanagar",
+      addressRegion: "Haryana",
+      postalCode: "135001",
+      addressCountry: "IN",
+    },
+    sameAs: [
+      "https://www.instagram.com/barekyne.skin/",
+      "https://x.com/barekyne_skin",
+    ],
+    foundingDate: "2024",
+    numberOfEmployees: { "@type": "QuantitativeValue", value: "10-50" },
+    areaServed: { "@type": "Country", name: "India" },
+    knowsAbout: [
+      "Clinical Skincare",
+      "Dermatology Products",
+      "Skincare Distribution",
+      "PCD Franchise",
+      "B2B Skincare Supply",
+    ],
+  };
+  return <JsonLd data={data} />;
+}
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[];
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+  return <JsonLd data={data} />;
+}
