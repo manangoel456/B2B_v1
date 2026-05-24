@@ -272,7 +272,7 @@ export const products: Product[] = [
     directions:
       "Apply generously on clean face and body. Massage gently until absorbed. Use daily after bathing for best results.",
     suitableFor: "All skin types",
-    size: "200ml",
+    size: "100ml",
     images: [
       "/images/products/ol-season-lotion-1.png",
       "/images/products/ol-season-lotion-2.png",
