@@ -82,12 +82,12 @@ export const products: Product[] = [
     category: "Serums",
     tagline: "Brightening & Anti-Aging Power Serum",
     description:
-      "Barekyne Vitamin C Serum combines the brightening power of 10% Vitamin C with 2% Niacinamide and Hyaluronic Acid for a comprehensive skin transformation. This potent formula targets dark spots, uneven tone, fine lines, and dullness for visibly radiant skin.",
+      "Barekyne Vitamin C Serum combines the brightening power of 20% Vitamin C with 2% Niacinamide and Hyaluronic Acid for a comprehensive skin transformation. This potent formula targets dark spots, uneven tone, fine lines, and dullness for visibly radiant skin.",
     shortBenefit: "Brightens, firms & fights dark spots",
-    ingredients: ["Vitamin C 10%", "Niacinamide 2%", "Hyaluronic Acid"],
+    ingredients: ["Vitamin C 20%", "Niacinamide 2%", "Hyaluronic Acid"],
     keyIngredients: [
       {
-        name: "Vitamin C 10%",
+        name: "Vitamin C 20%",
         benefit: "Potent brightening agent that reduces dark spots and promotes collagen synthesis",
       },
       {
