@@ -237,7 +237,7 @@ export const PRODUCT_SEO_ROUTES = [
     routePrefix: "best-vitamin-c-serum",
     titleTemplate: "Best Vitamin C Serum in {city} — Barekyne Brightening Serum",
     descriptionTemplate:
-      "Get the best Vitamin C 10% brightening serum in {city}. Barekyne serum with Niacinamide & Hyaluronic Acid. Wholesale & clinic supply available in {city}, {state}.",
+      "Get the best Vitamin C 20% brightening serum in {city}. Barekyne serum with Niacinamide & Hyaluronic Acid. Wholesale & clinic supply available in {city}, {state}.",
     h1Template: "Best Vitamin C Serum in {city}",
   },
   {
