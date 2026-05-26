@@ -1,243 +1,319 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { MessageCircle, MapPin, TrendingUp, Users, Shield, Package, ArrowRight } from "lucide-react";
-import { SEO_CITIES, PROGRAMMATIC_ROUTES, fillTemplate } from "@/lib/seo-data";
-import { products } from "@/lib/products";
-import { SITE_CONFIG } from "@/lib/constants";
-import { formatPrice } from "@/lib/utils";
-import AnimatedSection from "@/components/shared/AnimatedSection";
-import SectionHeading from "@/components/shared/SectionHeading";
-import ContactForm from "@/components/shared/ContactForm";
-import JsonLd, { FAQJsonLd } from "@/components/seo/JsonLd";
+// src/app/skincare-distributor/[city]/page.tsx
+// Barekyne Programmatic SEO — City Franchise Landing Pages
+// Drop-in component for Next.js App Router. Global <Layout> is applied by parent layout.tsx.
 
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { getCitySEOData, getAllCitySlugs } from "@/lib/seo-data";
+
+// ─── Static Generation ────────────────────────────────────────────────────────
 export async function generateStaticParams() {
-  return SEO_CITIES.map((city) => ({ city: city.slug }));
+  return getAllCitySlugs();
 }
 
+// ─── Dynamic Metadata ─────────────────────────────────────────────────────────
 export async function generateMetadata(
-  { params }: { params: Promise<{ city: string }> }
+  props: {
+    params: Promise<{ city: string }>;
+  }
 ): Promise<Metadata> {
-  const { city: citySlug } = await params;
-  const city = SEO_CITIES.find((c) => c.slug === citySlug);
-  if (!city) return { title: "Not Found" };
+  const params = await props.params;
+  const data = getCitySEOData(params.city);
+  if (!data) return {};
 
-  const config = PROGRAMMATIC_ROUTES.find((r) => r.type === "distributor")!;
+  const urgencyLabel =
+    data.territoryStatus === "filling_fast"
+      ? " ⚠ Filling Fast"
+      : data.territoryStatus === "limited"
+      ? " · Limited Slots"
+      : "";
+
   return {
-    title: fillTemplate(config.titleTemplate, city),
-    description: fillTemplate(config.descriptionTemplate, city),
-    alternates: { canonical: `/skincare-distributor/${city.slug}` },
+    title: `${data.metaTitle}${urgencyLabel}`,
+    description: data.metaDescription,
+    alternates: { canonical: data.canonicalUrl },
     openGraph: {
-      title: fillTemplate(config.titleTemplate, city),
-      description: fillTemplate(config.descriptionTemplate, city),
-      url: `https://barekyne.in/skincare-distributor/${city.slug}`,
+      title: data.metaTitle,
+      description: data.metaDescription,
+      url: data.canonicalUrl,
+      siteName: "Barekyne",
+      images: [{ url: data.ogImage, width: 1200, height: 630 }],
+      locale: "en_IN",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: data.metaTitle,
+      description: data.metaDescription,
+      images: [data.ogImage],
     },
   };
 }
 
-const distributorFaqs = [
-  {
-    question: "What is the minimum investment required for Barekyne distributorship?",
-    answer: "The investment varies based on territory size and order volume. Contact our team for a detailed breakdown tailored to your region.",
-  },
-  {
-    question: "Does Barekyne offer monopoly distribution rights?",
-    answer: "Yes, Barekyne offers exclusive territorial monopoly rights to qualified distributors, ensuring zero internal competition in your allocated area.",
-  },
-  {
-    question: "What kind of margins can I expect as a Barekyne distributor?",
-    answer: "Barekyne offers industry-leading margins to distributors. Our premium pricing strategy ensures healthy ROI while maintaining brand exclusivity.",
-  },
-  {
-    question: "What marketing support does Barekyne provide?",
-    answer: "We provide comprehensive marketing support including visual merchandising materials, digital assets, training, and a dedicated account manager.",
-  },
-];
+// ─── Page Component ───────────────────────────────────────────────────────────
+export default async function CityFranchisePage(
+  props: {
+    params: Promise<{ city: string }>;
+  }
+) {
+  const params = await props.params;
+  const data = getCitySEOData(params.city);
+  if (!data) notFound();
 
-export default async function DistributorCityPage({
-  params,
-}: {
-  params: Promise<{ city: string }>;
-}) {
-  const { city: citySlug } = await params;
-  const city = SEO_CITIES.find((c) => c.slug === citySlug);
-  if (!city) return null;
+  const urgencyBadgeColor =
+    data.territoryStatus === "filling_fast"
+      ? "bg-red-100 text-red-700 border-red-200"
+      : data.territoryStatus === "limited"
+      ? "bg-amber-100 text-amber-700 border-amber-200"
+      : "bg-emerald-100 text-emerald-700 border-emerald-200";
 
-  const config = PROGRAMMATIC_ROUTES.find((r) => r.type === "distributor")!;
+  const urgencyText =
+    data.territoryStatus === "filling_fast"
+      ? "⚠ Filling Fast — Limited Territories Remaining"
+      : data.territoryStatus === "limited"
+      ? "⚡ Limited Territories Available"
+      : "✅ Open Territory — First-Mover Advantage";
+
+  // JSON-LD structured data
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `Barekyne — Derma PCD Franchise ${data.cityDisplay}`,
+    description: data.metaDescription,
+    url: data.canonicalUrl,
+    image: `https://barekyne.in${data.ogImage}`,
+    areaServed: {
+      "@type": "State",
+      name: data.state,
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "IN",
+      addressRegion: data.state,
+    },
+    makesOffer: {
+      "@type": "Offer",
+      name: "Derma PCD Franchise — Exclusive Territory Rights",
+      description: `Exclusive monopoly territory rights for Barekyne clinical skincare distribution in ${data.cityDisplay}, ${data.state}.`,
+    },
+  };
 
   return (
     <>
-      {/* Schema */}
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: `Barekyne Skincare Distributor — ${city.name}`,
-          description: fillTemplate(config.descriptionTemplate, city),
-          url: `https://barekyne.in/skincare-distributor/${city.slug}`,
-          telephone: SITE_CONFIG.phone,
-          address: { "@type": "PostalAddress", addressLocality: city.name, addressRegion: city.state, addressCountry: "IN" },
-          areaServed: { "@type": "City", name: city.name },
-        }}
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://barekyne.in" },
-            { "@type": "ListItem", position: 2, name: "Distributorship", item: "https://barekyne.in/distributorship" },
-            { "@type": "ListItem", position: 3, name: `Distributor in ${city.name}`, item: `https://barekyne.in/skincare-distributor/${city.slug}` },
-          ],
-        }}
-      />
-      <FAQJsonLd faqs={distributorFaqs} />
 
-      {/* Hero */}
-      <section className="pt-28 pb-12 lg:pt-36 lg:pb-16 bg-gradient-to-b from-cream to-ivory">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-4xl mx-auto">
-            <nav className="flex items-center justify-center gap-2 text-sm text-warm-gray mb-6">
-              <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-              <span>/</span>
-              <Link href="/distributorship" className="hover:text-gold transition-colors">Distributorship</Link>
-              <span>/</span>
-              <span className="text-charcoal font-medium">{city.name}</span>
-            </nav>
+      {/* ── HERO SECTION ──────────────────────────────────────────────── */}
+      <section className="relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white py-24 px-6 overflow-hidden">
+        {/* Decorative background grid */}
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[url('/grid-white.svg')] opacity-[0.04]"
+        />
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 rounded-full mb-6">
-              <MapPin className="w-4 h-4 text-gold" />
-              <span className="text-sm font-semibold text-gold">{city.name}, {city.state}</span>
-            </div>
+        <div className="relative max-w-5xl mx-auto">
+          {/* Territory Status Badge */}
+          <div className="mb-6">
+            <span
+              className={`inline-block border text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full ${urgencyBadgeColor}`}
+            >
+              {urgencyText}
+            </span>
+          </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-charcoal leading-tight">
-              Skincare <span className="text-gold">Distributor</span> in {city.name}
-            </h1>
-            <p className="mt-6 text-lg text-warm-gray max-w-3xl mx-auto leading-relaxed">
-              {fillTemplate(config.introTemplate, city)}
+          {/* H1 */}
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 max-w-4xl">
+            {data.h1}
+          </h1>
+
+          <p className="text-lg md:text-xl text-slate-300 max-w-3xl mb-10 leading-relaxed">
+            {data.heroSubheadline}
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a
+              href="/contact-franchise"
+              className="inline-flex items-center justify-center bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold px-8 py-4 rounded-lg text-base transition-all duration-200 shadow-lg shadow-amber-400/20"
+            >
+              Apply for {data.cityDisplay} Territory →
+            </a>
+            <a
+              href="/franchise-info-pack"
+              className="inline-flex items-center justify-center border border-white/20 hover:border-white/50 text-white font-semibold px-8 py-4 rounded-lg text-base transition-all duration-200"
+            >
+              Download Franchise Pack
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── MARKET INSIGHT SECTION ───────────────────────────────────── */}
+      <section className="bg-white py-20 px-6">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-12">
+          <div className="md:col-span-2">
+            <span className="text-xs font-bold tracking-widest text-amber-600 uppercase mb-3 block">
+              Market Analysis — {data.cityDisplay}
+            </span>
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">
+              Why {data.cityDisplay} Represents a High-ROI Derma Franchise
+              Territory
+            </h2>
+            <p className="text-slate-600 text-lg leading-relaxed mb-6">
+              {data.marketInsight}
             </p>
+            <p className="text-slate-600 text-base leading-relaxed">
+              {data.regionalDermaFacts}
+            </p>
+          </div>
 
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/contact?type=distributor" className="px-8 py-3.5 bg-gold text-white font-semibold rounded-full hover:bg-gold-dark transition-all duration-300 hover:shadow-lg hover:shadow-gold/20">
-                {config.ctaText}
-              </Link>
-              <a href={`${SITE_CONFIG.whatsappUrl}?text=${encodeURIComponent(`Hi Barekyne, I'm interested in skincare distributorship in ${city.name}. Please share details.`)}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-8 py-3.5 bg-[#25D366] text-white font-semibold rounded-full hover:bg-[#20BD5A] transition-all duration-300">
-                <MessageCircle className="w-4 h-4" />
-                WhatsApp Inquiry
-              </a>
+          {/* Stats sidebar */}
+          <div className="space-y-6">
+            <div className="bg-slate-50 border border-slate-100 rounded-xl p-6">
+              <div className="text-3xl font-black text-slate-900 mb-1">
+                {data.population}
+              </div>
+              <div className="text-sm text-slate-500">Metro Population</div>
             </div>
-          </AnimatedSection>
+            <div className="bg-slate-50 border border-slate-100 rounded-xl p-6">
+              <div className="text-3xl font-black text-slate-900 mb-1">
+                {data.availableDistricts.length}
+              </div>
+              <div className="text-sm text-slate-500">Open Districts</div>
+            </div>
+            <div className="bg-amber-50 border border-amber-100 rounded-xl p-6">
+              <div className="text-xl font-black text-amber-700 mb-1">
+                Monopoly Rights
+              </div>
+              <div className="text-sm text-slate-500">
+                Exclusive territory — no internal price competition
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Why This City */}
-      <section className="py-16 lg:py-20 bg-ivory">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title={`Why Distribute Barekyne in ${city.name}?`} subtitle={`${city.name} presents exceptional opportunities for premium skincare distribution with a population of ${city.population} and ${city.demandLevel.toLowerCase()} demand.`} />
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-            {city.highlights.map((highlight, i) => (
-              <AnimatedSection key={i} delay={i * 0.1}>
-                <div className="p-6 bg-white rounded-2xl border border-beige/50 hover:shadow-lg transition-all duration-300">
-                  <div className="w-12 h-12 bg-gold/10 rounded-xl flex items-center justify-center mb-4">
-                    <TrendingUp className="w-6 h-6 text-gold" />
-                  </div>
-                  <p className="text-charcoal leading-relaxed">{highlight}</p>
-                </div>
-              </AnimatedSection>
+      {/* ── AVAILABLE DISTRICTS ──────────────────────────────────────── */}
+      <section className="bg-slate-50 py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-slate-900 mb-2">
+            Open Districts in {data.state}
+          </h2>
+          <p className="text-slate-500 mb-10 text-sm">
+            Territories marked open are available for exclusive franchise
+            allocation. First-confirmed partner takes the territory.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            {data.availableDistricts.map((district) => (
+              <div
+                key={district}
+                className="bg-white border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 flex items-center gap-2"
+              >
+                <span className="w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0" />
+                {district}
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Benefits */}
-      <section className="py-16 lg:py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="Barekyne Distributor Benefits" subtitle={`What you get as a Barekyne distributor in ${city.name}`} />
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* ── PRODUCT PORTFOLIO ────────────────────────────────────────── */}
+      <section className="bg-white py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <span className="text-xs font-bold tracking-widest text-amber-600 uppercase mb-3 block">
+            The Clinical Portfolio
+          </span>
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">
+            Five WHO-GMP Clinical SKUs Engineered for Indian Skin
+          </h2>
+          <p className="text-slate-500 mb-12 max-w-2xl">
+            Not 200 generic products. A focused, high-velocity clinical range
+            where every SKU has a dermatologist prescription rationale and a
+            defensible active concentration.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: Shield, title: "Monopoly Rights", desc: `Exclusive territorial distribution rights in ${city.name} with zero internal competition.` },
-              { icon: TrendingUp, title: "High Margins", desc: "Industry-leading profit margins on all clinical-grade skincare products." },
-              { icon: Users, title: "Dedicated Support", desc: "Personal account manager, marketing materials, and business training." },
-              { icon: Package, title: "PAN India Supply", desc: "Reliable logistics network ensuring timely delivery across India." },
-            ].map((item, i) => (
-              <AnimatedSection key={i} delay={i * 0.1}>
-                <div className="p-6 bg-white rounded-2xl border border-beige/50 text-center hover:shadow-lg transition-all duration-300">
-                  <div className="w-14 h-14 mx-auto bg-gold/10 rounded-full flex items-center justify-center mb-4">
-                    <item.icon className="w-6 h-6 text-gold" />
-                  </div>
-                  <h3 className="font-heading font-bold text-charcoal mb-2">{item.title}</h3>
-                  <p className="text-sm text-warm-gray">{item.desc}</p>
-                </div>
-              </AnimatedSection>
+              {
+                name: "Vitamin C 20% Serum",
+                actives: "20% Vit C · 2% Niacinamide · Hyaluronic Acid",
+                indication: "Hyperpigmentation · PIH · Dull Skin",
+                mechanism: "Tyrosinase inhibition + melanosome transfer blockade",
+              },
+              {
+                name: "Hybrid Invisible Sunscreen SPF 50",
+                actives: "Physical + Chemical dual-filter system",
+                indication: "Photoprotection · PIH Prevention",
+                mechanism: "Zero white cast on Fitzpatrick III–VI · Sweat resistant",
+              },
+              {
+                name: "Tricid Face Wash",
+                actives: "Glycolic Acid · Salicylic Acid · Vitamin C · Cica",
+                indication: "Acne · Oily Skin · Comedonal Acne",
+                mechanism: "AHA + BHA dual exfoliation with anti-inflammatory modulation",
+              },
+              {
+                name: "Advanced Night Cream",
+                actives: "Retinol · Ceramides · Peptides",
+                indication: "Barrier Repair · Anti-Ageing · TEWL Reduction",
+                mechanism: "Collagen synthesis + ceramide barrier restoration",
+              },
+              {
+                name: "OL-Season Face & Body Lotion",
+                actives: "Vitamin C · Dermawhite™ Technology",
+                indication: "Year-round Hydration · Brightening",
+                mechanism: "Advanced depigmentation technology · 100ml",
+              },
+            ].map((product) => (
+              <div
+                key={product.name}
+                className="border border-slate-200 rounded-xl p-6 hover:border-amber-300 hover:shadow-md transition-all duration-200"
+              >
+                <h3 className="font-bold text-slate-900 mb-2 text-base">
+                  {product.name}
+                </h3>
+                <p className="text-xs text-amber-700 font-mono mb-3">
+                  {product.actives}
+                </p>
+                <p className="text-xs text-slate-500 mb-2">
+                  <strong className="text-slate-700">Indication:</strong>{" "}
+                  {product.indication}
+                </p>
+                <p className="text-xs text-slate-400">{product.mechanism}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Products Available */}
-      <section className="py-16 lg:py-20 bg-ivory">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title={`Products Available in ${city.name}`} subtitle="Our complete range of clinical-grade skincare products available for distribution" />
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {products.map((product, i) => (
-              <AnimatedSection key={product.id} delay={i * 0.08}>
-                <Link href={`/products/${product.slug}`} className="group block bg-white rounded-2xl border border-beige/50 p-6 hover:shadow-lg transition-all duration-300">
-                  <h3 className="font-heading font-bold text-charcoal group-hover:text-gold transition-colors">{product.name}</h3>
-                  <p className="text-sm text-warm-gray mt-1 mb-3">{product.shortBenefit}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-lg font-bold text-gold">MRP {formatPrice(product.mrp)}</span>
-                    <ArrowRight className="w-4 h-4 text-gold opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                </Link>
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="py-16 lg:py-20 bg-cream">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title={`Distributor FAQ — ${city.name}`} subtitle="Common questions about Barekyne distributorship" />
-          <div className="mt-10 space-y-4">
-            {distributorFaqs.map((faq, i) => (
-              <AnimatedSection key={i} delay={i * 0.08}>
-                <div className="p-5 bg-white rounded-xl border border-beige/50">
-                  <h3 className="text-sm font-semibold text-charcoal mb-2">{faq.question}</h3>
-                  <p className="text-sm text-warm-gray">{faq.answer}</p>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form */}
-      <section className="py-16 lg:py-20 bg-ivory">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title={`Become a Distributor in ${city.name}`} subtitle="Fill out the form below to start your distributorship journey" />
-          <div className="mt-10 bg-white p-8 rounded-2xl border border-beige/50">
-            <ContactForm variant="compact" defaultInquiryType="Distributor Inquiry" />
-          </div>
-        </div>
-      </section>
-
-      {/* Internal Links */}
-      <section className="py-12 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-heading font-bold text-charcoal mb-6 text-center">Explore More Locations</h2>
-          <div className="flex flex-wrap justify-center gap-3">
-            {SEO_CITIES.filter((c) => c.slug !== city.slug).map((c) => (
-              <Link key={c.slug} href={`/skincare-distributor/${c.slug}`} className="px-4 py-2 bg-white text-sm text-charcoal rounded-full border border-beige/50 hover:border-gold hover:text-gold transition-all duration-300">
-                Distributor in {c.name}
-              </Link>
-            ))}
-          </div>
-          <div className="flex flex-wrap justify-center gap-3 mt-4">
-            {SEO_CITIES.filter((c) => c.slug !== city.slug).slice(0, 6).map((c) => (
-              <Link key={c.slug} href={`/derma-franchise/${c.slug}`} className="px-4 py-2 bg-white text-sm text-warm-gray rounded-full border border-beige/50 hover:border-gold hover:text-gold transition-all duration-300">
-                Franchise in {c.name}
-              </Link>
-            ))}
+      {/* ── FINAL CTA SECTION ────────────────────────────────────────── */}
+      <section className="bg-gradient-to-br from-amber-400 to-amber-500 py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+            Secure Your {data.cityDisplay} Franchise Territory Today
+          </h2>
+          <p className="text-slate-800 text-lg mb-10 leading-relaxed">
+            Once a territory is allocated, it is closed. Exclusive monopoly
+            rights are granted to the first confirmed franchise partner in each
+            district. Our B2B partnership team reviews applications within 48
+            hours.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact-franchise"
+              className="inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-white font-bold px-10 py-4 rounded-lg text-base transition-all duration-200"
+            >
+              Apply for {data.cityDisplay} Territory →
+            </a>
+            <a
+              href="tel:+91XXXXXXXXXX"
+              className="inline-flex items-center justify-center border-2 border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white font-bold px-10 py-4 rounded-lg text-base transition-all duration-200"
+            >
+              Call B2B Team Now
+            </a>
           </div>
         </div>
       </section>
