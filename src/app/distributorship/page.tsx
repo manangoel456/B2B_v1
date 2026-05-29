@@ -15,9 +15,9 @@ import SectionHeading from "@/components/shared/SectionHeading";
 import ContactForm from "@/components/shared/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Distributorship & Monopoly Rights",
+  title: "Skincare Distributorship India — Exclusive Monopoly Rights",
   description:
-    "Become a Barekyne distributor. Get exclusive monopoly rights, high margins, and premium clinical skincare products. Apply for distributorship across India.",
+    "Become a Barekyne skincare distributor with exclusive monopoly territory rights. Derma PCD franchise with WHO-GMP clinical products, high margins, and dedicated support. Apply now.",
   alternates: { canonical: "/distributorship" },
 };
 
