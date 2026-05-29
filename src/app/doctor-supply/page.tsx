@@ -8,9 +8,9 @@ import { products } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Doctor & Clinic Supply",
+  title: "Clinical Skincare for Dermatology Clinics & Hospitals — Doctor Supply",
   description:
-    "Barekyne supplies premium clinical skincare to dermatology clinics, doctors, and hospitals across India. Clinic pricing, patient materials & dedicated support.",
+    "Barekyne supplies premium clinical derma products to dermatology clinics, doctors, and hospitals across India. WHO-GMP skincare with clinic pricing, patient materials & dedicated support.",
   alternates: { canonical: "/doctor-supply" },
 };
 

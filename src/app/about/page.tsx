@@ -5,9 +5,9 @@ import SectionHeading from "@/components/shared/SectionHeading";
 import FinalCTA from "@/components/home/FinalCTA";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Barekyne — India's Clinical Derma Skincare Brand for B2B Partners",
   description:
-    "Barekyne is a premium clinical derma luxury skincare brand committed to quality, innovation, and empowering B2B partners across India with high-margin skincare products.",
+    "Barekyne is a WHO-GMP certified clinical derma skincare brand empowering distributors, franchise partners, and dermatology clinics across India with high-margin, scientifically formulated products.",
   alternates: { canonical: "/about" },
 };
 

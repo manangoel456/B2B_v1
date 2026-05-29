@@ -52,8 +52,8 @@ export default function HeroSection() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold text-charcoal leading-[1.1] tracking-tight"
           >
-            Premium Clinical Skincare Solutions for India&apos;s Leading{" "}
-            <span className="text-gold">Distributors & Clinics</span>
+            Premium Derma PCD Franchise & Skincare{" "}
+            <span className="text-gold">Distributorship Across India</span>
           </motion.h1>
 
           {/* Subheadline */}

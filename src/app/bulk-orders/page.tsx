@@ -7,9 +7,9 @@ import { products } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Bulk Procurement",
+  title: "Wholesale Skincare Bulk Orders — Volume Pricing for Distributors",
   description:
-    "Get competitive bulk pricing on Barekyne's premium skincare range. Volume discounts, priority logistics, and dedicated account management for bulk buyers.",
+    "Get competitive bulk pricing on Barekyne's clinical derma skincare range. Wholesale rates, volume discounts, priority logistics, and dedicated account management for pharma distributors.",
   alternates: { canonical: "/bulk-orders" },
 };
 

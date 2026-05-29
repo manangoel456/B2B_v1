@@ -3,11 +3,12 @@ import Link from "next/link";
 import { Clock, User, ArrowRight, Tag } from "lucide-react";
 import { blogPosts } from "@/lib/blog";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Derma Franchise & Skincare Distribution Blog — Guides & Insights",
   description:
-    "Insights on skincare distribution, franchise opportunities, clinical skincare trends, and business guides from Barekyne.",
+    "Expert guides on derma PCD franchise, skincare distributorship, clinical skincare formulations, and pharma franchise business strategies in India. B2B insights from Barekyne.",
   alternates: { canonical: "/blog" },
 };
 

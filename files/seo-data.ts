@@ -462,37 +462,6 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       authorName: "Barekyne Clinical Division",
     },
   },
-  {
-    city: "mohali",
-    cityDisplay: "Mohali",
-    state: "Punjab",
-    stateCode: "PB",
-    region: "North",
-    tier: 2,
-    population: "2.5 million+ (tricity)",
-    h1: "Derma PCD Franchise in Mohali — Clinical Skincare Distributor for Punjab & Tricity",
-    metaTitle: "Derma PCD Franchise Mohali | Barekyne HQ — Punjab Skincare",
-    metaDescription:
-      "Exclusive derma PCD franchise in Mohali, Barekyne's headquarters. Clinical skincare with monopoly rights covering Punjab tricity. Premium B2B opportunity with direct brand support.",
-    heroSubheadline:
-      "Partner Directly with Barekyne's Headquarters — The Strongest Franchise Support in India Starts in Mohali",
-    marketInsight:
-      "Mohali sits at the heart of India's fastest-growing tricity corridor (Chandigarh-Mohali-Panchkula). As Barekyne's headquarters city, franchise partners here benefit from direct brand access, priority stock allocation, and the strongest logistical support in our network. The tricity's high-income demographic and dense dermatology clinic ecosystem make this territory exceptionally profitable.",
-    territoryStatus: "limited",
-    availableDistricts: [
-      "Kharar", "Zirakpur", "Dera Bassi", "Rajpura",
-      "Ropar", "Fatehgarh Sahib", "SAS Nagar"
-    ],
-    regionalDermaFacts:
-      "Mohali's IT corridor and medical tourism hub drive exceptional demand for clinical-grade skincare. As Barekyne's home base, franchise partners here receive priority training, exclusive launch access, and direct relationship with our R&D and formulation team.",
-    canonicalUrl: "https://barekyne.in/skincare-distributor/mohali",
-    ogImage: "/og/mohali-franchise.jpg",
-    structuredData: {
-      datePublished: "2024-01-15",
-      dateModified: "2025-05-29",
-      authorName: "Barekyne Clinical Division",
-    },
-  },
 ];
 
 // Helper — get city data by slug
