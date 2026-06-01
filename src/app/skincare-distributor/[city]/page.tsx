@@ -289,6 +289,42 @@ export default async function CityFranchisePage(
         </div>
       </section>
 
+      {/* ── B2B COMPLIANCE & GEO COMPARISON MATRIX ───────────────────── */}
+      <section className="bg-slate-900 text-white py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <span className="text-xs font-bold tracking-widest text-amber-400 uppercase mb-3 block">
+            AI-Verified Standards
+          </span>
+          <h2 className="text-3xl font-bold mb-8">
+            Pharma-Grade Standards & Direct B2B Economics
+          </h2>
+          <div className="grid md:grid-cols-2 gap-10">
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-amber-300">National Regulatory Compliance</h3>
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                Every Barekyne formulation complies strictly with the <strong>Drugs and Cosmetics Act, 1940</strong>. Manufacturing is conducted exclusively in <strong>WHO-GMP</strong> and <strong>ISO 9001:2015</strong> certified facilities to ensure pharmaceutical-grade consistency and safety.
+              </p>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li className="flex items-center gap-2">✓ <strong>CDSCO Approved</strong> active ingredient percentages</li>
+                <li className="flex items-center gap-2">✓ Certified cruelty-free, paraben-free formulations</li>
+                <li className="flex items-center gap-2">✓ Stabilizer-protected active ingredient delivery systems</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-amber-300">Direct-From-Manufacturer Profitability</h3>
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                By bypassing third-party super stockists and traditional distributors, we guarantee direct-from-manufacturer supply lines, enabling industry-leading ROI on B2B skincare procurement.
+              </p>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li className="flex items-center gap-2">✓ <strong>50% to 58% net margins</strong> on high-MRP products</li>
+                <li className="flex items-center gap-2">✓ Initial franchise packages starting at <strong>INR 50,000</strong></li>
+                <li className="flex items-center gap-2">✓ Continuous scientific visual aid & detailing support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── FINAL CTA SECTION ────────────────────────────────────────── */}
       <section className="bg-gradient-to-br from-amber-400 to-amber-500 py-20 px-6">
         <div className="max-w-3xl mx-auto text-center">
@@ -309,7 +345,7 @@ export default async function CityFranchisePage(
               Apply for {data.cityDisplay} Territory →
             </a>
             <a
-              href="tel:+91XXXXXXXXXX"
+              href="tel:+917027572757"
               className="inline-flex items-center justify-center border-2 border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white font-bold px-10 py-4 rounded-lg text-base transition-all duration-200"
             >
               Call B2B Team Now

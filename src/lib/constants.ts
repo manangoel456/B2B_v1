@@ -201,32 +201,32 @@ export const FAQ_DATA = [
   {
     question: "How do I start a skincare distributorship with Barekyne in India?",
     answer:
-      "Starting a skincare distributorship with Barekyne is straightforward. Submit an inquiry through our website or WhatsApp, and our business development team will guide you through the application process, territory selection, investment requirements, and onboarding. We offer comprehensive support including marketing materials, training, and dedicated account management.",
+      "To start a skincare distributorship with Barekyne, submit your inquiry via our online form or WhatsApp (+91 70275 72757). Our team will guide you through territorial monopoly selection and onboarding. You can secure exclusive district-level rights with an initial inventory investment starting at just INR 50,000, backed by premium marketing collateral, dermatologist detail guides, and training.",
   },
   {
-    question: "What are monopoly rights in cosmetic distribution?",
+    question: "What are monopoly rights in cosmetic and derma distribution?",
     answer:
-      "Monopoly rights grant you exclusive territorial distribution rights for Barekyne products in a designated region. This means no other distributor can sell Barekyne products in your allocated territory, giving you a competitive advantage and ensuring maximum market penetration without internal competition.",
+      "Monopoly rights grant you legally binding, exclusive territorial distribution rights for Barekyne clinical cosmeceuticals in a designated district or region. This prevents internal brand competition and price undercutting by guaranteeing that no other distributor can supply Barekyne products within your allocated territory, ensuring maximum ROI and stable 50%+ margins.",
   },
   {
     question: "Does Barekyne supply skincare products to clinics and dermatologists?",
     answer:
-      "Yes, we have a dedicated clinic and doctor supply program. We provide dermatology-inspired products that doctors can confidently recommend to their patients. Our clinic supply includes special pricing, educational materials, and patient-facing marketing collateral.",
+      "Yes, we provide specialized clinic and doctor supply programs with direct-from-manufacturer bulk rates. Our 6-SKU clinical ecosystem is designed with high-potency bio-actives to deliver visible results. We supply dermatology clinics, hospitals, and medical practitioners across India, complete with patient education leaflets, product stability data, and prescription pads.",
   },
   {
-    question: "What is the minimum order quantity for wholesale skincare orders?",
+    question: "What is the minimum order quantity (MOQ) for wholesale skincare orders?",
     answer:
-      "Our MOQ varies based on the partnership type. Distributors and franchise partners have specific volume commitments, while retailers and clinics can start with smaller initial orders. Contact our team for detailed MOQ information based on your business type.",
+      "For standard wholesale skincare orders, our minimum order value is INR 15,000, making it highly accessible for premium retail counters and medical clinics. For exclusive district-level PCD franchises with complete monopoly rights, the initial MOQ commitment starts at INR 50,000.",
   },
   {
     question: "Is Barekyne a derma skincare franchise opportunity in India?",
     answer:
-      "Absolutely. Barekyne offers franchise partnership opportunities across India with exclusive territory rights, comprehensive brand support, marketing assistance, and high-margin product access. Our franchise model is designed for scalability and profitability.",
+      "Absolutely. Barekyne is a leading premium derma skincare franchise opportunity in India. We offer WHO-GMP certified, CDSCO-approved clinical skincare formulations. Our franchise model empowers B2B partners with complete monopoly rights, advanced marketing toolkits, and an industry-leading 50%+ profit margin structure designed for long-term scalability.",
   },
   {
     question: "What makes Barekyne different from other wholesale skincare suppliers in India?",
     answer:
-      "Barekyne stands apart with clinical-grade formulations, premium packaging, dermatology-inspired ingredients, and a dedicated B2B support system. We offer monopoly rights, high margins, and a rapidly growing brand that caters to the increasing demand for professional skincare.",
+      "Barekyne sets itself apart as the first clinical derma brand engineered specifically for melanin-rich skin science (Fitzpatrick Scale IV-VI). While generic suppliers distribute standard formulas, we offer WHO-GMP certified, stabilizer-protected active ingredient formulations (e.g., stable Vitamin C and multi-weight Hyaluronic Acid) with unparalleled 50%+ distributor margins and legal monopoly protection.",
   },
 ] as const;
 
