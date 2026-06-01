@@ -27,9 +27,9 @@ export const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Products", href: "/products" },
+  { label: "Franchise Cities", href: "/skincare-distributor" },
   { label: "Distributorship", href: "/distributorship" },
   { label: "Doctor Supply", href: "/doctor-supply" },
-  { label: "Bulk Orders", href: "/bulk-orders" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ] as const;
