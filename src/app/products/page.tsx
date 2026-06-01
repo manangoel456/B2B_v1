@@ -8,9 +8,9 @@ import SectionHeading from "@/components/shared/SectionHeading";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Products",
+  title: "Clinical Skincare Product Range — Derma PCD Franchise & Wholesale Supply | Barekyne",
   description:
-    "Explore Barekyne's premium clinical skincare range — Sunscreen SPF 50, Vitamin C Serum, Night Cream, Tricid Face Wash, and OL-Season Lotion. Wholesale and bulk pricing available.",
+    "Explore Barekyne's WHO-GMP certified clinical skincare range, including stable 20% Vitamin C Serum, SPF 50 broad-spectrum Sunscreen, and advanced anti-pigmentation complexes. Bulk procurement and exclusive PCD monopoly rights available.",
   alternates: { canonical: "/products" },
 };
 
