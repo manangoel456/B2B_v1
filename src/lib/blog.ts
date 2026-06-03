@@ -185,7 +185,7 @@ Yes, Barekyne offers **100% exclusive district-level monopoly rights** in [Mohal
     excerpt:
       "An objective comparison of India's leading derma PCD franchise companies, evaluating each on product portfolio, monopoly terms, WHO-GMP compliance, and distributor ROI.",
     content: `
-When evaluating the **top derma franchise companies in India**, B2B investors and aspiring pharma entrepreneurs must look beyond glossy marketing brochures. The Indian dermatology market — growing at 12-15% CAGR — is fiercely competitive, and your profitability depends entirely on the brand you choose to represent.
+When evaluating the [top derma franchise companies in India](/skincare-distributor), B2B investors and aspiring pharma entrepreneurs must look beyond glossy marketing brochures. The Indian dermatology market — growing at 12-15% CAGR — is fiercely competitive, and your profitability depends entirely on the brand you choose to represent.
 
 This guide provides a clinical, data-driven comparison framework to help you identify which derma franchise company aligns with your investment goals, territory ambitions, and risk tolerance.
 
@@ -217,7 +217,7 @@ Evaluate the company's field support: do they provide scientific visual aids, cl
 The Indian derma franchise market can be segmented into three distinct tiers:
 
 ### Tier 1: Clinical-Grade Luxury Brands
-These brands invest heavily in R&D, utilize stabilized active ingredients at clinical concentrations, and position themselves for dermatologist prescription channels. They offer fewer SKUs but higher margins. Barekyne operates in this tier with its 5-SKU "Total Clearance" ecosystem specifically engineered for Fitzpatrick III-VI (Indian) skin types.
+These brands invest heavily in R&D, utilize stabilized active ingredients at clinical concentrations, and position themselves for dermatologist prescription channels. They offer fewer SKUs but higher margins. Barekyne operates in this tier with its 6-SKU clinical ecosystem specifically engineered for Fitzpatrick III-VI (Indian) skin types.
 
 ### Tier 2: Mid-Market Pharmaceutical Brands
 These are established pharma companies with derma divisions. They offer broader portfolios (50-100 SKUs) but often with generic formulations. Margins are moderate, and territorial exclusivity may be partial.
@@ -229,17 +229,17 @@ These companies offer the lowest investment entry points but also the lowest mar
 
 ## The Barekyne Advantage: Why Investors Are Choosing Clinical Precision
 
-At Barekyne, we built our franchise model around a single principle: **fewer products, higher velocity, deeper margins.**
+At [Barekyne](/), we built our franchise model around a single principle: **fewer products, higher velocity, deeper margins.**
 
-Our 5-SKU clinical portfolio addresses the top dermatological concerns in India:
+Our clinical portfolio addresses the top dermatological concerns in India:
 
 | Product | Active Concentration | Clinical Target |
 |---------|---------------------|----------------|
-| Vitamin C 20% Serum | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
-| Hybrid Invisible Sunscreen SPF 50 | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
-| Tricid Face Wash | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
-| Advanced Night Cream | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging |
-| OL-Season Lotion (100ml) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
+| [Vitamin C 20% Serum](/products/vitamin-c-serum) | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
+| [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
+| [Tricid Face Wash](/products/tricid-face-wash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
+| [Advanced Night Cream](/products/night-cream) | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging |
+| [OL-Season Lotion (100ml)](/products/ol-season-lotion) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
 
 ### What This Means for Your ROI
 - **Monopoly Rights:** Legally binding territorial exclusivity at the district level.
@@ -283,7 +283,7 @@ A legally binding monopoly agreement prevents the franchisor from appointing ano
 Quality over quantity. A focused portfolio of 5-10 high-efficacy products with transparent active concentrations outperforms a bloated catalog of 200+ generic variants in every ROI metric.
 
 ### Q5: What makes Barekyne different from other derma franchise companies?
-Barekyne is engineered specifically for melanin-rich (Indian) skin. We publish exact active concentrations, manufacture in WHO-GMP facilities, and offer legally binding monopoly territorial rights with a lean, high-velocity 5-SKU portfolio.
+Barekyne is engineered specifically for melanin-rich (Indian) skin. We publish exact active concentrations, manufacture in WHO-GMP facilities, and offer legally binding monopoly territorial rights with a lean, high-velocity portfolio.
 
 ---
 
@@ -395,11 +395,11 @@ If you have the capital and the distribution infrastructure, Barekyne provides t
     excerpt:
       "Why distributing a clinically stabilized 20% Vitamin C Serum is the most reliable strategy for capturing prescription market share in the Indian derma sector.",
     content: `
-When analyzing a clinical skincare portfolio from a B2B investment perspective, not all products contribute equally to the bottom line. For a Derma PCD franchise, the undisputed anchor product—the primary driver of recurring prescription revenue—is the depigmentation serum. 
+When analyzing a clinical skincare portfolio from a B2B investment perspective, not all products contribute equally to the bottom line. For a [Derma PCD franchise](/skincare-distributor), the undisputed anchor product—the primary driver of recurring prescription revenue—is the depigmentation serum. 
 
 In India, where Fitzpatrick III-VI skin types are structurally predisposed to melanin overproduction, post-inflammatory hyperpigmentation (PIH) and melasma constitute over 60% of aesthetic dermatology consultations. 
 
-Consequently, a **Vitamin C serum for hyperpigmentation** is not a cosmetic luxury; it is a clinical necessity. This guide breaks down why Barekyne’s 20% Vitamin C Serum is engineered to dominate clinic prescriptions and generate massive ROI for our franchise partners.
+Consequently, a [Vitamin C serum for hyperpigmentation](/products/vitamin-c-serum) is not a cosmetic luxury; it is a clinical necessity. This guide breaks down why Barekyne’s 20% Vitamin C Serum is engineered to dominate clinic prescriptions and generate massive ROI for our franchise partners.
 
 ---
 
@@ -434,7 +434,7 @@ A standard 30ml serum bottle lasts a patient exactly 30 to 45 days. Therefore, e
 ### 3. The "Gateway" Prescription
 The 20% Vitamin C Serum acts as a Trojan horse for the rest of the Barekyne portfolio. Dermatologists rarely prescribe a strong active without an accompanying barrier-repair and photoprotection protocol. 
 
-When a doctor prescribes the Barekyne Vitamin C serum, they almost always co-prescribe the **Hybrid Invisible Sunscreen SPF 50** (to prevent UV-induced tyrosinase reactivation) and the **Tricid Face Wash** (to accelerate epidermal turnover). Securing the serum prescription effectively secures the entire skincare basket.
+When a doctor prescribes the Barekyne Vitamin C serum, they almost always co-prescribe the [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) (to prevent UV-induced tyrosinase reactivation) and the [Tricid Face Wash](/products/tricid-face-wash) (to accelerate epidermal turnover). Securing the serum prescription effectively secures the entire skincare basket.
 
 ---
 
@@ -450,7 +450,7 @@ Barekyne has solved this formulation challenge through advanced anhydrous (water
 
 Hyperpigmentation is the defining aesthetic concern of the Indian demographic. Distributing a product that actually solves this problem clinically is the most secure path to pharmaceutical wealth.
 
-Partner with Barekyne and secure the exclusive distribution rights for India's most advanced depigmentation ecosystem.
+Partner with [Barekyne](/) and secure the exclusive distribution rights for India's most advanced depigmentation ecosystem.
 
 <div className="flex gap-4 mt-8 mb-6">
   <a href="/early-access" className="px-6 py-3 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-amber-300 transition-colors">Secure Monopoly Rights →</a>
