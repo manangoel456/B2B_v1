@@ -245,6 +245,307 @@ function getCustomSchemaForPost(slug: string): any[] | null {
           }
         }
       ];
+    case "derma-pcd-pharma-franchise-india-secure-monopoly-rights":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "@id": "https://barekyne.in/blog/derma-pcd-pharma-franchise-india-secure-monopoly-rights/#blogposting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/derma-pcd-pharma-franchise-india-secure-monopoly-rights"
+          },
+          "headline": "Derma PCD Pharma Franchise in India: Secure Monopoly Rights with a Luxury Clinical Brand",
+          "description": "Looking for a highly profitable derma PCD pharma franchise in India? Partner with Barekyne for premium formulations, high margins, and B2B monopoly rights.",
+          "url": "https://barekyne.in/blog/derma-pcd-pharma-franchise-india-secure-monopoly-rights",
+          "datePublished": "2026-05-26",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          }
+        }
+      ];
+    case "growing-demand-clinical-skincare-india":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Growing Demand for Clinical Skincare in India",
+          "description": "Exploring the rapid growth of clinical and dermatology-grade skincare in India, market trends, and what it means for distributors and business partners.",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/growing-demand-clinical-skincare-india"
+          },
+          "url": "https://barekyne.in/blog/growing-demand-clinical-skincare-india",
+          "datePublished": "2025-04-28",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "how-to-build-profitable-clinical-skincare-distribution-business-india":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/how-to-build-profitable-clinical-skincare-distribution-business-india"
+          },
+          "headline": "How to Build a Profitable Clinical Skincare Distribution Business in India",
+          "description": "Discover how to launch a Clinical Skincare Distribution Business in India with monopoly rights, premium derma products, dermatologist partnerships and scalable B2B margins.",
+          "url": "https://barekyne.in/blog/how-to-build-profitable-clinical-skincare-distribution-business-india",
+          "datePublished": "2026-05-23",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "how-to-choose-best-derma-pcd-franchise-company-india":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "How to Choose the Best Derma PCD Franchise Company in India (2026 Guide)",
+          "description": "A comprehensive 2026 guide on evaluating and selecting the perfect Derma PCD franchise partner for long-term growth and sustainable profitability.",
+          "url": "https://barekyne.in/blog/how-to-choose-best-derma-pcd-franchise-company-india",
+          "mainEntityOfPage": "https://barekyne.in/blog/how-to-choose-best-derma-pcd-franchise-company-india",
+          "datePublished": "2026-05-24",
+          "image": "https://barekyne.in/images/og-image.jpg",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "how-to-start-high-margin-skincare-distributorship-india-2026":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/how-to-start-high-margin-skincare-distributorship-india-2026"
+          },
+          "headline": "How to Start a High-Margin Skincare Distributorship in India (2026 Guide)",
+          "description": "A comprehensive 2026 guide to starting a highly profitable clinical skincare distributorship in India, covering margins, licenses, and brand selection.",
+          "datePublished": "2026-05-23",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          },
+          "url": "https://barekyne.in/blog/how-to-start-high-margin-skincare-distributorship-india-2026"
+        }
+      ];
+    case "how-to-start-skincare-distribution-business-india":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "How to Start a Skincare Distribution Business in India",
+          "description": "A comprehensive guide to entering India's booming skincare distribution market, from choosing the right brand partner to building a successful distribution network.",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/how-to-start-skincare-distribution-business-india"
+          },
+          "url": "https://barekyne.in/blog/how-to-start-skincare-distribution-business-india",
+          "datePublished": "2025-05-15",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          },
+          "image": "https://barekyne.in/images/og-image.jpg"
+        }
+      ];
+    case "monopoly-rights-cosmetic-distribution":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "@id": "https://barekyne.in/blog/monopoly-rights-cosmetic-distribution#blogposting",
+          "mainEntityOfPage": "https://barekyne.in/blog/monopoly-rights-cosmetic-distribution",
+          "headline": "How Monopoly Rights Work in Cosmetic Distribution",
+          "description": "Understanding the monopoly rights model in cosmetic distribution — benefits, responsibilities, and how to secure exclusive territory rights for maximum profitability.",
+          "url": "https://barekyne.in/blog/monopoly-rights-cosmetic-distribution",
+          "datePublished": "2025-05-05",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          },
+          "image": "https://barekyne.in/images/og-image.jpg"
+        }
+      ];
+    case "pharma-franchise-derma-products-india-ultimate-b2b-guide":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "@id": "https://barekyne.in/blog/pharma-franchise-derma-products-india-ultimate-b2b-guide#blogpost",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/pharma-franchise-derma-products-india-ultimate-b2b-guide"
+          },
+          "headline": "Pharma Franchise for Derma Products in India: The Ultimate B2B Guide to Monopoly Rights & High ROI",
+          "description": "Discover why securing a pharma franchise for derma products is one of the most lucrative B2B opportunities in India. Learn about monopoly rights, ROI, and how to partner with premium clinical brands.",
+          "url": "https://barekyne.in/blog/pharma-franchise-derma-products-india-ultimate-b2b-guide",
+          "datePublished": "2026-05-26",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "pharma-franchise-for-derma-products-setup-guide":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "@id": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide#blogposting",
+          "headline": "Pharma Franchise for Derma Products: The 2026 Business & Legal Setup Guide",
+          "description": "A complete operational guide to launching a Derma PCD franchise in India, covering drug licensing, territory agreements, and initial capital allocation strategies.",
+          "url": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide",
+          "mainEntityOfPage": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide",
+          "datePublished": "2025-03-01",
+          "inLanguage": "en",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne B2B Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          },
+          "image": "https://barekyne.in/images/og-image.jpg"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://barekyne.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://barekyne.in/blog"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Pharma Franchise for Derma Products: The 2026 Business & Legal Setup Guide",
+              "item": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide"
+            }
+          ]
+        }
+      ];
+    case "top-derma-franchise-companies-india-2026":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "@id": "https://barekyne.in/blog/top-derma-franchise-companies-india-2026#blogposting",
+          "url": "https://barekyne.in/blog/top-derma-franchise-companies-india-2026",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/top-derma-franchise-companies-india-2026"
+          },
+          "headline": "Top Derma Franchise Companies in India 2026: A B2B Investor's Comparison",
+          "description": "An objective comparison of India's leading derma PCD franchise companies, evaluating each on product portfolio, monopoly terms, WHO-GMP compliance, and distributor ROI.",
+          "datePublished": "2025-03-10",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne B2B Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          },
+          "image": "https://barekyne.in/images/og-image.jpg"
+        }
+      ];
     default:
       return null;
   }
