@@ -81,7 +81,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Mira Road", "Borivali", "Kandivali", "Malad"
     ],
     regionalDermaFacts:
-      "Mumbai's coastal humidity drives elevated rates of acne vulgaris and fungal skin conditions, creating strong recurring demand for Barekyne's Tricid Face Wash and Hybrid Sunscreen range.",
+      "Mumbai's coastal humidity drives elevated rates of acne vulgaris and fungal skin conditions, creating strong recurring demand for Barekyne's Face Wash and Hybrid Sunscreen range.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/mumbai",
     ogImage: "/og/mumbai-franchise.jpg",
     structuredData: {
@@ -236,7 +236,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Asansol-Durgapur", "Siliguri", "Kalyani"
     ],
     regionalDermaFacts:
-      "West Bengal's high humidity drives elevated rates of fungal infections and acne. Barekyne's Tricid Face Wash (Glycolic + Salicylic + Vitamin C) addresses the region's most prevalent dermatological concerns directly.",
+      "West Bengal's high humidity drives elevated rates of fungal infections and acne. Barekyne's Face Wash (Glycolic + Salicylic + Vitamin C) addresses the region's most prevalent dermatological concerns directly.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/kolkata",
     ogImage: "/og/kolkata-franchise.jpg",
     structuredData: {

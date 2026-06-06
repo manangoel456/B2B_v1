@@ -74,7 +74,7 @@ function getCustomProductSchema(slug: string): any[] | null {
           }
         }
       ];
-    case "ol-season-lotion":
+    case "face-body-lotion":
       return [
         {
           "@context": "https://schema.org",
@@ -114,19 +114,19 @@ function getCustomProductSchema(slug: string): any[] | null {
         {
           "@context": "https://schema.org",
           "@type": "Product",
-          "@id": "https://barekyne.in/products/ol-season-lotion#product",
-          "name": "OL-Season Face & Body Lotion",
-          "description": "Barekyne OL-Season Face & Body Lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
-          "image": "https://barekyne.in/images/products/ol-season-lotion-1.png",
+          "@id": "https://barekyne.in/products/face-body-lotion#product",
+          "name": "Face & Body Lotion",
+          "description": "Barekyne Face & Body Lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
+          "image": "https://barekyne.in/images/products/face-body-lotion-1.png",
           "sku": "5",
           "brand": {
             "@type": "Organization",
             "@id": "https://barekyne.in/#organization"
           },
-          "url": "https://barekyne.in/products/ol-season-lotion",
+          "url": "https://barekyne.in/products/face-body-lotion",
           "offers": {
             "@type": "Offer",
-            "url": "https://barekyne.in/products/ol-season-lotion",
+            "url": "https://barekyne.in/products/face-body-lotion",
             "priceCurrency": "INR",
             "price": 549,
             "availability": "https://schema.org/InStock",

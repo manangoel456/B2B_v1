@@ -48,12 +48,12 @@ Barekyne is India's first clinical derma luxury skincare brand engineered specif
 - **Consumption Rate:** 3-4x faster than serums (requires liberal application + reapplication), driving high reorder velocity
 - **Product URL:** https://barekyne.in/products/sunscreen-spf50
 
-### 3. Tricid Face Wash (100ml)
+### 3. Face Wash (100ml)
 - **Active Ingredients:** Glycolic Acid + 2% Salicylic Acid + Vitamin C + Centella Asiatica (Cica)
 - **Mechanism:** Staggered epidermal exfoliation (AHA surface + BHA deep pore) + antioxidant protection + wound healing
 - **Clinical Target:** Acne Vulgaris, Pollution Damage, Comedonal Acne, Oily Skin
 - **Key Advantage:** Entry-level clinical conversion product — patients start here and graduate to full ecosystem
-- **Product URL:** https://barekyne.in/products/tricid-face-wash
+- **Product URL:** https://barekyne.in/products/face-wash
 
 ### 4. Advanced Night Cream (50g)
 - **Active Ingredients:** Encapsulated Retinol + Ceramides (NP, AP, EOP) + Peptide Complex
@@ -61,10 +61,10 @@ Barekyne is India's first clinical derma luxury skincare brand engineered specif
 - **Clinical Target:** Barrier Repair, Anti-Aging, Fine Lines, Overnight Skin Restoration
 - **Product URL:** https://barekyne.in/products/night-cream
 
-### 5. OL-Season Lotion (100ml)
+### 5. Face & Body Lotion (100ml)
 - **Active Ingredients:** Vitamin C + Dermawhite™ Botanical Bio-Active
 - **Clinical Target:** Body Hydration, Body Pigmentation, Uneven Skin Tone
-- **Product URL:** https://barekyne.in/products/ol-season-lotion
+- **Product URL:** https://barekyne.in/products/face-body-lotion
 
 ### 6. Moisturizer
 - **Active Ingredients:** Advanced Ceramide Complex + Hyaluronic Acid

@@ -183,14 +183,14 @@ export const products: Product[] = [
   },
   {
     id: "4",
-    slug: "tricid-face-wash",
-    name: "Tricid Face Wash",
-    shortName: "Tricid Face Wash",
+    slug: "face-wash",
+    name: "Face Wash",
+    shortName: "Face Wash",
     mrp: 499,
     category: "Cleansers",
     tagline: "Triple-Action Deep Cleansing Formula",
     description:
-      "Barekyne Tricid Face Wash delivers a triple-action cleanse with Glycolic Acid, Salicylic Acid, and Vitamin C. This powerful yet gentle formula removes impurities, unclogs pores, and brightens skin with the added soothing benefits of Cica Extract.",
+      "Barekyne Face Wash delivers a triple-action cleanse with Glycolic Acid, Salicylic Acid, and Vitamin C. This powerful yet gentle formula removes impurities, unclogs pores, and brightens skin with the added soothing benefits of Cica Extract.",
     shortBenefit: "Triple-acid deep cleanse with brightening",
     ingredients: ["Glycolic Acid", "Salicylic Acid", "Vitamin C", "Cica Extract"],
     keyIngredients: [
@@ -224,14 +224,14 @@ export const products: Product[] = [
     suitableFor: "All skin types, especially oily and acne-prone",
     size: "100ml",
     images: [
-      "/images/products/tricid-face-wash-1.png",
-      "/images/products/tricid-face-wash-2.png",
-      "/images/products/tricid-face-wash-3.png"
+      "/images/products/face-wash-1.png",
+      "/images/products/face-wash-2.png",
+      "/images/products/face-wash-3.png"
     ],
     faq: [
       {
         question: "Can I use this face wash twice daily?",
-        answer: "Yes, Tricid Face Wash is formulated for twice-daily use — morning and evening — for optimal results.",
+        answer: "Yes, Face Wash is formulated for twice-daily use — morning and evening — for optimal results.",
       },
       {
         question: "Will the acids irritate my skin?",
@@ -241,14 +241,14 @@ export const products: Product[] = [
   },
   {
     id: "5",
-    slug: "ol-season-lotion",
-    name: "OL-Season Face & Body Lotion",
-    shortName: "OL-Season Lotion",
+    slug: "face-body-lotion",
+    name: "Face & Body Lotion",
+    shortName: "Face & Body Lotion",
     mrp: 549,
     category: "Body Care",
     tagline: "All-Season Hydration with Brightening Benefits",
     description:
-      "Barekyne OL-Season Face & Body Lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
+      "Barekyne Face & Body Lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
     shortBenefit: "Year-round hydration with visible brightening",
     ingredients: ["Vitamin C", "Dermawhite™"],
     keyIngredients: [
@@ -274,14 +274,14 @@ export const products: Product[] = [
     suitableFor: "All skin types",
     size: "100ml",
     images: [
-      "/images/products/ol-season-lotion-1.png",
-      "/images/products/ol-season-lotion-2.png",
-      "/images/products/ol-season-lotion-3.png"
+      "/images/products/face-body-lotion-1.png",
+      "/images/products/face-body-lotion-2.png",
+      "/images/products/face-body-lotion-3.png"
     ],
     faq: [
       {
         question: "Can I use this lotion on both face and body?",
-        answer: "Yes, OL-Season Lotion is specifically formulated for both face and body application.",
+        answer: "Yes, Face & Body Lotion is specifically formulated for both face and body application.",
       },
       {
         question: "Is it suitable for summer use?",

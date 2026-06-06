@@ -72,7 +72,7 @@ Obtain a valid **GST Number** and a **Drug License** (if distributing schedule p
 Secure a signed **Exclusive Territory Agreement**. Do not partner with manufacturers that sell to multiple distributors in the same pin code or district. Ensure your contract guarantees 100% regional exclusivity.
 
 ### Step 3: Initial Inventory Strategy
-Start with a highly focused, fast-moving range rather than a bloated inventory. Invest in a structured, multi-functional ecosystem (including our [Tricid Face Wash](/products/tricid-face-wash), [Vitamin C 20% Serum](/products/vitamin-c-serum), [Advanced Night Cream](/products/night-cream), and [Invisible Sunscreen](/products/sunscreen-spf50)) that naturally encourages consumer cross-purchasing.
+Start with a highly focused, fast-moving range rather than a bloated inventory. Invest in a structured, multi-functional ecosystem (including our [Face Wash](/products/face-wash), [Vitamin C 20% Serum](/products/vitamin-c-serum), [Advanced Night Cream](/products/night-cream), and [Invisible Sunscreen](/products/sunscreen-spf50)) that naturally encourages consumer cross-purchasing.
 
 ---
 
@@ -133,7 +133,7 @@ When selecting a wholesale derma manufacturing partner, evaluate their active in
 | **Hydroquinone (Generic)** | Destroys melanocytes directly | High risk of ochronosis & irritation | Banned in OTC cosmeceuticals; declining prescriptions |
 | **[Stable Vitamin C (20%) + Niacinamide (2%)](/products/vitamin-c-serum)** | Tyrosinase inhibition + melanosome transfer blockade | Minimal to none; strengthens skin barrier | **High**; standard clinical combination for daily wear |
 | **Dermawhite™ Technology** | Cellular-level melanin synthesis regulation | Exceptionally safe for Fitzpatrick Scale IV-VI | **Very High**; next-generation botanical bio-active |
-| **[AHA / BHA Complexes (Glycolic + Salicylic)](/products/tricid-face-wash)** | Staggered epidermal exfoliation (cellular turnover) | Mild transient peeling; speeds up PIH resolution | **High**; standard dermatologist recommendation |
+| **[AHA / BHA Complexes (Glycolic + Salicylic)](/products/face-wash)** | Staggered epidermal exfoliation (cellular turnover) | Mild transient peeling; speeds up PIH resolution | **High**; standard dermatologist recommendation |
 
 ---
 
@@ -237,9 +237,9 @@ Our clinical portfolio addresses the top dermatological concerns in India:
 |---------|---------------------|----------------|
 | [Vitamin C 20% Serum](/products/vitamin-c-serum) | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
 | [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
-| [Tricid Face Wash](/products/tricid-face-wash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
+| [Face Wash](/products/face-wash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
 | [Advanced Night Cream](/products/night-cream) | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging |
-| [OL-Season Lotion (100ml)](/products/ol-season-lotion) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
+| [Face & Body Lotion (100ml)](/products/face-body-lotion) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
 
 ### What This Means for Your ROI
 - **Monopoly Rights:** Legally binding territorial exclusivity at the district level.
@@ -345,7 +345,7 @@ Do not spread your initial investment across 50 different products. Concentrate 
 Your initial inventory purchase should heavily index on:
 1. **Photoprotection:** Hybrid Invisible Sunscreen SPF 50 (Consumed rapidly, mandatory co-prescription).
 2. **Depigmentation:** Vitamin C 20% Serum (High-ticket, high-margin, chronic usage).
-3. **Cleansing:** Tricid Face Wash (High volume, entry-level clinical conversion).
+3. **Cleansing:** Face Wash (High volume, entry-level clinical conversion).
 
 ### Marketing Collateral Over Office Space
 In the first 12 months, your distribution business lives in the clinics of dermatologists, not in a fancy office. Allocate capital toward clinical detailing. Barekyne supports franchise partners by providing scientific visual aids, clinical trial summaries, and premium sample kits. Your job is to deploy these assets into the hands of key opinion leaders (KOLs) in your territory.
@@ -434,7 +434,7 @@ A standard 30ml serum bottle lasts a patient exactly 30 to 45 days. Therefore, e
 ### 3. The "Gateway" Prescription
 The 20% Vitamin C Serum acts as a Trojan horse for the rest of the Barekyne portfolio. Dermatologists rarely prescribe a strong active without an accompanying barrier-repair and photoprotection protocol. 
 
-When a doctor prescribes the Barekyne Vitamin C serum, they almost always co-prescribe the [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) (to prevent UV-induced tyrosinase reactivation) and the [Tricid Face Wash](/products/tricid-face-wash) (to accelerate epidermal turnover). Securing the serum prescription effectively secures the entire skincare basket.
+When a doctor prescribes the Barekyne Vitamin C serum, they almost always co-prescribe the [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) (to prevent UV-induced tyrosinase reactivation) and the [Face Wash](/products/face-wash) (to accelerate epidermal turnover). Securing the serum prescription effectively secures the entire skincare basket.
 
 ---
 
@@ -513,7 +513,7 @@ This matrix achieves three critical objectives:
 For a Derma PCD franchise partner, the Barekyne Hybrid Invisible Sunscreen SPF 50 is not just a product; it is a compounding revenue engine. 
 
 ### 1. Compulsory Co-Prescription
-Because photoprotection is mandatory for any depigmentation or exfoliation protocol, this sunscreen is a guaranteed co-prescription. Every time a dermatologist prescribes Barekyne’s Vitamin C 20% Serum or Tricid Face Wash, the Hybrid Sunscreen is added to the script. This instantly doubles the basket size and distributor margin per patient.
+Because photoprotection is mandatory for any depigmentation or exfoliation protocol, this sunscreen is a guaranteed co-prescription. Every time a dermatologist prescribes Barekyne’s Vitamin C 20% Serum or Face Wash, the Hybrid Sunscreen is added to the script. This instantly doubles the basket size and distributor margin per patient.
 
 ### 2. High Consumption Velocity
 Unlike an active serum that is applied in drops, clinical protocols require sunscreen to be applied liberally (the "two-finger rule") and reapplied every 3-4 hours during peak UV exposure. A standard 50g tube of sunscreen is consumed 3x to 4x faster than a 30ml serum. For the franchise owner, this translates to rapid inventory turnover and exceptional monthly reorder velocity.
@@ -529,7 +529,7 @@ While patients require a prescription or clinical recommendation to initiate str
 Yes. Barekyne utilizes advanced micronized filters and stable organic UV absorbers to achieve SPF 50+ broad-spectrum protection. The protection level is determined by the specific filter matrix and formulation stability, not the visible thickness of the cream.
 
 ### Q2: Is the Barekyne sunscreen suitable for acne-prone skin?
-Absolutely. A primary concern for Indian patients with acne is that heavy sunscreens exacerbate comedones. Our Hybrid Invisible Sunscreen is strictly non-comedogenic, lightweight, and allows the skin to breathe, making it perfectly compatible with our Tricid Face Wash protocols.
+Absolutely. A primary concern for Indian patients with acne is that heavy sunscreens exacerbate comedones. Our Hybrid Invisible Sunscreen is strictly non-comedogenic, lightweight, and allows the skin to breathe, making it perfectly compatible with our Face Wash protocols.
 
 ### Q3: Why is sweat resistance important for the Indian market?
 India’s climate features high heat and extreme humidity. A sunscreen that is not sweat-resistant will rapidly degrade on the skin or run into the eyes, breaking the UV shield and causing irritation. Sweat-resistance ensures the SPF rating holds up under real-world Indian conditions.
@@ -598,20 +598,20 @@ In Indian dermatology, patient compliance with photoprotection protocols is hist
 
 **Clinical Rationale:** Barekyne’s **Hybrid Invisible Sunscreen SPF 50** utilizes a dual physical-chemical filter system that provides broad-spectrum protection with absolutely zero white residue on Fitzpatrick IV-VI skin. It is sweat-resistant and cosmetically elegant. For a franchise owner, this is not just a sunscreen; it is a compulsory prescription add-on for every depigmentation and anti-acne protocol.
 
-### 3. Tricid Face Wash: Calibrated Exfoliation
+### 3. Face Wash: Calibrated Exfoliation
 Oily, acne-prone skin requires exfoliation, but harsh scrubs induce micro-tears and PIH. 
 
-**Clinical Rationale:** The **Tricid Face Wash** utilizes a triple-active matrix of Glycolic Acid (AHA for surface desquamation), Salicylic Acid (BHA for follicular penetration), and Vitamin C. Crucially, it is buffered with Cica (Centella Asiatica) extract to suppress the inflammatory response. This makes it the ideal daily cleanser for urban Indian patients exposed to high pollution indices.
+**Clinical Rationale:** The **Face Wash** utilizes a triple-active matrix of Glycolic Acid (AHA for surface desquamation), Salicylic Acid (BHA for follicular penetration), and Vitamin C. Crucially, it is buffered with Cica (Centella Asiatica) extract to suppress the inflammatory response. This makes it the ideal daily cleanser for urban Indian patients exposed to high pollution indices.
 
 ### 4. Advanced Night Cream: Overnight Barrier Restoration
 Aggressive daytime treatments demand intensive nighttime recovery. 
 
 **Clinical Rationale:** The Barekyne **Advanced Night Cream** combines Retinol, Ceramides (NP, AP, EOP), and Peptides. While Retinol stimulates fibroblast activity and accelerates cellular turnover, the exogenous ceramides directly patch gaps in the lipid matrix of the stratum corneum, dramatically reducing TEWL. This balanced approach allows Indian patients to tolerate retinization without extreme erythema (redness) or barrier damage.
 
-### 5. OL-Season Face & Body Lotion (100ml): Comprehensive Hydration
+### 5. Face & Body Lotion (100ml): Comprehensive Hydration
 Systemic hydration is often overlooked in hyperpigmentation protocols. 
 
-**Clinical Rationale:** Formulated with Vitamin C and advanced Dermawhite™ technology, the **OL-Season Lotion (100ml)** provides year-round hydration while actively suppressing body pigmentation (such as elbow and knee friction hyperpigmentation). It serves as a high-volume anchor product for both clinic and pharmacy channels.
+**Clinical Rationale:** Formulated with Vitamin C and advanced Dermawhite™ technology, the **Face & Body Lotion (100ml)** provides year-round hydration while actively suppressing body pigmentation (such as elbow and knee friction hyperpigmentation). It serves as a high-volume anchor product for both clinic and pharmacy channels.
 
 ---
 
@@ -797,9 +797,9 @@ Our **"Total Clearance" ecosystem** — five tightly engineered SKUs — is desi
 |---|---|---|
 | Vitamin C 20% Serum | Hyperpigmentation, PIH, Dull Skin | 20% Vit C, 2% Niacinamide, Hyaluronic Acid |
 | Hybrid Invisible Sunscreen SPF 50 | Photoprotection, PIH Prevention | Physical + Chemical dual filters, Zero white cast |
-| Tricid Face Wash | Acne, Oily Skin, Comedonal Acne | Glycolic Acid, Salicylic Acid, Vitamin C, Cica |
+| Face Wash | Acne, Oily Skin, Comedonal Acne | Glycolic Acid, Salicylic Acid, Vitamin C, Cica |
 | Advanced Night Cream | Barrier Repair, Anti-Ageing, Retinol Therapy | Retinol, Ceramides, Peptides |
-| OL-Season Face & Body Lotion 100ml | Year-round Hydration, Brightening | Vitamin C, Dermawhite™ Technology |
+| Face & Body Lotion 100ml | Year-round Hydration, Brightening | Vitamin C, Dermawhite™ Technology |
 
 Each SKU is formulated specifically for **melanin-rich Indian skin** (Fitzpatrick III–VI) — not adapted from Western formulations but engineered from the ground up for Indian dermatological conditions.
 
@@ -2165,9 +2165,9 @@ For a franchise partner operating in a Tier-2 Indian city with moderate dermatol
 | :--- | :--- | :--- | :--- |
 | **Vitamin C 20% Serum** | 40 units | ₹450 | ₹18,000 |
 | **Sunscreen SPF 50** | 60 units | ₹380 | ₹22,800 |
-| **Tricid Face Wash** | 50 units | ₹250 | ₹12,500 |
+| **Face Wash** | 50 units | ₹250 | ₹12,500 |
 | **Night Cream** | 25 units | ₹420 | ₹10,500 |
-| **OL-Season Lotion** | 20 units | ₹300 | ₹6,000 |
+| **Face & Body Lotion** | 20 units | ₹300 | ₹6,000 |
 | **Total Monthly Net Profit** | **195 units** | | **₹69,800** |
 
 ### Growth Scenario (After 12 Months)
@@ -2178,9 +2178,9 @@ With established dermatologist relationships, prescription pull-through, and pha
 | :--- | :--- | :--- | :--- |
 | **Vitamin C 20% Serum** | 100 units | ₹450 | ₹45,000 |
 | **Sunscreen SPF 50** | 150 units | ₹380 | ₹57,000 |
-| **Tricid Face Wash** | 120 units | ₹250 | ₹30,000 |
+| **Face Wash** | 120 units | ₹250 | ₹30,000 |
 | **Night Cream** | 60 units | ₹420 | ₹25,200 |
-| **OL-Season Lotion** | 50 units | ₹300 | ₹15,000 |
+| **Face & Body Lotion** | 50 units | ₹300 | ₹15,000 |
 | **Total Monthly Net Profit** | **480 units** | | **₹1,72,200** |
 
 ---
@@ -2200,7 +2200,7 @@ With established dermatologist relationships, prescription pull-through, and pha
 ## Working Capital Optimization Strategies
 
 ### 1. Focus on Fast-Moving SKUs First
-Start with the three highest-velocity products: Sunscreen (daily consumption), Vitamin C Serum (90-day prescription protocol), and Tricid Face Wash (daily use). These three products alone can generate 75% of your monthly revenue.
+Start with the three highest-velocity products: Sunscreen (daily consumption), Vitamin C Serum (90-day prescription protocol), and Face Wash (daily use). These three products alone can generate 75% of your monthly revenue.
 
 ### 2. Synchronize Inventory with Prescription Cycles
 Dermatologists prescribe in 30-day to 90-day protocols. Align your reorder timing with prescription renewal cycles to avoid stockouts during peak demand periods.

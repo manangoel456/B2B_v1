@@ -846,7 +846,7 @@ export default async function CityFranchisePage(
                 mechanism: "Zero white cast on Fitzpatrick III–VI · Sweat resistant",
               },
               {
-                name: "Tricid Face Wash",
+                name: "Face Wash",
                 actives: "Glycolic Acid · Salicylic Acid · Vitamin C · Cica",
                 indication: "Acne · Oily Skin · Comedonal Acne",
                 mechanism: "AHA + BHA dual exfoliation with anti-inflammatory modulation",
@@ -858,7 +858,7 @@ export default async function CityFranchisePage(
                 mechanism: "Collagen synthesis + ceramide barrier restoration",
               },
               {
-                name: "OL-Season Face & Body Lotion",
+                name: "Face & Body Lotion",
                 actives: "Vitamin C · Dermawhite™ Technology",
                 indication: "Year-round Hydration · Brightening",
                 mechanism: "Advanced depigmentation technology · 100ml",

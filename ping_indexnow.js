@@ -17,8 +17,8 @@ async function pingIndexNow() {
       "https://barekyne.in/products/sunscreen-spf50",
       "https://barekyne.in/products/vitamin-c-serum",
       "https://barekyne.in/products/night-cream",
-      "https://barekyne.in/products/tricid-face-wash",
-      "https://barekyne.in/products/ol-season-lotion"
+      "https://barekyne.in/products/face-wash",
+      "https://barekyne.in/products/face-body-lotion"
     ]
   };
 
