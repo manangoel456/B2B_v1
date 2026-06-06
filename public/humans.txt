@@ -1,0 +1,13 @@
+/* TEAM */
+  Developer: Barekyne Engineering
+  Site: https://barekyne.in
+  Location: Mohali, Punjab, India
+
+/* SITE */
+  Last update: 2026-06-06
+  Language: English
+  Doctype: HTML5
+  Framework: Next.js 16 (App Router)
+  Components: React, TailwindCSS, Lucide
+  Deployment: Vercel / Cloudflare
+  Purpose: Premium Clinical Derma Skincare B2B Distribution & PCD Franchise Platform

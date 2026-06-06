@@ -60,7 +60,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-heading font-bold text-white mb-4">
@@ -117,7 +117,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Policies */}
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-5">
               Policies
@@ -150,6 +150,35 @@ export default function Footer() {
                   Shipping Policy
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Top Locations (SEO internal linking) */}
+          <div>
+            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-5">
+              Top Locations
+            </h4>
+            <ul className="space-y-3">
+              {[
+                { name: "Delhi", slug: "delhi" },
+                { name: "Mumbai", slug: "mumbai" },
+                { name: "Bangalore", slug: "bangalore" },
+                { name: "Pune", slug: "pune" },
+                { name: "Hyderabad", slug: "hyderabad" },
+                { name: "Chennai", slug: "chennai" },
+                { name: "Ahmedabad", slug: "ahmedabad" },
+                { name: "Kolkata", slug: "kolkata" },
+              ].map((city) => (
+                <li key={city.slug}>
+                  <Link
+                    href={`/skincare-distributor/${city.slug}`}
+                    title={`Derma Franchise in ${city.name}`}
+                    className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
+                  >
+                    {city.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

@@ -38,10 +38,18 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
       {
+        userAgent: "Claude-Web",
+        allow: "/",
+      },
+      {
         userAgent: "cohere-ai",
         allow: "/",
       },
     ],
     sitemap: "https://barekyne.in/sitemap.xml",
+    // Next.js MetadataRoute.Robots doesn't officially support arbitrary keys like 'llms' yet in the type definition,
+    // but crawlers parse the raw text. We can append it to the sitemap array or just rely on the head tag.
+    // However, since we can't cleanly output an arbitrary "llms: https://..." directive via Next.js strictly typed Robots,
+    // we'll rely on the <link rel="llms"> tag which is the primary standard, and the sitemap.
   };
 }

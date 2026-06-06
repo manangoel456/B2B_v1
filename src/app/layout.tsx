@@ -121,6 +121,9 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="llms" href="/llms.txt" />
+      </head>
       <body className="min-h-full flex flex-col bg-ivory text-charcoal font-body">
         <LocalBusinessJsonLd />
         <OrganizationJsonLd />

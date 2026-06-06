@@ -493,6 +493,254 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       authorName: "Barekyne Clinical Division",
     },
   },
+  {
+    city: "pune",
+    cityDisplay: "Pune",
+    state: "Maharashtra",
+    stateCode: "MH",
+    region: "West",
+    tier: 1,
+    population: "7 million+",
+    h1: "Derma PCD Franchise in Pune — Premium Clinical Skincare Distributorship",
+    metaTitle: "Derma PCD Franchise Pune | Barekyne Clinical Skincare",
+    metaDescription:
+      "Start a high-margin Derma PCD franchise in Pune with Barekyne. Exclusive monopoly rights, WHO-GMP clinical skincare products for dermatologists and clinics.",
+    heroSubheadline:
+      "Capitalize on Pune's Booming Aesthetic Clinic Market with Barekyne's Clinical Portfolio",
+    marketInsight:
+      "Pune's rapidly expanding IT demographic has created a massive surge in demand for premium dermatological treatments. The city boasts a high concentration of aesthetic clinics and premium pharmacies in areas like Koregaon Park, Kalyani Nagar, and Baner, making it an incredibly lucrative market for a clinical-grade B2B franchise.",
+    territoryStatus: "limited",
+    availableDistricts: [
+      "Pimpri-Chinchwad", "Baner", "Koregaon Park", "Viman Nagar",
+      "Kothrud", "Wakad", "Hinjawadi"
+    ],
+    regionalDermaFacts:
+      "Pune's dry winters and humid summers require versatile skincare formulations. Barekyne's barrier-first hydration technology specifically appeals to this demographic, driving high repeat prescriptions.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/pune",
+    ogImage: "/og/pune-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "hyderabad",
+    cityDisplay: "Hyderabad",
+    state: "Telangana",
+    stateCode: "TG",
+    region: "South",
+    tier: 1,
+    population: "10 million+",
+    h1: "Derma PCD Franchise in Hyderabad — High-ROI Pharma Distributorship",
+    metaTitle: "Derma PCD Franchise Hyderabad | Barekyne B2B Skincare",
+    metaDescription:
+      "Unlock monopoly rights for Barekyne's clinical skincare range in Hyderabad. High-margin derma PCD franchise opportunity for pharma distributors.",
+    heroSubheadline:
+      "Dominate India's Pharma Capital with Barekyne's WHO-GMP Clinical Skincare Franchise",
+    marketInsight:
+      "Hyderabad is synonymous with India's pharmaceutical and healthcare industry. For a B2B distributor, partnering with a WHO-GMP certified clinical brand like Barekyne allows you to penetrate Hyderabad's vast network of super-specialty hospitals, corporate pharmacy chains, and independent dermatology practices with immediate credibility.",
+    territoryStatus: "filling_fast",
+    availableDistricts: [
+      "Banjara Hills", "Jubilee Hills", "Gachibowli", "Madhapur",
+      "Kukatpally", "Secunderabad", "HITEC City"
+    ],
+    regionalDermaFacts:
+      "Hyderabad's intense sun exposure makes photoprotection the #1 prescribed category. Barekyne's zero white-cast Zinc PCA Hybrid Sunscreen is perfectly positioned for this market.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/hyderabad",
+    ogImage: "/og/hyderabad-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "chennai",
+    cityDisplay: "Chennai",
+    state: "Tamil Nadu",
+    stateCode: "TN",
+    region: "South",
+    tier: 1,
+    population: "11 million+",
+    h1: "Derma Franchise Company in Chennai — Clinical Skincare Monopoly",
+    metaTitle: "Derma PCD Franchise Chennai | Barekyne Skincare Distributor",
+    metaDescription:
+      "Become the exclusive Barekyne distributor in Chennai. Premium clinical derma franchise offering WHO-GMP products and high net margins for B2B partners.",
+    heroSubheadline:
+      "Bring High-Efficacy Clinical Skincare to Chennai's Premium Dermatology Network",
+    marketInsight:
+      "Chennai has one of the most medically advanced healthcare infrastructures in India. Dermatologists here are highly selective and data-driven, requiring strict clinical backing for their prescriptions. Barekyne's transparent active ingredient profiles and stable formulations (especially our Ethyl Ascorbic Acid) perfectly meet Chennai's rigorous clinical standards.",
+    territoryStatus: "open",
+    availableDistricts: [
+      "Anna Nagar", "Adyar", "T Nagar", "Velachery",
+      "OMR", "Tambaram", "Guindy"
+    ],
+    regionalDermaFacts:
+      "Chennai's year-round hot and highly humid coastal climate causes traditional Vitamin C (L-Ascorbic Acid) to oxidize rapidly. Barekyne's heat-stable 20% Ethyl Ascorbic Acid serum solves the biggest complaint among Chennai's dermatologists.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/chennai",
+    ogImage: "/og/chennai-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "ahmedabad",
+    cityDisplay: "Ahmedabad",
+    state: "Gujarat",
+    stateCode: "GJ",
+    region: "West",
+    tier: 1,
+    population: "8 million+",
+    h1: "Derma PCD Franchise in Ahmedabad — B2B Skincare Distributorship",
+    metaTitle: "Derma PCD Franchise Ahmedabad | Barekyne Monopoly Rights",
+    metaDescription:
+      "Join Barekyne's premium derma franchise network in Ahmedabad. Secure district-level monopoly rights and 50-58% margins on WHO-GMP clinical skincare.",
+    heroSubheadline:
+      "High-Velocity Clinical Skincare for Gujarat's Most Dynamic B2B Market",
+    marketInsight:
+      "Ahmedabad is India's most strategically important B2B trading hub. For business-minded distributors looking for rapid inventory turnover, Barekyne's focused 6-SKU clinical ecosystem provides exceptional working capital efficiency compared to generic cosmetic brands with bloated, slow-moving catalogs.",
+    territoryStatus: "limited",
+    availableDistricts: [
+      "Satellite", "Bodakdev", "Navrangpura", "Vastrapur",
+      "Thaltej", "Bopal", "Maninagar"
+    ],
+    regionalDermaFacts:
+      "The extreme dry heat of Ahmedabad's summers and high pollution levels create strong demand for Barekyne's Face Wash, which features paradoxical rebound hydration to protect the skin barrier while deep cleansing.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/ahmedabad",
+    ogImage: "/og/ahmedabad-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "kolkata",
+    cityDisplay: "Kolkata",
+    state: "West Bengal",
+    stateCode: "WB",
+    region: "East",
+    tier: 1,
+    population: "15 million+",
+    h1: "Derma PCD Franchise in Kolkata — Eastern India Skincare Distributorship",
+    metaTitle: "Derma PCD Franchise Kolkata | Barekyne Premium Skincare",
+    metaDescription:
+      "Establish a high-yield Derma PCD franchise in Kolkata. Barekyne offers direct-from-manufacturer margins, WHO-GMP clinical products, and exclusivity.",
+    heroSubheadline:
+      "The Gateway to Eastern India's Premium Dermatology Market — Exclusive Distributorship Available",
+    marketInsight:
+      "Kolkata serves as the primary medical and pharmaceutical procurement hub for all of Eastern India and the Northeast. Securing a Barekyne monopoly franchise here positions you as the key supplier of premium clinical skincare for a vast, underserved geographical catchment area.",
+    territoryStatus: "open",
+    availableDistricts: [
+      "Salt Lake", "New Town", "South Kolkata", "Ballygunge",
+      "Alipore", "Park Street", "Howrah"
+    ],
+    regionalDermaFacts:
+      "Kolkata's extreme humidity drives demand for lightweight, non-comedogenic formulations. Barekyne's Zinc PCA sebum-regulating sunscreen and fast-absorbing Kojic Acid Dipalmitate night cream are ideal for this climate.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/kolkata",
+    ogImage: "/og/kolkata-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "chandigarh",
+    cityDisplay: "Chandigarh",
+    state: "Chandigarh",
+    stateCode: "CH",
+    region: "North",
+    tier: 2,
+    population: "1.2 million+",
+    h1: "Derma PCD Franchise in Chandigarh — Clinical Skincare Distributorship",
+    metaTitle: "Derma PCD Franchise Chandigarh | Barekyne Tricity Monopoly",
+    metaDescription:
+      "Start your derma PCD franchise in Chandigarh with Barekyne. High-margin clinical skincare, WHO-GMP certified, with exclusive tricity monopoly rights.",
+    heroSubheadline:
+      "Partner with a Clinical Luxury Brand in the Heart of India's Pharma Franchise Hub",
+    marketInsight:
+      "Chandigarh and its surrounding tricity area (Mohali/Panchkula) is the undisputed PCD pharma capital of India. While the market is flooded with generic cosmetic franchises, there is a massive gap for genuine, clinical-grade luxury dermatology brands. Barekyne offers you the opportunity to stand out from generic competition.",
+    territoryStatus: "limited",
+    availableDistricts: [
+      "Sector 17", "Sector 35", "Manimajra", "Panchkula",
+      "Zirakpur", "Kharar", "New Chandigarh"
+    ],
+    regionalDermaFacts:
+      "Chandigarh's high per-capita income and extreme seasonal variations (harsh winters, intense summer sun) create year-round demand for Barekyne's complete AM/PM barrier-repair and photoprotection protocols.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/chandigarh",
+    ogImage: "/og/chandigarh-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "jaipur",
+    cityDisplay: "Jaipur",
+    state: "Rajasthan",
+    stateCode: "RJ",
+    region: "North",
+    tier: 2,
+    population: "4 million+",
+    h1: "Derma PCD Franchise in Jaipur — High-Margin Skincare Distributorship",
+    metaTitle: "Derma Franchise Jaipur | Barekyne Clinical Skincare PCD",
+    metaDescription:
+      "Exclusive derma PCD franchise opportunity in Jaipur. Supply WHO-GMP clinical skincare to top dermatology clinics with Barekyne's monopoly distribution.",
+    heroSubheadline:
+      "Capture Jaipur's Rapidly Growing Premium Aesthetic and Clinical Dermatology Market",
+    marketInsight:
+      "Jaipur is experiencing rapid growth in luxury aesthetic clinics and premium dermatology practices. As medical tourism increases, clinics require international-standard clinical products. Barekyne equips Jaipur distributors with WHO-GMP certified formulations that meet these premium institutional standards.",
+    territoryStatus: "open",
+    availableDistricts: [
+      "Malviya Nagar", "Vaishali Nagar", "C-Scheme", "Mansarovar",
+      "Raja Park", "Jagatpura", "Tonk Road"
+    ],
+    regionalDermaFacts:
+      "Rajasthan's intense solar radiation makes Barekyne's Multi-Pathway Depigmentation system (featuring Kojic Acid Dipalmitate and Alpha Arbutin) highly effective for treating prevalent sun-induced melasma and hyperpigmentation.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/jaipur",
+    ogImage: "/og/jaipur-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  },
+  {
+    city: "lucknow",
+    cityDisplay: "Lucknow",
+    state: "Uttar Pradesh",
+    stateCode: "UP",
+    region: "North",
+    tier: 2,
+    population: "3.5 million+",
+    h1: "Derma PCD Franchise in Lucknow — UP Skincare Distributorship Opportunity",
+    metaTitle: "Derma PCD Franchise Lucknow | Barekyne B2B Skincare",
+    metaDescription:
+      "Launch a highly profitable derma PCD franchise in Lucknow. Barekyne offers exclusive district-level monopoly, WHO-GMP clinical products, and 50%+ margins.",
+    heroSubheadline:
+      "Lead Uttar Pradesh's Clinical Skincare Market with Barekyne's Monopoly Franchise",
+    marketInsight:
+      "Lucknow is the administrative and medical nerve center of India's most populous state. For an aggressive B2B distributor, securing the Barekyne franchise here provides a massive first-mover advantage in introducing clinical-grade, melanin-optimized skincare to a vast, rapidly upgrading medical market.",
+    territoryStatus: "open",
+    availableDistricts: [
+      "Gomti Nagar", "Hazratganj", "Aliganj", "Indira Nagar",
+      "Ashiyana", "Mahanagar", "Sushant Golf City"
+    ],
+    regionalDermaFacts:
+      "The rapidly growing middle and upper-middle class in Lucknow is shifting from OTC cosmetics to dermatologist-prescribed clinical solutions, perfectly aligning with Barekyne's premium B2B positioning.",
+    canonicalUrl: "https://barekyne.in/skincare-distributor/lucknow",
+    ogImage: "/og/lucknow-franchise.jpg",
+    structuredData: {
+      datePublished: "2026-06-06",
+      dateModified: "2026-06-06",
+      authorName: "Barekyne Clinical Division",
+    },
+  }
 ];
 
 // Helper — get city data by slug
