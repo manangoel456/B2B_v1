@@ -5,11 +5,219 @@ import { ArrowLeft, MessageCircle, ShoppingBag, ChevronRight } from "lucide-reac
 import { products, getProductBySlug, getRelatedProducts } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
 import { SITE_CONFIG } from "@/lib/constants";
-import { ProductJsonLd } from "@/components/seo/JsonLd";
+import JsonLd, { ProductJsonLd } from "@/components/seo/JsonLd";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import ContactForm from "@/components/shared/ContactForm";
 import Image from "next/image";
 import ProductGallery from "@/components/products/ProductGallery";
+
+function getCustomProductSchema(slug: string): any[] | null {
+  switch (slug) {
+    case "night-cream":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#org",
+          "name": "Barekyne",
+          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+          "url": "https://barekyne.in",
+          "logo": "https://barekyne.in/images/og-image.jpg",
+          "image": "https://barekyne.in/images/og-image.jpg",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "priceRange": "₹₹",
+          "foundingDate": "2024",
+          "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "minValue": 10,
+            "maxValue": 50
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "@id": "https://barekyne.in/products/night-cream#product",
+          "url": "https://barekyne.in/products/night-cream",
+          "name": "Night Cream",
+          "description": "Barekyne Night Cream works while you sleep to repair, rejuvenate, and brighten your skin. Powered by Kojic Acid, Niacinamide, and Alpha Arbutin, this luxurious cream targets pigmentation, uneven tone, and dullness for a refreshed morning glow.",
+          "image": "https://barekyne.in/images/products/night-cream-1.png",
+          "sku": "3",
+          "brand": {
+            "@id": "https://barekyne.in/#org"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://barekyne.in/products/night-cream",
+            "priceCurrency": "INR",
+            "price": 499,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://barekyne.in/#org"
+            }
+          }
+        }
+      ];
+    case "ol-season-lotion":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#organization",
+          "name": "Barekyne",
+          "url": "https://barekyne.in",
+          "logo": "https://barekyne.in/images/og-image.jpg",
+          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "foundingDate": "2024",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "knowsAbout": [
+            "Clinical Skincare",
+            "Dermatology Products",
+            "Skincare Distribution",
+            "PCD Franchise",
+            "B2B Skincare Supply"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "@id": "https://barekyne.in/products/ol-season-lotion#product",
+          "name": "OL-Season Face & Body Lotion",
+          "description": "Barekyne OL-Season Face & Body Lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
+          "image": "https://barekyne.in/images/products/ol-season-lotion-1.png",
+          "sku": "5",
+          "brand": {
+            "@type": "Organization",
+            "@id": "https://barekyne.in/#organization"
+          },
+          "url": "https://barekyne.in/products/ol-season-lotion",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://barekyne.in/products/ol-season-lotion",
+            "priceCurrency": "INR",
+            "price": 549,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "@id": "https://barekyne.in/#organization"
+            }
+          }
+        }
+      ];
+    case "sunscreen-spf50":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#organization",
+          "name": "Barekyne",
+          "url": "https://barekyne.in",
+          "logo": "https://barekyne.in/images/og-image.jpg",
+          "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "priceRange": "₹₹"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "@id": "https://barekyne.in/products/sunscreen-spf50#product",
+          "name": "Sunscreen SPF 50 PA++++",
+          "description": "Barekyne Sunscreen SPF 50 PA++++ provides broad-spectrum protection against UVA and UVB rays while keeping your skin hydrated and nourished. Formulated with Hyaluronic Acid and Kakadu Plum Extract for a lightweight, non-greasy finish that works as a perfect base for makeup.",
+          "image": [
+            "https://barekyne.in/images/products/sunscreen-1.png"
+          ],
+          "category": "Sun Protection",
+          "brand": {
+            "@id": "https://barekyne.in/#organization"
+          },
+          "url": "https://barekyne.in/products/sunscreen-spf50",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://barekyne.in/products/sunscreen-spf50",
+            "priceCurrency": "INR",
+            "price": 649,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://barekyne.in/#organization"
+            }
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "@id": "https://barekyne.in/products/sunscreen-spf50#breadcrumbs",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://barekyne.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Products",
+              "item": "https://barekyne.in/products"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Sunscreen SPF 50 PA++++",
+              "item": "https://barekyne.in/products/sunscreen-spf50"
+            }
+          ]
+        }
+      ];
+    default:
+      return null;
+  }
+}
 
 export async function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
@@ -43,16 +251,21 @@ export default async function ProductDetailPage({
   if (!product) notFound();
 
   const relatedProducts = getRelatedProducts(slug);
+  const customSchema = getCustomProductSchema(slug);
 
   return (
     <>
-      <ProductJsonLd
-        name={product.name}
-        description={product.description}
-        image={product.images[0]}
-        price={product.mrp}
-        sku={product.id}
-      />
+      {customSchema ? (
+        <JsonLd data={customSchema} />
+      ) : (
+        <ProductJsonLd
+          name={product.name}
+          description={product.description}
+          image={product.images[0]}
+          price={product.mrp}
+          sku={product.id}
+        />
+      )}
 
       {/* Breadcrumb */}
       <section className="pt-24 pb-4 bg-cream">

@@ -546,6 +546,34 @@ function getCustomSchemaForPost(slug: string): any[] | null {
           "image": "https://barekyne.in/images/og-image.jpg"
         }
       ];
+    case "zero-white-cast-sunscreen-india-b2b":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/zero-white-cast-sunscreen-india-b2b"
+          },
+          "headline": "Zero White Cast Sunscreen India: The Financial Case for Patient Compliance",
+          "description": "Why distributing a cosmetically elegant, invisible SPF 50 sunscreen is the most profitable decision a derma franchise owner can make in the Indian market.",
+          "url": "https://barekyne.in/blog/zero-white-cast-sunscreen-india-b2b",
+          "datePublished": "2025-02-15",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
     default:
       return null;
   }

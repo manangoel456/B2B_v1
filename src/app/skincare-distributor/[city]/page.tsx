@@ -50,6 +50,605 @@ export async function generateMetadata(
   };
 }
 
+function getCustomCitySchema(city: string): any[] | null {
+  switch (city) {
+    case "ahmedabad":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/ahmedabad#service",
+          "name": "Derma PCD Franchise — Ahmedabad",
+          "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Ahmedabad, Gujarat. WHO-GMP clinical skincare portfolio; high ROI B2B opportunity.",
+          "url": "https://barekyne.in/skincare-distributor/ahmedabad",
+          "image": "https://barekyne.in/og/ahmedabad-franchise.jpg",
+          "serviceType": "Derma PCD Franchise",
+          "brand": {
+            "@type": "Brand",
+            "name": "Barekyne"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "telephone": "+917027572757",
+            "email": "info@barekyne.in",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+              "addressLocality": "Yamunanagar",
+              "addressRegion": "Haryana",
+              "postalCode": "135001",
+              "addressCountry": "IN"
+            },
+            "sameAs": [
+              "https://www.instagram.com/barekyne.skin/",
+              "https://x.com/barekyne_skin"
+            ]
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Ahmedabad"
+            },
+            {
+              "@type": "State",
+              "name": "Gujarat"
+            },
+            {
+              "@type": "Country",
+              "name": "India"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Derma PCD Franchise — Exclusive Territory Rights",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Ahmedabad, Gujarat.",
+            "url": "https://barekyne.in/skincare-distributor/ahmedabad",
+            "eligibleRegion": [
+              {
+                "@type": "City",
+                "name": "Ahmedabad"
+              },
+              {
+                "@type": "State",
+                "name": "Gujarat"
+              }
+            ]
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://barekyne.in/skincare-distributor/ahmedabad#webpage",
+          "url": "https://barekyne.in/skincare-distributor/ahmedabad",
+          "name": "Barekyne — Derma PCD Franchise Ahmedabad",
+          "description": "Barekyne derma PCD franchise in Ahmedabad with exclusive monopoly rights. WHO-GMP clinical skincare portfolio tailored for Gujarat. High ROI B2B opportunity.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://barekyne.in/og/ahmedabad-franchise.jpg"
+          },
+          "about": {
+            "@id": "https://barekyne.in/skincare-distributor/ahmedabad#service"
+          },
+          "mainEntity": {
+            "@id": "https://barekyne.in/skincare-distributor/ahmedabad#service"
+          }
+        }
+      ];
+    case "bhubaneswar":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/bhubaneswar#service",
+          "name": "Derma PCD Franchise — Bhubaneswar",
+          "description": "Launch your derma franchise in Bhubaneswar with Barekyne. Exclusive monopoly rights across Odisha, WHO-GMP clinical skincare, high-ROI B2B model. Apply today.",
+          "serviceType": "Derma PCD Franchise",
+          "provider": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": "https://barekyne.in/images/og-image.jpg",
+            "telephone": "+917027572757",
+            "email": "info@barekyne.in",
+            "sameAs": [
+              "https://www.instagram.com/barekyne.skin/",
+              "https://x.com/barekyne_skin"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+              "addressLocality": "Yamunanagar",
+              "addressRegion": "Haryana",
+              "postalCode": "135001",
+              "addressCountry": "IN"
+            }
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Bhubaneswar"
+          },
+          "image": "https://barekyne.in/og/bhubaneswar-franchise.jpg",
+          "url": "https://barekyne.in/skincare-distributor/bhubaneswar",
+          "offers": {
+            "@type": "Offer",
+            "name": "Exclusive Territory Rights",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Bhubaneswar, Odisha."
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://barekyne.in/skincare-distributor/bhubaneswar#webpage",
+          "url": "https://barekyne.in/skincare-distributor/bhubaneswar",
+          "name": "Barekyne — Derma PCD Franchise Bhubaneswar",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://barekyne.in/og/bhubaneswar-franchise.jpg"
+          },
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://barekyne.in/#website",
+            "url": "https://barekyne.in",
+            "name": "Barekyne"
+          },
+          "mainEntity": {
+            "@id": "https://barekyne.in/skincare-distributor/bhubaneswar#service"
+          }
+        }
+      ];
+    case "hyderabad":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#organization",
+          "name": "Barekyne",
+          "url": "https://barekyne.in",
+          "logo": "https://barekyne.in/images/og-image.jpg",
+          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "foundingDate": "2024",
+          "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "value": "10-50"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "knowsAbout": [
+            "Clinical Skincare",
+            "Dermatology Products",
+            "Skincare Distribution",
+            "PCD Franchise",
+            "B2B Skincare Supply"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://barekyne.in/#localbusiness",
+          "name": "Barekyne",
+          "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
+          "url": "https://barekyne.in",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "priceRange": "₹₹",
+          "image": "https://barekyne.in/images/og-image.jpg",
+          "parentOrganization": {
+            "@id": "https://barekyne.in/#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/hyderabad/#service",
+          "name": "Derma PCD Franchise — Hyderabad",
+          "description": "Exclusive derma franchise opportunity in Hyderabad. Barekyne offers clinical skincare, monopoly territory rights, WHO-GMP manufacturing. Partner with India's top derma brand.",
+          "serviceType": "Derma PCD Franchise",
+          "url": "https://barekyne.in/skincare-distributor/hyderabad",
+          "image": "https://barekyne.in/og/hyderabad-franchise.jpg",
+          "provider": {
+            "@id": "https://barekyne.in/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Hyderabad"
+            },
+            {
+              "@type": "State",
+              "name": "Telangana"
+            },
+            {
+              "@type": "Country",
+              "name": "India"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Derma PCD Franchise — Exclusive Territory Rights",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Hyderabad, Telangana.",
+            "url": "https://barekyne.in/skincare-distributor/hyderabad"
+          }
+        }
+      ];
+    case "indore":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/indore#service",
+          "name": "Barekyne — Derma PCD Franchise Indore",
+          "description": "Exclusive derma PCD franchise in Indore for Central India coverage. Barekyne clinical skincare with monopoly rights across MP. High-growth B2B opportunity.",
+          "url": "https://barekyne.in/skincare-distributor/indore",
+          "image": "https://barekyne.in/og/indore-franchise.jpg",
+          "serviceType": "Derma PCD Franchise",
+          "provider": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Indore"
+            },
+            {
+              "@type": "State",
+              "name": "Madhya Pradesh"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Derma PCD Franchise — Exclusive Territory Rights",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Indore, Madhya Pradesh."
+          }
+        }
+      ];
+    case "jaipur":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#organization",
+          "name": "Barekyne",
+          "url": "https://barekyne.in",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://barekyne.in/images/og-image.jpg"
+          },
+          "image": "https://barekyne.in/images/og-image.jpg",
+          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "foundingDate": "2024",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/jaipur#service",
+          "name": "Barekyne — Derma PCD Franchise Jaipur",
+          "description": "Exclusive derma franchise in Jaipur for Rajasthan coverage. Barekyne clinical skincare — monopoly rights, WHO-GMP, high-margin portfolio. B2B opportunity for serious investors.",
+          "serviceType": "Derma PCD Franchise",
+          "provider": {
+            "@id": "https://barekyne.in/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Jaipur"
+            },
+            {
+              "@type": "State",
+              "name": "Rajasthan"
+            }
+          ],
+          "image": "https://barekyne.in/og/jaipur-franchise.jpg",
+          "offers": {
+            "@type": "Offer",
+            "name": "Derma PCD Franchise — Exclusive Territory Rights",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Jaipur, Rajasthan.",
+            "url": "https://barekyne.in/skincare-distributor/jaipur"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/skincare-distributor/jaipur"
+          }
+        }
+      ];
+    case "kochi":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/kochi#service",
+          "name": "Derma PCD Franchise — Kochi",
+          "description": "Join Barekyne's derma franchise network in Kochi for Kerala coverage. WHO-GMP clinical skincare, monopoly territory rights, high-margin portfolio. Apply today.",
+          "url": "https://barekyne.in/skincare-distributor/kochi",
+          "image": "https://barekyne.in/og/kochi-franchise.jpg",
+          "serviceType": "Derma PCD franchise and skincare distribution",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Kochi"
+            },
+            {
+              "@type": "State",
+              "name": "Kerala"
+            },
+            {
+              "@type": "Country",
+              "name": "India"
+            }
+          ],
+          "provider": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          },
+          "offers": {
+            "@type": "Offer",
+            "name": "Exclusive territory rights — Kochi, Kerala",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Kochi, Kerala."
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "@id": "https://barekyne.in/skincare-distributor/kochi#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://barekyne.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Derma PCD Franchise — Kochi",
+              "item": "https://barekyne.in/skincare-distributor/kochi"
+            }
+          ]
+        }
+      ];
+    case "mohali":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/mohali#service",
+          "name": "Derma PCD Franchise — Mohali",
+          "description": "Exclusive derma PCD franchise opportunity for Barekyne clinical skincare distribution in Mohali, Punjab with exclusive territory rights and direct brand support.",
+          "serviceType": "Derma PCD Franchise",
+          "url": "https://barekyne.in/skincare-distributor/mohali",
+          "image": "https://barekyne.in/og/mohali-franchise.jpg",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://barekyne.in/#organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Mohali",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Punjab",
+              "addressCountry": "IN"
+            }
+          },
+          "offers": {
+            "@type": "Offer",
+            "name": "Exclusive Territory Rights — Mohali",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Mohali, Punjab."
+          }
+        }
+      ];
+    case "mumbai":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#organization",
+          "name": "Barekyne",
+          "url": "https://barekyne.in",
+          "logo": "https://barekyne.in/images/og-image.jpg",
+          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "foundingDate": "2024",
+          "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "value": "10-50"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/mumbai#service",
+          "name": "Derma PCD Franchise — Mumbai",
+          "url": "https://barekyne.in/skincare-distributor/mumbai",
+          "description": "Exclusive clinical skincare franchise in Mumbai offering monopoly territory rights and high‑margin WHO‑GMP derma SKUs.",
+          "serviceType": "Derma PCD Franchise and Skincare Distribution",
+          "provider": {
+            "@id": "https://barekyne.in/#organization"
+          },
+          "brand": {
+            "@id": "https://barekyne.in/#organization"
+          },
+          "image": "https://barekyne.in/og/mumbai-franchise.jpg",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Mumbai"
+            },
+            {
+              "@type": "State",
+              "name": "Maharashtra"
+            },
+            {
+              "@type": "Country",
+              "name": "India"
+            }
+          ],
+          "offers": [
+            {
+              "@type": "Offer",
+              "url": "https://barekyne.in/skincare-distributor/mumbai",
+              "name": "Exclusive Territory Rights — Mumbai",
+              "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Mumbai, Maharashtra."
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://barekyne.in/skincare-distributor/mumbai#webpage",
+          "url": "https://barekyne.in/skincare-distributor/mumbai",
+          "about": {
+            "@id": "https://barekyne.in/skincare-distributor/mumbai#service"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://barekyne.in/og/mumbai-franchise.jpg"
+          },
+          "breadcrumb": {
+            "@id": "https://barekyne.in/skincare-distributor/mumbai#breadcrumb"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "@id": "https://barekyne.in/skincare-distributor/mumbai#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://barekyne.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Mumbai Skincare Distributor",
+              "item": "https://barekyne.in/skincare-distributor/mumbai"
+            }
+          ]
+        }
+      ];
+    case "pune":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://barekyne.in/skincare-distributor/pune#service",
+          "name": "Derma PCD Franchise — Pune",
+          "description": "Partner with Barekyne for an exclusive derma PCD franchise in Pune. Clinical-grade skincare, WHO-GMP manufacturing, monopoly territory rights. High-ROI opportunity.",
+          "url": "https://barekyne.in/skincare-distributor/pune",
+          "image": "https://barekyne.in/og/pune-franchise.jpg",
+          "serviceType": "Derma PCD Franchise",
+          "provider": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Pune"
+            },
+            {
+              "@type": "State",
+              "name": "Maharashtra"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Derma PCD Franchise — Exclusive Territory Rights",
+            "description": "Exclusive monopoly territory rights for Barekyne clinical skincare distribution in Pune, Maharashtra."
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://barekyne.in/skincare-distributor/pune#webpage",
+          "url": "https://barekyne.in/skincare-distributor/pune",
+          "name": "Barekyne — Derma PCD Franchise Pune",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://barekyne.in/og/pune-franchise.jpg"
+          },
+          "mainEntity": {
+            "@id": "https://barekyne.in/skincare-distributor/pune#service"
+          }
+        }
+      ];
+    default:
+      return null;
+  }
+}
+
 // ─── Page Component ───────────────────────────────────────────────────────────
 export default async function CityFranchisePage(
   props: {
@@ -98,12 +697,15 @@ export default async function CityFranchisePage(
     },
   };
 
+  const customSchema = getCustomCitySchema(params.city);
+  const schemaToUse = customSchema || structuredData;
+
   return (
     <>
       {/* JSON-LD Schema */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaToUse) }}
       />
 
       {/* ── HERO SECTION ──────────────────────────────────────────────── */}
