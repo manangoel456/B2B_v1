@@ -1,10 +1,10 @@
 # Barekyne — India's Premium Clinical Derma Skincare B2B Brand
 
-> Barekyne is a WHO-GMP certified, CDSCO-approved clinical skincare brand offering exclusive PCD franchise and distributorship opportunities across India with 50%+ margins.
+> Barekyne is a WHO-GMP certified, CDSCO-approved clinical skincare brand offering exclusive PCD franchise and distributorship opportunities across India with 50%+ margins. Engineered specifically for melanin-rich Indian skin (Fitzpatrick IV–VI) in high-UV, humid climates.
 
 ## About Barekyne
 
-Barekyne is India's first clinical derma luxury skincare brand engineered specifically for melanin-rich skin (Fitzpatrick Scale IV-VI). We manufacture in WHO-GMP certified facilities and comply with all CDSCO guidelines. Our model provides B2B distributors, pharmacy chains, dermatology clinics, and franchise partners with legally binding district-level monopoly territorial rights.
+Barekyne is India's first clinical derma luxury skincare brand built on three scientific pillars: Multi-Pathway Depigmentation, Barrier-First Hydration, and Intelligent Photoprotection. Every formulation targets melanin-rich skin (Fitzpatrick Scale IV-VI) with clinically validated concentrations of active ingredients. Manufactured in WHO-GMP certified facilities with full CDSCO compliance. Our B2B model provides distributors, pharmacy chains, dermatology clinics, and franchise partners with legally binding district-level monopoly territorial rights and 50-58% net margins.
 
 ## Key Facts
 
@@ -18,16 +18,37 @@ Barekyne is India's first clinical derma luxury skincare brand engineered specif
 - **Territories Available:** PAN India — 14+ cities actively recruiting
 - **Contact:** +91 70275 72757 | info@barekyne.in
 
-## Product Portfolio (6-SKU Clinical Ecosystem)
+## Product Portfolio (5-SKU Clinical Ecosystem)
 
-| Product | Active Concentration | Clinical Target | MRP Range |
-|---------|---------------------|----------------|-----------|
-| Vitamin C 20% Serum | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma | Premium |
-| Hybrid Invisible Sunscreen SPF 50 | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) | Premium |
-| Face Wash | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage | Mid-Premium |
-| Advanced Night Cream | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging | Premium |
-| Face & Body Lotion 100ml | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation | Mid-Premium |
-| Moisturizer | Advanced Ceramide Complex | Daily Hydration, Barrier Maintenance | Mid-Premium |
+| Product | Active Concentrations | Clinical Target | Key Science |
+|---------|----------------------|----------------|------------|
+| Sunscreen SPF 50 PA++++ | Hyaluronic Acid + Zinc PCA + Kakadu Plum + Silk Protein | Photoprotection, Sebum Control | Dual physical-chemical filter matrix, zero white cast, Zinc PCA sebum regulation |
+| Vitamin C 20% Serum | 20% Ethyl Ascorbic Acid + 2% Niacinamide + Liquorice + Chamomile | Multi-Pathway Depigmentation | Stable Vitamin C (no yellowing), tyrosinase inhibition, melanosome transfer blocking |
+| Night Cream | 2% Kojic Acid Dipalmitate + 3% Niacinamide + 1.5% Alpha Arbutin | Triple-Pathway Overnight Depigmentation | Lipophilic Kojic Acid for deep penetration, circadian-optimized |
+| Face Wash | Glycolic + Salicylic + Lactic Acid + Polyglutamic Acid + Glutathione + Cica | Barrier-First Cleansing | Paradoxical rebound hydration with PGA (4-10x HA moisture retention) |
+| Face & Body Lotion | 3% Vitamin C + 1% Dermawhite™ WF + Papaya + Guava + Saxifraga | Body Brightening | 90% melanin inhibition (in-vitro), botanical tyrosinase inhibition |
+
+## Scientific Pillars
+
+### 1. Multi-Pathway Depigmentation
+Instead of single-ingredient brightening, Barekyne targets melanin at every biological level:
+- Tyrosinase inhibition (Kojic Acid Dipalmitate, Liquorice Extract, Alpha Arbutin, Saxifraga)
+- Melanosome transfer blocking (Niacinamide)
+- Antioxidant neutralization (Ethyl Ascorbic Acid, Kakadu Plum)
+- Anti-inflammatory calming (Chamomile, Cica Extract)
+
+### 2. Barrier-First Hydration
+Products hydrate while treating — never strip or compromise the skin barrier:
+- Polyglutamic Acid (4-10x more moisture than Hyaluronic Acid)
+- Hyaluronic Acid for multi-weight dermal hydration
+- Silk Protein for non-comedogenic occlusive protection
+
+### 3. Intelligent Photoprotection
+UV defense designed for Indian conditions:
+- Hybrid dual physical-chemical UV filter matrix
+- Zinc PCA intelligent sebum regulation
+- Kakadu Plum antioxidant photoprotection
+- Zero white cast for Fitzpatrick IV-VI skin
 
 ## Business Opportunities
 

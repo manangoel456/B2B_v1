@@ -574,6 +574,174 @@ function getCustomSchemaForPost(slug: string): any[] | null {
           }
         }
       ];
+    case "ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum"
+          },
+          "headline": "Ethyl Ascorbic Acid vs L-Ascorbic Acid: Why Stable Vitamin C Serums Win in Indian Climate",
+          "description": "The science behind why 3-O-Ethyl Ascorbic Acid outperforms traditional L-Ascorbic Acid in India's hot, humid climate — and what this means for B2B distributors, clinics, and pharmacies.",
+          "url": "https://barekyne.in/blog/ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum",
+          "datePublished": "2026-06-06",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "kojic-acid-dipalmitate-alpha-arbutin-dark-spot-treatment":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/kojic-acid-dipalmitate-alpha-arbutin-dark-spot-treatment"
+          },
+          "headline": "Kojic Acid Dipalmitate + Alpha Arbutin: The Science of Multi-Pathway Dark Spot Treatment",
+          "description": "Why combining lipophilic Kojic Acid Dipalmitate with Alpha Arbutin and Niacinamide creates a triple-pathway depigmentation system that outperforms single-ingredient approaches.",
+          "url": "https://barekyne.in/blog/kojic-acid-dipalmitate-alpha-arbutin-dark-spot-treatment",
+          "datePublished": "2026-06-06",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "polyglutamic-acid-hyaluronic-acid-hydration-face-wash":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/polyglutamic-acid-hyaluronic-acid-hydration-face-wash"
+          },
+          "headline": "Polyglutamic Acid vs Hyaluronic Acid: Why PGA Holds 4-10x More Moisture in Your Face Wash",
+          "description": "The science of paradoxical rebound hydration — how Polyglutamic Acid in a face wash can make your skin more hydrated after cleansing, not less.",
+          "url": "https://barekyne.in/blog/polyglutamic-acid-hyaluronic-acid-hydration-face-wash",
+          "datePublished": "2026-06-06",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "dermawhite-wf-body-lotion-brightening-technology":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/dermawhite-wf-body-lotion-brightening-technology"
+          },
+          "headline": "Dermawhite™ WF: The Botanical Technology Behind 90% Melanin Inhibition in Body Lotions",
+          "description": "How Dermawhite™ WF — a clinically validated botanical melanin inhibitor — combined with 3% Vitamin C and Japanese botanicals creates the most effective body brightening system for Indian skin.",
+          "url": "https://barekyne.in/blog/dermawhite-wf-body-lotion-brightening-technology",
+          "datePublished": "2026-06-06",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "zinc-pca-sunscreen-oily-acne-prone-skin-india":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/zinc-pca-sunscreen-oily-acne-prone-skin-india"
+          },
+          "headline": "Zinc PCA Sunscreen for Oily & Acne-Prone Skin: Why India Needs Sebum-Intelligent Photoprotection",
+          "description": "How Zinc PCA transforms sunscreen from a greasy burden into an intelligent skincare product that controls oil, protects from UV, and repairs with antioxidants — designed specifically for Indian skin.",
+          "url": "https://barekyne.in/blog/zinc-pca-sunscreen-oily-acne-prone-skin-india",
+          "datePublished": "2026-06-06",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "complete-skincare-routine-indian-skin-am-pm-guide":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/complete-skincare-routine-indian-skin-am-pm-guide"
+          },
+          "headline": "The Complete AM/PM Skincare Routine for Indian Skin: A Dermatologist-Aligned Guide",
+          "description": "A step-by-step morning and evening skincare routine using clinically formulated products designed specifically for Indian skin types, climate, and common concerns like pigmentation, oiliness, and acne.",
+          "url": "https://barekyne.in/blog/complete-skincare-routine-indian-skin-am-pm-guide",
+          "datePublished": "2026-06-06",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
     default:
       return null;
   }
