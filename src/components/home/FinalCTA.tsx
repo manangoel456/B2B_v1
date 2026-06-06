@@ -44,6 +44,7 @@ export default function FinalCTA() {
               href="/contact"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-gold text-white font-semibold rounded-full hover:bg-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-gold/25"
               id="final-cta-catalogue"
+              title="Request Catalogue"
             >
               Request Catalogue
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -52,6 +53,7 @@ export default function FinalCTA() {
               href="tel:+917027572757"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-all duration-300 border border-white/10"
               id="final-cta-consultation"
+              title="Book Consultation"
             >
               <CalendarCheck className="w-4 h-4" />
               Book Consultation
@@ -62,6 +64,7 @@ export default function FinalCTA() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#25D366] text-white font-semibold rounded-full hover:bg-[#20BD5A] transition-all duration-300"
               id="final-cta-whatsapp"
+              title="WhatsApp Inquiry"
             >
               <MessageCircle className="w-4 h-4" />
               WhatsApp Inquiry

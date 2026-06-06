@@ -1,5 +1,5 @@
 interface JsonLdProps {
-  data: Record<string, unknown>;
+  data: Record<string, unknown> | Record<string, unknown>[];
 }
 
 export default function JsonLd({ data }: JsonLdProps) {
@@ -15,9 +15,10 @@ export function LocalBusinessJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://barekyne.in/#localbusiness",
     name: "Barekyne",
     description:
-      "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
+      "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India. WHO-GMP certified, CDSCO approved.",
     url: "https://barekyne.in",
     telephone: "+917027572757",
     email: "info@barekyne.in",
@@ -35,6 +36,9 @@ export function LocalBusinessJsonLd() {
     ],
     priceRange: "₹₹",
     image: "https://barekyne.in/images/og-image.jpg",
+    parentOrganization: {
+      "@id": "https://barekyne.in/#organization",
+    },
   };
   return <JsonLd data={data} />;
 }
@@ -60,12 +64,15 @@ export function ProductJsonLd({
     image: `https://barekyne.in${image}`,
     sku,
     brand: { "@type": "Brand", name: "Barekyne" },
+    manufacturer: {
+      "@id": "https://barekyne.in/#organization",
+    },
     offers: {
       "@type": "Offer",
       priceCurrency: "INR",
       price,
       availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Barekyne" },
+      seller: { "@id": "https://barekyne.in/#organization" },
     },
   };
   return <JsonLd data={data} />;
@@ -79,6 +86,7 @@ export function FAQJsonLd({
   const data = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "@id": "https://barekyne.in/#faq",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,
@@ -113,9 +121,10 @@ export function ArticleJsonLd({
     datePublished,
     author: { "@type": "Person", name: author },
     publisher: {
-      "@type": "Organization",
-      name: "Barekyne",
-      url: "https://barekyne.in",
+      "@id": "https://barekyne.in/#organization",
+    },
+    isPartOf: {
+      "@id": "https://barekyne.in/#website",
     },
   };
   return <JsonLd data={data} />;
@@ -125,9 +134,14 @@ export function OrganizationJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://barekyne.in/#organization",
     name: "Barekyne",
     url: "https://barekyne.in",
-    logo: "https://barekyne.in/images/og-image.jpg",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://barekyne.in/images/og-image.jpg",
+    },
+    image: "https://barekyne.in/images/og-image.jpg",
     description:
       "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India. WHO-GMP certified, CDSCO approved.",
     telephone: "+917027572757",
@@ -145,7 +159,11 @@ export function OrganizationJsonLd() {
       "https://x.com/barekyne_skin",
     ],
     foundingDate: "2024",
-    numberOfEmployees: { "@type": "QuantitativeValue", value: "10-50" },
+    numberOfEmployees: {
+      "@type": "QuantitativeValue",
+      minValue: 10,
+      maxValue: 50,
+    },
     areaServed: { "@type": "Country", name: "India" },
     knowsAbout: [
       "Clinical Skincare",
@@ -244,21 +262,50 @@ export function WebSiteJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://barekyne.in/#website",
+    url: "https://barekyne.in",
     name: "Barekyne",
     alternateName: [
       "Barekyne Skincare",
       "Barekyne Clinical Skincare",
       "Barekyne Derma Franchise",
     ],
-    url: "https://barekyne.in",
     description:
       "India's premium clinical derma PCD franchise and skincare distributorship. WHO-GMP certified products with exclusive monopoly rights and 50%+ margins.",
     publisher: {
-      "@type": "Organization",
-      name: "Barekyne",
-      url: "https://barekyne.in",
+      "@id": "https://barekyne.in/#organization",
     },
     inLanguage: "en-IN",
+  };
+  return <JsonLd data={data} />;
+}
+
+export function WebPageJsonLd({
+  name,
+  url,
+  description,
+}: {
+  name: string;
+  url: string;
+  description?: string;
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    ...(description && { description }),
+    isPartOf: {
+      "@id": "https://barekyne.in/#website",
+    },
+    about: {
+      "@id": "https://barekyne.in/#organization",
+    },
+    primaryImageOfPage: {
+      "@type": "ImageObject",
+      url: "https://barekyne.in/images/og-image.jpg",
+    },
   };
   return <JsonLd data={data} />;
 }
@@ -309,9 +356,7 @@ export function ServiceJsonLd({
     name,
     description,
     provider: {
-      "@type": "Organization",
-      name: provider || "Barekyne",
-      url: "https://barekyne.in",
+      "@id": "https://barekyne.in/#organization",
     },
     areaServed: {
       "@type": "Country",
@@ -319,5 +364,101 @@ export function ServiceJsonLd({
     },
     ...(serviceType && { serviceType }),
   };
+  return <JsonLd data={data} />;
+}
+
+/**
+ * Unified home page schema graph combining Organization, WebSite, WebPage, and FAQ
+ * into a single JSON-LD block with @id cross-references (as recommended by Rank AI).
+ */
+export function HomePageSchemaGraph({
+  faqs,
+}: {
+  faqs: readonly { readonly question: string; readonly answer: string }[];
+}) {
+  const data = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://barekyne.in/#organization",
+      name: "Barekyne",
+      url: "https://barekyne.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://barekyne.in/images/og-image.jpg",
+      },
+      image: "https://barekyne.in/images/og-image.jpg",
+      description:
+        "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+      telephone: "+917027572757",
+      email: "info@barekyne.in",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "471, Sector 17 HUDA, Jagadhri",
+        addressLocality: "Yamunanagar",
+        addressRegion: "Haryana",
+        postalCode: "135001",
+        addressCountry: "IN",
+      },
+      sameAs: [
+        "https://www.instagram.com/barekyne.skin/",
+        "https://x.com/barekyne_skin",
+      ],
+      foundingDate: "2024",
+      numberOfEmployees: {
+        "@type": "QuantitativeValue",
+        minValue: 10,
+        maxValue: 50,
+      },
+      areaServed: { "@type": "Country", name: "India" },
+      knowsAbout: [
+        "Clinical Skincare",
+        "Dermatology Products",
+        "Skincare Distribution",
+        "PCD Franchise",
+        "B2B Skincare Supply",
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://barekyne.in/#website",
+      url: "https://barekyne.in",
+      name: "Barekyne",
+      publisher: {
+        "@id": "https://barekyne.in/#organization",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://barekyne.in/#webpage",
+      url: "https://barekyne.in/",
+      name: "Barekyne",
+      isPartOf: {
+        "@id": "https://barekyne.in/#website",
+      },
+      about: {
+        "@id": "https://barekyne.in/#organization",
+      },
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://barekyne.in/images/og-image.jpg",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://barekyne.in/#faq",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    },
+  ];
   return <JsonLd data={data} />;
 }

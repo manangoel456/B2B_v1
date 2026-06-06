@@ -79,6 +79,7 @@ export default function HeroSection() {
               href="/contact"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold text-white font-semibold rounded-full hover:bg-gold-dark transition-all duration-300 hover:shadow-xl hover:shadow-gold/25 text-sm lg:text-base"
               id="hero-cta-catalogue"
+              title="Get Product Catalogue"
             >
               Get Product Catalogue
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -87,6 +88,7 @@ export default function HeroSection() {
               href="tel:+917027572757"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white border-2 border-charcoal/10 text-charcoal font-semibold rounded-full hover:border-gold hover:text-gold transition-all duration-300 text-sm lg:text-base"
               id="hero-cta-call"
+              title="Book a Call"
             >
               <Phone className="w-4 h-4" />
               Book a Call

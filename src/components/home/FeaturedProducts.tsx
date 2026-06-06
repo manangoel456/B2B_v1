@@ -70,6 +70,7 @@ export default function FeaturedProducts() {
                       href={`/products/${product.slug}`}
                       className="flex-1 flex items-center justify-center gap-1.5 px-3 py-2.5 bg-charcoal text-white text-xs font-semibold rounded-full hover:bg-gold transition-colors duration-300"
                       id={`product-view-${product.slug}`}
+                      title="View Details"
                     >
                       <Eye className="w-3.5 h-3.5" />
                       View Details
@@ -78,6 +79,7 @@ export default function FeaturedProducts() {
                       href="/contact?type=bulk"
                       className="flex-1 flex items-center justify-center gap-1.5 px-3 py-2.5 border border-gold/30 text-gold text-xs font-semibold rounded-full hover:bg-gold hover:text-white transition-all duration-300"
                       id={`product-bulk-${product.slug}`}
+                      title="Bulk Price"
                     >
                       <ShoppingBag className="w-3.5 h-3.5" />
                       Bulk Price
@@ -94,6 +96,7 @@ export default function FeaturedProducts() {
             href="/products"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-white font-semibold rounded-full hover:bg-gold-dark transition-all duration-300 hover:shadow-lg hover:shadow-gold/20"
             id="featured-view-all"
+            title="View All Products"
           >
             View All Products
           </Link>

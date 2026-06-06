@@ -3,6 +3,7 @@ import { Award, Factory, Globe, Rocket, Heart, Users } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
 import FinalCTA from "@/components/home/FinalCTA";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "About Barekyne — India's Clinical Derma Skincare Brand for B2B Partners",
@@ -10,6 +11,81 @@ export const metadata: Metadata = {
     "Barekyne is a WHO-GMP certified clinical derma skincare brand empowering distributors, franchise partners, and dermatology clinics across India with high-margin, scientifically formulated products.",
   alternates: { canonical: "/about" },
 };
+
+const aboutPageSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": "https://barekyne.in/about#aboutpage",
+    url: "https://barekyne.in/about",
+    name: "About Barekyne",
+    description:
+      "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+    isPartOf: {
+      "@id": "https://barekyne.in/#website",
+    },
+    about: {
+      "@id": "https://barekyne.in/#organization",
+    },
+    primaryImageOfPage: {
+      "@type": "ImageObject",
+      url: "https://barekyne.in/images/og-image.jpg",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "LocalBusiness"],
+    "@id": "https://barekyne.in/#organization",
+    name: "Barekyne",
+    url: "https://barekyne.in",
+    description:
+      "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+    logo: "https://barekyne.in/images/og-image.jpg",
+    image: "https://barekyne.in/images/og-image.jpg",
+    email: "info@barekyne.in",
+    telephone: "+917027572757",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "471, Sector 17 HUDA, Jagadhri",
+      addressLocality: "Yamunanagar",
+      addressRegion: "Haryana",
+      postalCode: "135001",
+      addressCountry: "IN",
+    },
+    sameAs: [
+      "https://www.instagram.com/barekyne.skin/",
+      "https://x.com/barekyne_skin",
+    ],
+    foundingDate: "2024",
+    numberOfEmployees: {
+      "@type": "QuantitativeValue",
+      minValue: 10,
+      maxValue: 50,
+    },
+    areaServed: { "@type": "Country", name: "India" },
+    knowsAbout: [
+      "Clinical Skincare",
+      "Dermatology Products",
+      "Skincare Distribution",
+      "PCD Franchise",
+      "B2B Skincare Supply",
+    ],
+    priceRange: "₹₹",
+    mainEntityOfPage: {
+      "@id": "https://barekyne.in/about#aboutpage",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://barekyne.in/#website",
+    url: "https://barekyne.in",
+    name: "Barekyne",
+    publisher: {
+      "@id": "https://barekyne.in/#organization",
+    },
+  },
+];
 
 const values = [
   {
@@ -37,7 +113,7 @@ const values = [
 export default function AboutPage() {
   return (
     <>
-      {/* Hero */}
+      <JsonLd data={aboutPageSchema} />
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-3xl">

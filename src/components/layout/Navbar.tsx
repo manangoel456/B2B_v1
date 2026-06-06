@@ -43,7 +43,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group" id="nav-logo">
+          <Link href="/" className="flex items-center gap-2 group" id="nav-logo" title="BAREKYNE">
             <span className="text-2xl lg:text-3xl font-heading font-bold tracking-tight text-charcoal group-hover:text-gold transition-colors duration-300">
               BAREKYNE
             </span>
@@ -56,6 +56,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 id={`nav-${item.href.replace("/", "") || "home"}`}
+                title={item.label}
                 className={cn(
                   "relative px-3 py-2 text-sm font-medium transition-colors duration-300 rounded-md",
                   pathname === item.href
@@ -77,6 +78,7 @@ export default function Navbar() {
               href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`}
               className="flex items-center gap-1.5 text-sm text-charcoal-light hover:text-gold transition-colors duration-300"
               id="nav-phone"
+              title={SITE_CONFIG.phone}
             >
               <Phone className="w-4 h-4" />
               <span className="font-medium">{SITE_CONFIG.phone}</span>
@@ -85,6 +87,7 @@ export default function Navbar() {
               href="/contact"
               className="ml-2 px-5 py-2.5 bg-gold text-white text-sm font-semibold rounded-full hover:bg-gold-dark transition-all duration-300 hover:shadow-lg hover:shadow-gold/20"
               id="nav-cta"
+              title="Get Catalogue"
             >
               Get Catalogue
             </Link>
@@ -116,6 +119,7 @@ export default function Navbar() {
             <Link
               key={item.href}
               href={item.href}
+              title={item.label}
               className={cn(
                 "block px-4 py-3 text-lg font-medium rounded-xl transition-all duration-300",
                 pathname === item.href
@@ -130,12 +134,14 @@ export default function Navbar() {
             <a
               href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`}
               className="flex items-center gap-2 px-4 py-3 text-charcoal-light"
+              title={SITE_CONFIG.phone}
             >
               <Phone className="w-5 h-5" />
               {SITE_CONFIG.phone}
             </a>
             <Link
               href="/contact"
+              title="Get Product Catalogue"
               className="block text-center px-6 py-3 bg-gold text-white font-semibold rounded-full hover:bg-gold-dark transition-all"
             >
               Get Product Catalogue

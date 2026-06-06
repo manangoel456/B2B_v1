@@ -41,6 +41,7 @@ export default function Footer() {
               href="/contact"
               className="px-6 py-3 bg-white text-gold font-semibold rounded-full hover:bg-ivory transition-all duration-300 hover:shadow-lg text-sm"
               id="footer-cta-catalogue"
+              title="Request Catalogue"
             >
               Request Catalogue
             </Link>
@@ -50,6 +51,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="px-6 py-3 bg-charcoal text-white font-semibold rounded-full hover:bg-charcoal-light transition-all duration-300 text-sm"
               id="footer-cta-whatsapp"
+              title="WhatsApp Us"
             >
               WhatsApp Us
             </a>
@@ -77,6 +79,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors duration-300"
                 id="footer-instagram"
                 aria-label="Follow us on Instagram"
+                title="Barekyne Instagram"
               >
                 <InstagramIcon className="w-4 h-4" />
               </a>
@@ -87,6 +90,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors duration-300"
                 id="footer-twitter"
                 aria-label="Follow us on X"
+                title="Barekyne Skin"
               >
                 <XIcon className="w-4 h-4" />
               </a>
@@ -103,6 +107,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
+                    title={item.label}
                     className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
                   >
                     {item.label}
@@ -121,6 +126,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/privacy-policy"
+                  title="Privacy Policy"
                   className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
                 >
                   Privacy Policy
@@ -129,6 +135,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/terms"
+                  title="Terms & Conditions"
                   className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
                 >
                   Terms & Conditions
@@ -137,6 +144,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/shipping-policy"
+                  title="Shipping Policy"
                   className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
                 >
                   Shipping Policy
@@ -156,6 +164,7 @@ export default function Footer() {
                 <a
                   href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`}
                   className="text-sm text-white/60 hover:text-gold transition-colors"
+                  title={SITE_CONFIG.phone}
                 >
                   {SITE_CONFIG.phone}
                 </a>
@@ -165,6 +174,7 @@ export default function Footer() {
                 <a
                   href={`mailto:${SITE_CONFIG.email}`}
                   className="text-sm text-white/60 hover:text-gold transition-colors"
+                  title={SITE_CONFIG.email}
                 >
                   {SITE_CONFIG.email}
                 </a>
