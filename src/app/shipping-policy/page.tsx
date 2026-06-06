@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Shipping Policy",
@@ -7,9 +8,33 @@ export const metadata: Metadata = {
   alternates: { canonical: "/shipping-policy" },
 };
 
+const shippingPolicySchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://barekyne.in/shipping-policy#webpage",
+    "url": "https://barekyne.in/shipping-policy",
+    "name": "Shipping Policy",
+    "about": {
+      "@type": "CreativeWork",
+      "name": "Shipping Policy"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "url": "https://barekyne.in"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Barekyne",
+      "url": "https://barekyne.in"
+    }
+  }
+];
+
 export default function ShippingPolicyPage() {
   return (
     <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-ivory">
+      <JsonLd data={shippingPolicySchema} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-8">

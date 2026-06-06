@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
-import { HowToJsonLd, ServiceJsonLd } from "@/components/seo/JsonLd";
+import JsonLd from "@/components/seo/JsonLd";
 import ContactForm from "@/components/shared/ContactForm";
 
 export const metadata: Metadata = {
@@ -21,6 +21,99 @@ export const metadata: Metadata = {
     "Become a Barekyne skincare distributor with exclusive monopoly territory rights. Derma PCD franchise with WHO-GMP clinical products, high margins, and dedicated support. Apply now.",
   alternates: { canonical: "/distributorship" },
 };
+
+const distributorshipSchema = [
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://barekyne.in/distributorship#webpage",
+        "url": "https://barekyne.in/distributorship",
+        "isPartOf": {
+          "@id": "https://barekyne.in/#website"
+        },
+        "about": {
+          "@id": "https://barekyne.in/#organization"
+        },
+        "mentions": [
+          {
+            "@id": "https://barekyne.in/distributorship#service"
+          }
+        ],
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://barekyne.in/images/og-image.jpg"
+        }
+      },
+      {
+        "@type": [
+          "Organization",
+          "LocalBusiness"
+        ],
+        "@id": "https://barekyne.in/#organization",
+        "name": "Barekyne",
+        "url": "https://barekyne.in",
+        "logo": "https://barekyne.in/images/og-image.jpg",
+        "image": "https://barekyne.in/images/og-image.jpg",
+        "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+        "telephone": "+917027572757",
+        "email": "info@barekyne.in",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+          "addressLocality": "Yamunanagar",
+          "addressRegion": "Haryana",
+          "postalCode": "135001",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://www.instagram.com/barekyne.skin/",
+          "https://x.com/barekyne_skin"
+        ],
+        "foundingDate": "2024",
+        "numberOfEmployees": {
+          "@type": "QuantitativeValue",
+          "minValue": 10,
+          "maxValue": 50
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        },
+        "knowsAbout": [
+          "Clinical Skincare",
+          "Dermatology Products",
+          "Skincare Distribution",
+          "PCD Franchise",
+          "B2B Skincare Supply"
+        ],
+        "priceRange": "₹₹"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://barekyne.in/distributorship#service",
+        "serviceType": "Skincare distributorship / PCD franchise",
+        "provider": {
+          "@id": "https://barekyne.in/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://barekyne.in/#website",
+        "url": "https://barekyne.in",
+        "name": "Barekyne",
+        "publisher": {
+          "@id": "https://barekyne.in/#organization"
+        }
+      }
+    ]
+  }
+];
 
 const benefits = [
   { icon: <Shield className="w-6 h-6" />, title: "Monopoly Rights", description: "Exclusive territory allocation with zero internal competition." },
@@ -42,23 +135,7 @@ const steps = [
 export default function DistributorshipPage() {
   return (
     <>
-      <HowToJsonLd
-        name="How to Start a Skincare Distributorship with Barekyne in India"
-        description="Step-by-step guide to becoming an exclusive Barekyne clinical skincare distributor with monopoly territorial rights, WHO-GMP certified products, and 50%+ margins."
-        totalTime="P7D"
-        steps={[
-          { name: "Submit Application", text: "Fill out the distributorship inquiry form with your business details, preferred territory, and investment capacity at barekyne.in/distributorship." },
-          { name: "Consultation Call", text: "Our Business Development team discusses available territories, franchise terms, investment structure, and the partnership model." },
-          { name: "Review & Approval", text: "Application review, territory finalization based on district-level exclusivity, and legal franchise agreement drafting." },
-          { name: "Onboarding & Training", text: "Product training on the 6-SKU clinical ecosystem, marketing kit delivery, dermatologist detailing guides, and account setup." },
-          { name: "Market Launch", text: "First order placement starting at INR 50,000, logistics setup, and dedicated market launch support with scientific visual aids." },
-        ]}
-      />
-      <ServiceJsonLd
-        name="Derma PCD Franchise & Skincare Distributorship"
-        description="Exclusive district-level monopoly rights for clinical skincare distribution across India. WHO-GMP certified products, 50-58% margins, zero franchise fees. Starting investment INR 50,000."
-        serviceType="Pharmaceutical Distribution Franchise"
-      />
+      <JsonLd data={distributorshipSchema} />
       {/* Hero */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

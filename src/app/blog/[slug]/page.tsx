@@ -3,8 +3,252 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Clock, User, Calendar, ChevronRight } from "lucide-react";
 import { blogPosts, getBlogPostBySlug } from "@/lib/blog";
-import { ArticleJsonLd } from "@/components/seo/JsonLd";
+import JsonLd, { ArticleJsonLd } from "@/components/seo/JsonLd";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+
+function getCustomSchemaForPost(slug: string): any[] | null {
+  switch (slug) {
+    case "anti-pigmentation-derma-franchise-solutions-india-2026":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/anti-pigmentation-derma-franchise-solutions-india-2026"
+          },
+          "headline": "Anti-Pigmentation Cosmeceuticals: The High-ROI Niche for Derma PCD Franchises in India",
+          "description": "An in-depth look at why anti-pigmentation and skin-brightening solutions dominate the B2B derma franchise market. Explores advanced tyrosinase inhibitors, stable Vitamin C, and WHO-GMP compliance standards.",
+          "url": "https://barekyne.in/blog/anti-pigmentation-derma-franchise-solutions-india-2026",
+          "datePublished": "2026-06-01",
+          "author": {
+            "@type": "Organization",
+            "name": "Dr. Barekyne Editorial Board"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "barekyne-tranexamic-acid-future-pigmentation-care":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Why Barekyne is Championing Tranexamic Acid as the Future of Pigmentation Care",
+          "description": "Discover why top dermatologists are moving away from harsh bleaching agents like hydroquinone and embracing Tranexamic Acid (TXA) for safe, long-term pigmentation management.",
+          "url": "https://barekyne.in/blog/barekyne-tranexamic-acid-future-pigmentation-care",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/barekyne-tranexamic-acid-future-pigmentation-care"
+          },
+          "datePublished": "2026-05-24",
+          "image": [
+            "https://barekyne.in/images/og-image.jpg"
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    case "best-derma-products-indian-skin-b2b":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://barekyne.in/#organization",
+          "name": "Barekyne",
+          "url": "https://barekyne.in",
+          "logo": "https://barekyne.in/images/og-image.jpg",
+          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "foundingDate": "2024",
+          "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "minValue": 10,
+            "maxValue": 50
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "knowsAbout": [
+            "Clinical Skincare",
+            "Dermatology Products",
+            "Skincare Distribution",
+            "PCD Franchise",
+            "B2B Skincare Supply"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://barekyne.in/#localbusiness",
+          "name": "Barekyne",
+          "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
+          "url": "https://barekyne.in",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+            "addressLocality": "Yamunanagar",
+            "addressRegion": "Haryana",
+            "postalCode": "135001",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://www.instagram.com/barekyne.skin/",
+            "https://x.com/barekyne_skin"
+          ],
+          "priceRange": "₹₹",
+          "image": "https://barekyne.in/images/og-image.jpg"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Best Derma Products for Indian Skin: A Clinical B2B Guide for Franchise Owners",
+          "description": "A clinical breakdown of why Fitzpatrick III-VI skin requires specific formulation strategies, and which derma products offer the highest prescription velocity for distributors.",
+          "url": "https://barekyne.in/blog/best-derma-products-indian-skin-b2b",
+          "datePublished": "2025-02-10",
+          "mainEntityOfPage": "https://barekyne.in/blog/best-derma-products-indian-skin-b2b",
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@id": "https://barekyne.in/#organization"
+          }
+        }
+      ];
+    case "best-skincare-products-for-clinics":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Best Skincare Products for Clinics & Dermatology Practices",
+          "description": "Discover the essential skincare products every dermatology clinic should stock, and how to choose professional-grade formulations that deliver real results.",
+          "url": "https://barekyne.in/blog/best-skincare-products-for-clinics",
+          "mainEntityOfPage": "https://barekyne.in/blog/best-skincare-products-for-clinics",
+          "datePublished": "2025-05-10",
+          "author": {
+            "@type": "Person",
+            "name": "Barekyne Team"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          }
+        }
+      ];
+    case "complete-guide-starting-derma-pcd-franchise-india":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "The Complete Guide to Starting a Derma PCD Franchise in India: B2B Manual",
+          "description": "A comprehensive, clinical, and data-backed manual on starting a high-margin Derma PCD franchise in India. Covers WHO-GMP compliance, CDSCO guidelines, 50%+ margins, and melanin-rich skin science.",
+          "url": "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india",
+          "mainEntityOfPage": "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india",
+          "datePublished": "2026-06-01",
+          "author": {
+            "@type": "Organization",
+            "name": "Dr. Barekyne Editorial Board"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          },
+          "image": [
+            "https://barekyne.in/images/og-image.jpg"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://barekyne.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "The Complete Guide to Starting a Derma PCD Franchise in India: B2B Manual",
+              "item": "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india"
+            }
+          ]
+        }
+      ];
+    case "derma-pcd-franchise-india-guide":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "@id": "https://barekyne.in/blog/derma-pcd-franchise-india-guide#blogposting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://barekyne.in/blog/derma-pcd-franchise-india-guide"
+          },
+          "headline": "Derma PCD Franchise in India 2025: The Complete Investor's Guide to Clinical Skincare Distribution",
+          "description": "Everything a serious pharma investor needs to know before entering India's high-growth clinical skincare PCD franchise market. Product science, ROI models, territory strategy, and how to choose the right derma franchise partner.",
+          "url": "https://barekyne.in/blog/derma-pcd-franchise-india-guide",
+          "datePublished": "2025-01-15",
+          "image": [
+            "https://barekyne.in/images/og-image.jpg"
+          ],
+          "author": {
+            "@type": "Organization",
+            "name": "Barekyne Clinical Division"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://barekyne.in/images/og-image.jpg"
+            }
+          }
+        }
+      ];
+    default:
+      return null;
+  }
+}
 
 function renderContent(markdown: string): string {
   // Process tables first (before other replacements break the pipe syntax)
@@ -112,16 +356,21 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 2);
+  const customSchema = getCustomSchemaForPost(slug);
 
   return (
     <>
-      <ArticleJsonLd
-        title={post.title}
-        description={post.excerpt}
-        url={`https://barekyne.in/blog/${slug}`}
-        datePublished={post.date}
-        author={post.author}
-      />
+      {customSchema ? (
+        <JsonLd data={customSchema} />
+      ) : (
+        <ArticleJsonLd
+          title={post.title}
+          description={post.excerpt}
+          url={`https://barekyne.in/blog/${slug}`}
+          datePublished={post.date}
+          author={post.author}
+        />
+      )}
 
       {/* Breadcrumb */}
       <section className="pt-24 pb-4 bg-cream">

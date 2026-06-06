@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -7,9 +8,43 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy-policy" },
 };
 
+const privacyPolicySchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://barekyne.in/#website",
+    "url": "https://barekyne.in/",
+    "name": "Barekyne"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://barekyne.in/privacy-policy#webpage",
+    "url": "https://barekyne.in/privacy-policy",
+    "name": "Privacy Policy",
+    "isPartOf": {
+      "@id": "https://barekyne.in/#website"
+    },
+    "about": {
+      "@id": "https://barekyne.in/privacy-policy#policy"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "@id": "https://barekyne.in/privacy-policy#policy",
+    "name": "Privacy Policy",
+    "url": "https://barekyne.in/privacy-policy",
+    "mainEntityOfPage": {
+      "@id": "https://barekyne.in/privacy-policy#webpage"
+    }
+  }
+];
+
 export default function PrivacyPolicyPage() {
   return (
     <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-ivory">
+      <JsonLd data={privacyPolicySchema} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-8">

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Clock, User, ArrowRight, Tag } from "lucide-react";
 import { blogPosts } from "@/lib/blog";
 import AnimatedSection from "@/components/shared/AnimatedSection";
-import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Derma Franchise & Skincare Distribution Blog — Guides & Insights",
@@ -13,8 +13,60 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
+  const blogSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "https://barekyne.in/blog#collection",
+      "url": "https://barekyne.in/blog",
+      "name": "Derma Franchise & Skincare Distribution Blog — Guides & Insights",
+      "description": "Industry trends, business guides, and skincare knowledge for our partners and professionals.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://barekyne.in"
+      },
+      "breadcrumb": {
+        "@id": "https://barekyne.in/blog#breadcrumb"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": blogPosts.map((post, index) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "item": {
+            "@type": "BlogPosting",
+            "headline": post.title,
+            "url": `https://barekyne.in/blog/${post.slug}`,
+            "datePublished": post.date
+          }
+        }))
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "https://barekyne.in/blog#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://barekyne.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://barekyne.in/blog"
+        }
+      ]
+    }
+  ];
+
   return (
     <>
+      <JsonLd data={blogSchema} />
       <section className="pt-28 pb-12 lg:pt-36 lg:pb-16 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto">

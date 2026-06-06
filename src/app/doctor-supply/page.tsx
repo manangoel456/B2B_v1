@@ -6,6 +6,7 @@ import SectionHeading from "@/components/shared/SectionHeading";
 import ContactForm from "@/components/shared/ContactForm";
 import { products } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Clinical Skincare for Dermatology Clinics & Hospitals — Doctor Supply",
@@ -13,6 +14,62 @@ export const metadata: Metadata = {
     "Barekyne supplies premium clinical derma products to dermatology clinics, doctors, and hospitals across India. WHO-GMP skincare with clinic pricing, patient materials & dedicated support.",
   alternates: { canonical: "/doctor-supply" },
 };
+
+const doctorSupplySchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://barekyne.in/doctor-supply#service",
+    "name": "Doctor Supply",
+    "serviceType": "Doctor supply",
+    "url": "https://barekyne.in/doctor-supply",
+    "provider": {
+      "@type": "Organization",
+      "name": "Barekyne",
+      "url": "https://barekyne.in"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://barekyne.in/doctor-supply#webpage",
+    "url": "https://barekyne.in/doctor-supply",
+    "name": "Doctor Supply",
+    "about": {
+      "@id": "https://barekyne.in/doctor-supply#service"
+    },
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://barekyne.in/images/og-image.jpg"
+    },
+    "breadcrumb": {
+      "@id": "https://barekyne.in/doctor-supply#breadcrumb"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://barekyne.in/doctor-supply#breadcrumb",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://barekyne.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Doctor Supply",
+        "item": "https://barekyne.in/doctor-supply"
+      }
+    ]
+  }
+];
 
 const benefits = [
   { icon: <Shield className="w-6 h-6" />, title: "Clinical-Grade Quality", description: "Products formulated with dermatology-backed active ingredients at clinically effective concentrations." },

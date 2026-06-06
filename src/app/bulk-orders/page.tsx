@@ -5,6 +5,7 @@ import SectionHeading from "@/components/shared/SectionHeading";
 import ContactForm from "@/components/shared/ContactForm";
 import { products } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Wholesale Skincare Bulk Orders — Volume Pricing for Distributors",
@@ -12,6 +13,64 @@ export const metadata: Metadata = {
     "Get competitive bulk pricing on Barekyne's clinical derma skincare range. Wholesale rates, volume discounts, priority logistics, and dedicated account management for pharma distributors.",
   alternates: { canonical: "/bulk-orders" },
 };
+
+const bulkOrdersSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://barekyne.in/bulk-orders#service",
+    "name": "Wholesale Skincare Bulk Orders",
+    "serviceType": "Bulk Procurement",
+    "url": "https://barekyne.in/bulk-orders",
+    "description": "Access competitive wholesale rates on Barekyne’s skincare range with volume discounts, priority logistics and dedicated account management for large orders.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Barekyne",
+      "url": "https://barekyne.in"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "audience": {
+      "@type": "BusinessAudience",
+      "audienceType": "Distributors, wholesalers, retailers, clinics and institutional buyers"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://barekyne.in/bulk-orders#webpage",
+    "url": "https://barekyne.in/bulk-orders",
+    "name": "Bulk Orders",
+    "description": "Request volume pricing and priority fulfilment for bulk procurement of Barekyne skincare. Submit an inquiry to receive a custom quote.",
+    "about": {
+      "@id": "https://barekyne.in/bulk-orders#service"
+    },
+    "breadcrumb": {
+      "@id": "https://barekyne.in/bulk-orders#breadcrumb"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://barekyne.in/bulk-orders#breadcrumb",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://barekyne.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Bulk Orders",
+        "item": "https://barekyne.in/bulk-orders"
+      }
+    ]
+  }
+];
 
 const benefits = [
   { icon: <TrendingDown className="w-6 h-6" />, title: "Volume Discounts", description: "Significant price reductions on large-volume orders across all product lines." },
@@ -23,6 +82,7 @@ const benefits = [
 export default function BulkOrdersPage() {
   return (
     <>
+      <JsonLd data={bulkOrdersSchema} />
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-3xl mx-auto text-center">

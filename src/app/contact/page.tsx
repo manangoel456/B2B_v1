@@ -5,12 +5,130 @@ import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
 import ContactForm from "@/components/shared/ContactForm";
 
+import JsonLd from "@/components/seo/JsonLd";
+
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
     "Contact Barekyne for distributorship, franchise, clinic supply, bulk orders, and retailer inquiries. Call +91 70 2757 2757 or fill our inquiry form.",
   alternates: { canonical: "/contact" },
 };
+
+const contactSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://barekyne.in/#localbusiness",
+    "name": "Barekyne",
+    "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
+    "url": "https://barekyne.in",
+    "telephone": "+917027572757",
+    "email": "info@barekyne.in",
+    "image": "https://barekyne.in/images/og-image.jpg",
+    "logo": "https://barekyne.in/images/og-image.jpg",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+      "addressLocality": "Yamunanagar",
+      "addressRegion": "Haryana",
+      "postalCode": "135001",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.instagram.com/barekyne.skin/",
+      "https://x.com/barekyne_skin"
+    ],
+    "foundingDate": "2024",
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "knowsAbout": [
+      "Clinical Skincare",
+      "Dermatology Products",
+      "Skincare Distribution",
+      "PCD Franchise",
+      "B2B Skincare Supply"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+917027572757",
+        "email": "info@barekyne.in",
+        "url": "https://barekyne.in/contact"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://barekyne.in/#website",
+    "url": "https://barekyne.in",
+    "name": "Barekyne",
+    "publisher": {
+      "@id": "https://barekyne.in/#localbusiness"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": "https://barekyne.in/contact#webpage",
+    "url": "https://barekyne.in/contact",
+    "about": {
+      "@id": "https://barekyne.in/#localbusiness"
+    },
+    "isPartOf": {
+      "@id": "https://barekyne.in/#website"
+    },
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://barekyne.in/images/og-image.jpg"
+    }
+  }
+];
+
+const contactBulkSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "url": "https://barekyne.in/contact?type=bulk",
+    "about": {
+      "@type": "Organization",
+      "@id": "https://barekyne.in/#organization",
+      "name": "Barekyne",
+      "url": "https://barekyne.in",
+      "logo": "https://barekyne.in/images/og-image.jpg",
+      "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+      "telephone": "+917027572757",
+      "email": "info@barekyne.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+        "addressLocality": "Yamunanagar",
+        "addressRegion": "Haryana",
+        "postalCode": "135001",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.instagram.com/barekyne.skin/",
+        "https://x.com/barekyne_skin"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+917027572757",
+          "email": "info@barekyne.in"
+        }
+      ]
+    }
+  }
+];
 
 const contactInfo = [
   { icon: <Phone className="w-5 h-5" />, label: "Phone", value: SITE_CONFIG.phone, href: `tel:${SITE_CONFIG.phone.replace(/\s/g, "")}` },
@@ -19,9 +137,13 @@ const contactInfo = [
   { icon: <Clock className="w-5 h-5" />, label: "Business Hours", value: "Mon — Sat, 10AM — 7PM IST", href: "" },
 ];
 
-export default function ContactPage() {
+export default async function ContactPage(props: { searchParams: Promise<{ type?: string }> }) {
+  const searchParams = await props.searchParams;
+  const isBulk = searchParams.type === "bulk";
+
   return (
     <>
+      <JsonLd data={isBulk ? contactBulkSchema : contactSchema} />
       <section className="pt-28 pb-12 lg:pt-36 lg:pb-16 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-3xl mx-auto text-center">

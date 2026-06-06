@@ -6,6 +6,7 @@ import { formatPrice } from "@/lib/utils";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
 import Image from "next/image";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Clinical Skincare Product Range — Derma PCD Franchise & Wholesale Supply | Barekyne",
@@ -14,9 +15,91 @@ export const metadata: Metadata = {
   alternates: { canonical: "/products" },
 };
 
+const productsSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://barekyne.in/#organization",
+    "name": "Barekyne",
+    "url": "https://barekyne.in",
+    "logo": "https://barekyne.in/images/og-image.jpg",
+    "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
+    "telephone": "+917027572757",
+    "email": "info@barekyne.in",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "471, Sector 17 HUDA, Jagadhri",
+      "addressLocality": "Yamunanagar",
+      "addressRegion": "Haryana",
+      "postalCode": "135001",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.instagram.com/barekyne.skin/",
+      "https://x.com/barekyne_skin"
+    ],
+    "foundingDate": "2024",
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minValue": 10,
+      "maxValue": 50
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://barekyne.in/#website",
+    "url": "https://barekyne.in",
+    "name": "Barekyne",
+    "publisher": {
+      "@id": "https://barekyne.in/#organization"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://barekyne.in/products#webpage",
+    "url": "https://barekyne.in/products",
+    "name": "Products",
+    "isPartOf": {
+      "@id": "https://barekyne.in/#website"
+    },
+    "about": {
+      "@id": "https://barekyne.in/#organization"
+    },
+    "breadcrumb": {
+      "@id": "https://barekyne.in/products#breadcrumb"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://barekyne.in/products#breadcrumb",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://barekyne.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://barekyne.in/products"
+      }
+    ]
+  }
+];
+
 export default function ProductsPage() {
   return (
     <>
+      <JsonLd data={productsSchema} />
       {/* Hero */}
       <section className="pt-28 pb-12 lg:pt-36 lg:pb-16 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
