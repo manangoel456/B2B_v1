@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
+import { HowToJsonLd, ServiceJsonLd } from "@/components/seo/JsonLd";
 import ContactForm from "@/components/shared/ContactForm";
 
 export const metadata: Metadata = {
@@ -41,6 +42,23 @@ const steps = [
 export default function DistributorshipPage() {
   return (
     <>
+      <HowToJsonLd
+        name="How to Start a Skincare Distributorship with Barekyne in India"
+        description="Step-by-step guide to becoming an exclusive Barekyne clinical skincare distributor with monopoly territorial rights, WHO-GMP certified products, and 50%+ margins."
+        totalTime="P7D"
+        steps={[
+          { name: "Submit Application", text: "Fill out the distributorship inquiry form with your business details, preferred territory, and investment capacity at barekyne.in/distributorship." },
+          { name: "Consultation Call", text: "Our Business Development team discusses available territories, franchise terms, investment structure, and the partnership model." },
+          { name: "Review & Approval", text: "Application review, territory finalization based on district-level exclusivity, and legal franchise agreement drafting." },
+          { name: "Onboarding & Training", text: "Product training on the 6-SKU clinical ecosystem, marketing kit delivery, dermatologist detailing guides, and account setup." },
+          { name: "Market Launch", text: "First order placement starting at INR 50,000, logistics setup, and dedicated market launch support with scientific visual aids." },
+        ]}
+      />
+      <ServiceJsonLd
+        name="Derma PCD Franchise & Skincare Distributorship"
+        description="Exclusive district-level monopoly rights for clinical skincare distribution across India. WHO-GMP certified products, 50-58% margins, zero franchise fees. Starting investment INR 50,000."
+        serviceType="Pharmaceutical Distribution Franchise"
+      />
       {/* Hero */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

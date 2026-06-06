@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
-import { LocalBusinessJsonLd, OrganizationJsonLd } from "@/components/seo/JsonLd";
+import { LocalBusinessJsonLd, OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -49,7 +49,22 @@ export const metadata: Metadata = {
     "WHO-GMP certified derma products",
     "dermatologist recommended products wholesale",
     "CDSCO approved derma franchise",
-    "skincare PCD franchise 50 margin"
+    "skincare PCD franchise 50 margin",
+    "how to start a derma franchise in India",
+    "derma franchise profit margin",
+    "best skincare products for Indian skin wholesale",
+    "zero white cast sunscreen India",
+    "vitamin C serum for hyperpigmentation wholesale",
+    "clinical skincare distribution India",
+    "derma franchise investment India",
+    "monopoly rights skincare franchise",
+    "pharma franchise for derma products",
+    "top derma franchise companies India 2026",
+    "wholesale skincare products India",
+    "derma PCD franchise low investment",
+    "skincare franchise with monopoly rights",
+    "B2B skincare supply India",
+    "dermatology products wholesale India",
   ],
   authors: [{ name: "Barekyne" }],
   creator: "Barekyne",
@@ -109,6 +124,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-ivory text-charcoal font-body">
         <LocalBusinessJsonLd />
         <OrganizationJsonLd />
+        <WebSiteJsonLd />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

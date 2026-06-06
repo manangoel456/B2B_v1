@@ -7,13 +7,75 @@ import { ArticleJsonLd } from "@/components/seo/JsonLd";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 
 function renderContent(markdown: string): string {
-  return markdown
+  // Process tables first (before other replacements break the pipe syntax)
+  let html = markdown.replace(
+    /(?:^|\n)((?:\|.*\|[ \t]*\n)+)/gm,
+    (_match: string, tableBlock: string) => {
+      const rows = tableBlock.trim().split("\n").filter((r: string) => r.trim());
+      if (rows.length < 2) return tableBlock;
+
+      // Check if second row is separator (|---|---|)
+      const isSeparator = /^\|[\s:-]+\|/.test(rows[1]);
+      if (!isSeparator) return tableBlock;
+
+      const parseRow = (row: string) =>
+        row
+          .split("|")
+          .slice(1, -1)
+          .map((cell: string) => cell.trim());
+
+      const headerCells = parseRow(rows[0]);
+      const dataRows = rows.slice(2);
+
+      let table = '<div class="overflow-x-auto my-6"><table class="min-w-full border-collapse border border-beige/50 text-sm">';
+      table += "<thead><tr>";
+      headerCells.forEach((cell: string) => {
+        table += `<th class="border border-beige/50 bg-cream px-4 py-3 text-left font-semibold text-charcoal">${cell}</th>`;
+      });
+      table += "</tr></thead><tbody>";
+      dataRows.forEach((row: string) => {
+        const cells = parseRow(row);
+        table += "<tr>";
+        cells.forEach((cell: string) => {
+          // Process bold and links within cells
+          let processed = cell
+            .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+            .replace(
+              /\[(.*?)\]\((.*?)\)/g,
+              '<a href="$2" class="text-gold hover:text-gold-dark underline">$1</a>'
+            );
+          table += `<td class="border border-beige/50 px-4 py-3 text-warm-gray">${processed}</td>`;
+        });
+        table += "</tr>";
+      });
+      table += "</tbody></table></div>";
+      return table;
+    }
+  );
+
+  // Process the rest of the markdown
+  html = html
+    // Headings
     .replace(/### (.*)/g, "<h3>$1</h3>")
     .replace(/## (.*)/g, "<h2>$1</h2>")
+    // Bold
     .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-    .replace(/^- (.*)/gm, "<li>$1</li>")
+    // Links: [text](url)
+    .replace(
+      /\[(.*?)\]\((.*?)\)/g,
+      '<a href="$2" class="text-gold hover:text-gold-dark underline">$1</a>'
+    )
+    // Horizontal rules
+    .replace(/^---$/gm, '<hr class="my-8 border-t border-beige" />')
+    // Ordered lists: 1. Item
+    .replace(/^\d+\.\s+(.*)/gm, "<li>$1</li>")
+    // Unordered lists
+    .replace(/^[\*\-] (.*)/gm, "<li>$1</li>")
+    // Paragraphs
     .replace(/\n\n/g, "</p><p>")
     .replace(/\n/g, "<br/>");
+
+  return html;
 }
 
 export async function generateStaticParams() {
