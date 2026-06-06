@@ -141,12 +141,6 @@ export default async function CityFranchisePage(
             >
               Apply for {data.cityDisplay} Territory →
             </a>
-            <a
-              href="/franchise-info-pack"
-              className="inline-flex items-center justify-center border border-white/20 hover:border-white/50 text-white font-semibold px-8 py-4 rounded-lg text-base transition-all duration-200"
-            >
-              Download Franchise Pack
-            </a>
           </div>
         </div>
       </section>

@@ -548,7 +548,7 @@ Don't let your working capital sit in slow-moving commodity products. Distribute
 
 <div className="flex gap-4 mt-8 mb-6">
   <a href="/contact-franchise" className="px-6 py-3 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-amber-300 transition-colors">Apply for Monopoly Rights →</a>
-  <a href="/products/hybrid-invisible-sunscreen-spf-50" className="px-6 py-3 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">View Product Specs →</a>
+  <a href="/products/sunscreen-spf50" className="px-6 py-3 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">View Product Specs →</a>
 </div>
     `,
     author: "Barekyne Clinical Division",
