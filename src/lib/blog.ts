@@ -11,6 +11,10 @@ export interface BlogPost {
   image: string;
 }
 
+// -----------------------------------------------------------------------------
+// The blogPosts array contains all clinical and business articles for the /blog route.
+// The 6 new clinical SEO articles are located at the end of this array.
+// -----------------------------------------------------------------------------
 export const blogPosts: BlogPost[] = [
   {
     slug: "complete-guide-starting-derma-pcd-franchise-india",
