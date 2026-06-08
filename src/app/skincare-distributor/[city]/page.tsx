@@ -5,6 +5,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCitySEOData, getAllCitySlugs } from "@/lib/seo-data";
+import ContactForm from "@/components/shared/ContactForm";
 
 // ─── Static Generation ────────────────────────────────────────────────────────
 export async function generateStaticParams() {
@@ -50,6 +51,7 @@ export async function generateMetadata(
   };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getCustomCitySchema(city: string): any[] | null {
   switch (city) {
     case "ahmedabad":
@@ -921,31 +923,21 @@ export default async function CityFranchisePage(
         </div>
       </section>
 
-      {/* ── FINAL CTA SECTION ────────────────────────────────────────── */}
-      <section className="bg-gradient-to-br from-amber-400 to-amber-500 py-20 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            Secure Your {data.cityDisplay} Franchise Territory Today
-          </h2>
-          <p className="text-slate-800 text-lg mb-10 leading-relaxed">
-            Once a territory is allocated, it is closed. Exclusive monopoly
-            rights are granted to the first confirmed franchise partner in each
-            district. Our B2B partnership team reviews applications within 48
-            hours.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact-franchise"
-              className="inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-white font-bold px-10 py-4 rounded-lg text-base transition-all duration-200"
-            >
-              Apply for {data.cityDisplay} Territory →
-            </a>
-            <a
-              href="tel:+917027572757"
-              className="inline-flex items-center justify-center border-2 border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white font-bold px-10 py-4 rounded-lg text-base transition-all duration-200"
-            >
-              Call B2B Team Now
-            </a>
+      {/* ── APPLY INLINE FORM ──────────────────────────────────────── */}
+      <section className="bg-gradient-to-br from-amber-400 to-amber-500 py-20 px-6" id="apply">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+              Secure Your {data.cityDisplay} Franchise Territory Today
+            </h2>
+            <p className="text-slate-800 text-lg leading-relaxed">
+              Once a territory is allocated, it is closed. Exclusive monopoly
+              rights are granted to the first confirmed franchise partner in each
+              district. Fill the form below — our B2B team reviews applications within 48 hours.
+            </p>
+          </div>
+          <div className="bg-white p-8 rounded-2xl shadow-xl">
+            <ContactForm defaultInquiryType="Franchise Inquiry" />
           </div>
         </div>
       </section>

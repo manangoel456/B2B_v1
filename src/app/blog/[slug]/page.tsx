@@ -5,7 +5,9 @@ import { ArrowLeft, Clock, User, Calendar, ChevronRight } from "lucide-react";
 import { blogPosts, getBlogPostBySlug } from "@/lib/blog";
 import JsonLd, { ArticleJsonLd } from "@/components/seo/JsonLd";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import BlogCTA from "@/components/blog/BlogCTA";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getCustomSchemaForPost(slug: string): any[] | null {
   switch (slug) {
     case "anti-pigmentation-derma-franchise-solutions-india-2026":
@@ -779,7 +781,7 @@ function renderContent(markdown: string): string {
         table += "<tr>";
         cells.forEach((cell: string) => {
           // Process bold and links within cells
-          let processed = cell
+          const processed = cell
             .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
             .replace(
               /\[(.*?)\]\((.*?)\)/g,
@@ -914,6 +916,9 @@ export default async function BlogPostPage({
             <div className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-charcoal prose-p:text-warm-gray prose-p:leading-relaxed prose-strong:text-charcoal prose-li:text-warm-gray prose-h2:text-2xl prose-h3:text-xl prose-a:text-gold hover:prose-a:text-gold-dark">
               <div dangerouslySetInnerHTML={{ __html: renderContent(post.content) }} />
             </div>
+
+            {/* Lead Capture CTA */}
+            <BlogCTA />
 
             {/* Tags */}
             <div className="mt-12 pt-8 border-t border-beige">

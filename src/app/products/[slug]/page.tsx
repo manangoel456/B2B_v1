@@ -11,6 +11,7 @@ import ContactForm from "@/components/shared/ContactForm";
 import Image from "next/image";
 import ProductGallery from "@/components/products/ProductGallery";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getCustomProductSchema(slug: string): any[] | null {
   switch (slug) {
     case "night-cream":
