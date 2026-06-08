@@ -6,9 +6,9 @@ import SectionHeading from "@/components/shared/SectionHeading";
 import ContactForm from "@/components/shared/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Apply for Derma PCD Franchise | Barekyne Partnership",
+  title: "Apply for Derma PCD Franchise | Secure Exclusive Monopoly Rights",
   description:
-    "Apply for a Barekyne Derma PCD Franchise territory. Contact our B2B team to secure exclusive monopoly distribution rights for clinical skincare.",
+    "Secure your exclusive district monopoly rights with 50-58% profit margins. Start a premium clinical skincare franchise in your region. Apply in 2 minutes.",
   alternates: { canonical: "/contact-franchise" },
 };
 

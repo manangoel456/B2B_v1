@@ -9,9 +9,9 @@ import Image from "next/image";
 import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Clinical Skincare Product Range — Derma PCD Franchise & Wholesale Supply | Barekyne",
+  title: "Buy Wholesale Skincare Products India — Clinical Range | Barekyne",
   description:
-    "Explore Barekyne's WHO-GMP certified clinical skincare range, including stable 20% Vitamin C Serum, SPF 50 broad-spectrum Sunscreen, and advanced anti-pigmentation complexes. Bulk procurement and exclusive PCD monopoly rights available.",
+    "Sourcing wholesale skincare products in India? Settle for nothing less than WHO-GMP certified clinical-grade. Explore our 5-SKU ecosystem with 50%+ margins.",
   alternates: { canonical: "/products" },
 };
 
