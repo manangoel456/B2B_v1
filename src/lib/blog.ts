@@ -4088,80 +4088,59 @@ If a skincare product contains active ingredients formulated to treat, mitigate,
 
 ### 2. Cosmetic-Notified Skincare Products
 Daily-use cleansers, general sunscreens, body lotions, and basic moisturizers that are notified as cosmetics under the Drugs and Cosmetics Rules do not technically require a retail or wholesale drug license for selling.
-*   **License Requirement**: You can trade these with a valid GST registration alone.
-*   *Note for Barekyne Partners*: While Barekyne's advanced products like the Hybrid Sunscreen, Face Wash, and Body Lotion are manufactured under WHO-GMP compliance, having a Wholesale Drug License is highly recommended for B2B partners who intend to supply directly to hospitals, clinical pharmacies, and dermatology dispensaries.
+*   **License Requirement**: **You can begin distribution with just a GSTIN alone.**
+*   *Note for Barekyne Partners*: Because Barekyne’s advanced formulations like the Hybrid Sunscreen, Face Wash, and Body Lotion are notified as cosmetics under the rules, **our franchise partners do not need a Wholesale Drug License to start.** You can begin your business immediately with just a GSTIN.
 
 ---
 
 ## Types of Drug Licenses for Derma PCD Businesses
 
-For B2B franchise partners, there are two primary drug licenses issued by the State Drug Control Authority:
+If you intend to expand into prescription-heavy therapeutic drug formulations in the future, there are two primary drug licenses issued by the State Drug Control Authority:
 
 | License Type | Governing Forms | Who Needs It? |
 | :--- | :--- | :--- |
 | **Wholesale Drug License** | Form 20-B & Form 21-B | B2B distributors, PCD franchise partners, and stockists supplying to pharmacies/clinics. |
 | **Retail Drug License** | Form 20 & Form 21 | Retail chemists, independent pharmacies, and dispensaries selling directly to patients. |
 
-*For B2B franchise operations, you must secure the **Wholesale Drug License** (Form 20-B and 21-B).*
+*For general Barekyne distribution, you can skip the drug license process entirely and start with a GSTIN.*
 
 ---
 
-## Wholesale Drug License Requirements Checklist
+## Storage & Space Requirements
 
-To apply for a Wholesale Drug License in India, you must meet the following structural and legal requirements:
+Unlike traditional pharmaceutical setups that have rigid, high-cost infrastructure mandates, the Barekyne franchise model is built for ease of entry and fast launch:
 
-### 1. Commercial Space Infrastructure
-*   **Minimum Area**: A minimum commercial space of **10 square meters** (approx. 108 sq. ft.) is legally required for a wholesale setup.
-*   **Premises Type**: The space must be in a commercial area or a mixed land-use zone approved by local municipal laws. A clean, independent entrance is required.
+### 1. Space: As Per Your Stock Levels
+*   **No Rigid Commercial Space Mandate**: For distributing Barekyne products, there is no requirement for a massive commercial shop or complex office layout.
+*   **Storage**: The space required is simply **as per your inventory stock**. You can comfortably manage storage and logistics from a small commercial room or home office setup as long as it is clean, dry, and secure.
 
-### 2. Qualified Technical Competency
-You cannot secure a wholesale license without a designated qualified person. You need either:
-*   A **Registered Pharmacist** under the State Pharmacy Council.
-*   A **Competent Person** who is a graduate with at least 1 year of experience in drug marketing/wholesale, or a matriculate with 4+ years of documented experience in drug distribution.
-
-### 3. Climate-Controlled Storage
-Clinical skincare active ingredients (such as Vitamin C, Retinoids, and Ceramide complexes) degrade under high temperatures.
-*   **Equipment**: You must install a **refrigerator** and **air conditioner** in your storage facility.
-*   **Temperature**: The facility must maintain a temperature below 25°C to preserve product stability, which is verified by drug inspectors during audit.
-
----
-
-## Documents Required for License Application
-
-Applications are submitted online via the respective state's Drug Control portal (e.g., Xtended Licensing System). You must upload:
-
-1. **Form 19**: Application form for granting a license to sell, stock, or distribute drugs.
-2. **Key Plan & Site Plan**: Scale drawings of the commercial storage premises.
-3. **Proof of Ownership/Tenancy**: Rent agreement or property tax receipt.
-4. **Constitution of Firm**: Partnership deed, LLP agreement, or incorporation certificate.
-5. **Technical Competency Proofs**: Pharmacist certificate, registration booklet, and affidavit.
-6. **Refrigerator Purchase Invoice**: Proof of temperature control equipment.
-7. **Government License Fee**: Typically around ₹3,000 to ₹5,000 depending on the state.
+### 2. Temperature: No Specialized Cold Storage Required
+*   **Highly Stable Formulations**: Some skincare lines require expensive refrigeration (cold storage) to prevent active ingredients from oxidizing (turning yellow or brown).
+*   **No Cold Storage Needed**: Barekyne formulations are specifically engineered for India's harsh climate. We use highly stable, heat-resistant derivatives (such as Ethyl Ascorbic Acid for Vitamin C, and Kojic Acid Dipalmitate for the Night Cream). They maintain full efficacy at normal room temperatures, meaning **no refrigeration setup is required** at your storage unit.
 
 ---
 
 ## Tax and Company Registration Rules
 
-In addition to the drug license, your B2B franchise requires:
+To get started with your B2B franchise, you only need:
 
 ### 1. Goods and Services Tax (GSTIN)
 A GST registration is **mandatory** for B2B skincare distribution:
 *   Required for any inter-state procurement from the manufacturer.
 *   Required for issuing commercial B2B tax invoices to pharmacies, aesthetic centers, and clinics.
-*   Applies a standard 18% GST rate on most skincare and cosmetic preparations.
+*   Applies a standard 18% GST rate on skincare and cosmetic preparations.
 
 ### 2. Company Structure
 *   **Proprietorship**: Easiest and cheapest to start. Recommended for individual entrepreneurs.
-*   **Partnership / LLP**: Recommended when starting with multiple business partners to clearly define equity.
-*   **Private Limited**: Best for scaling and raising institutional B2B capital.
+*   **Partnership / LLP**: Recommended when starting with multiple business partners.
 
 ---
 
-## Financial Requirements: Barekyne Franchise Model
+## Financial Requirements: Easy Partnership Model
 
 Unlike traditional pharmaceutical distributorships that demand heavy upfront capital, security deposits, and franchise fees:
 *   **Franchise Fees**: **₹0** (Zero).
-*   **Security Deposit**: **₹0** (Zero).
+*   **Security Deposit**: **₹0** (Zero). **No security deposit is required** for setting up your distributorship.
 *   **Minimum Capital**: The starting investment is **INR 50,000**, which is allocated **100% to product inventory**.
 *   **Monopoly Territory**: A legally binding exclusive agreement is signed for your allocated district, ensuring no other distributor can sell Barekyne products in your territory.
 
@@ -4171,10 +4150,9 @@ Unlike traditional pharmaceutical distributorships that demand heavy upfront cap
 
 1. **Incorporate your entity** (Proprietorship or Partnership) and get your PAN card.
 2. **Apply for GSTIN** online (usually processed in 3–7 business days).
-3. **Secure commercial space** (minimum 10 sq. mt.) and arrange temperature storage (AC/Fridge).
-4. **Hire/appoint a Registered Pharmacist** or competent person.
-5. **File online application** for Wholesale Drug License on your state’s drug control portal.
-6. **Submit your Barekyne territory inquiry** to secure monopoly rights for your district.
+3. **Setup storage space** (as per stock levels) in a cool, dry place.
+4. **Secure your Barekyne district** with a ₹50,000 inventory order (no franchise fees, no deposit).
+5. **Start distributing** to clinics, pharmacies, and retail counters in your exclusive region.
 
 [Apply for your district franchise territory →](/contact-franchise)
 
