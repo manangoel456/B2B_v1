@@ -423,6 +423,7 @@ export default async function ProductDetailPage({
                       src={rp.images[0]} 
                       alt={rp.name} 
                       fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-cover mix-blend-multiply opacity-90 group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>

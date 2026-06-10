@@ -128,6 +128,7 @@ export default function ProductsPage() {
                       src={product.images[0]} 
                       alt={product.name} 
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover mix-blend-multiply opacity-90 group-hover:scale-105 transition-transform duration-700"
                     />
                     <span className="absolute top-4 left-4 px-3 py-1.5 bg-white/90 backdrop-blur-sm text-xs font-semibold text-gold uppercase tracking-wider rounded-full">

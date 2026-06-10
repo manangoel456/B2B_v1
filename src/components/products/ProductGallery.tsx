@@ -20,6 +20,7 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
           src={mainImage} 
           alt={productName} 
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover mix-blend-multiply opacity-95 transition-all duration-500"
         />
       </div>
@@ -42,6 +43,7 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
                 src={img} 
                 alt={`${productName} thumbnail ${idx + 1}`} 
                 fill
+                sizes="150px"
                 className="object-cover mix-blend-multiply"
               />
             </button>

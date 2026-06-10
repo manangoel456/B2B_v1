@@ -121,6 +121,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
     >
       <head>
         <link rel="llms" href="/llms.txt" />
