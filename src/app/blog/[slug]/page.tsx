@@ -3,793 +3,9 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Clock, User, Calendar, ChevronRight } from "lucide-react";
 import { blogPosts, getBlogPostBySlug } from "@/lib/blog";
-import JsonLd, { ArticleJsonLd } from "@/components/seo/JsonLd";
+import JsonLd from "@/components/seo/JsonLd";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import BlogCTA from "@/components/blog/BlogCTA";
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function getCustomSchemaForPost(slug: string): any[] | null {
-  switch (slug) {
-    case "anti-pigmentation-derma-franchise-solutions-india-2026":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/anti-pigmentation-derma-franchise-solutions-india-2026"
-          },
-          "headline": "Anti-Pigmentation Cosmeceuticals: The High-ROI Niche for Derma PCD Franchises in India",
-          "description": "An in-depth look at why anti-pigmentation and skin-brightening solutions dominate the B2B derma franchise market. Explores advanced tyrosinase inhibitors, stable Vitamin C, and WHO-GMP compliance standards.",
-          "url": "https://barekyne.in/blog/anti-pigmentation-derma-franchise-solutions-india-2026",
-          "datePublished": "2026-06-01",
-          "author": {
-            "@type": "Organization",
-            "name": "Dr. Barekyne Editorial Board"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "barekyne-tranexamic-acid-future-pigmentation-care":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Why Barekyne is Championing Tranexamic Acid as the Future of Pigmentation Care",
-          "description": "Discover why top dermatologists are moving away from harsh bleaching agents like hydroquinone and embracing Tranexamic Acid (TXA) for safe, long-term pigmentation management.",
-          "url": "https://barekyne.in/blog/barekyne-tranexamic-acid-future-pigmentation-care",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/barekyne-tranexamic-acid-future-pigmentation-care"
-          },
-          "datePublished": "2026-05-24",
-          "image": [
-            "https://barekyne.in/images/og-image.jpg"
-          ],
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "best-derma-products-indian-skin-b2b":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "@id": "https://barekyne.in/#organization",
-          "name": "Barekyne",
-          "url": "https://barekyne.in",
-          "logo": "https://barekyne.in/images/og-image.jpg",
-          "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
-          "telephone": "+917027572757",
-          "email": "info@barekyne.in",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
-            "addressLocality": "Yamunanagar",
-            "addressRegion": "Haryana",
-            "postalCode": "135001",
-            "addressCountry": "IN"
-          },
-          "sameAs": [
-            "https://www.instagram.com/barekyne.skin/",
-            "https://x.com/barekyne_skin"
-          ],
-          "foundingDate": "2024",
-          "numberOfEmployees": {
-            "@type": "QuantitativeValue",
-            "minValue": 10,
-            "maxValue": 50
-          },
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "knowsAbout": [
-            "Clinical Skincare",
-            "Dermatology Products",
-            "Skincare Distribution",
-            "PCD Franchise",
-            "B2B Skincare Supply"
-          ]
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "@id": "https://barekyne.in/#localbusiness",
-          "name": "Barekyne",
-          "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
-          "url": "https://barekyne.in",
-          "telephone": "+917027572757",
-          "email": "info@barekyne.in",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "471, Sector 17 HUDA, Jagadhri",
-            "addressLocality": "Yamunanagar",
-            "addressRegion": "Haryana",
-            "postalCode": "135001",
-            "addressCountry": "IN"
-          },
-          "sameAs": [
-            "https://www.instagram.com/barekyne.skin/",
-            "https://x.com/barekyne_skin"
-          ],
-          "priceRange": "₹₹",
-          "image": "https://barekyne.in/images/og-image.jpg"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Best Derma Products for Indian Skin: A Clinical B2B Guide for Franchise Owners",
-          "description": "A clinical breakdown of why Fitzpatrick III-VI skin requires specific formulation strategies, and which derma products offer the highest prescription velocity for distributors.",
-          "url": "https://barekyne.in/blog/best-derma-products-indian-skin-b2b",
-          "datePublished": "2025-02-10",
-          "mainEntityOfPage": "https://barekyne.in/blog/best-derma-products-indian-skin-b2b",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@id": "https://barekyne.in/#organization"
-          }
-        }
-      ];
-    case "best-skincare-products-for-clinics":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Best Skincare Products for Clinics & Dermatology Practices",
-          "description": "Discover the essential skincare products every dermatology clinic should stock, and how to choose professional-grade formulations that deliver real results.",
-          "url": "https://barekyne.in/blog/best-skincare-products-for-clinics",
-          "mainEntityOfPage": "https://barekyne.in/blog/best-skincare-products-for-clinics",
-          "datePublished": "2025-05-10",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in"
-          }
-        }
-      ];
-    case "complete-guide-starting-derma-pcd-franchise-india":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "The Complete Guide to Starting a Derma PCD Franchise in India: B2B Manual",
-          "description": "A comprehensive, clinical, and data-backed manual on starting a high-margin Derma PCD franchise in India. Covers WHO-GMP compliance, CDSCO guidelines, 50%+ margins, and melanin-rich skin science.",
-          "url": "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india",
-          "mainEntityOfPage": "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india",
-          "datePublished": "2026-06-01",
-          "author": {
-            "@type": "Organization",
-            "name": "Dr. Barekyne Editorial Board"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in"
-          },
-          "image": [
-            "https://barekyne.in/images/og-image.jpg"
-          ]
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://barekyne.in"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "The Complete Guide to Starting a Derma PCD Franchise in India: B2B Manual",
-              "item": "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india"
-            }
-          ]
-        }
-      ];
-    case "barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Barekyne vs Top PCD Pharma Franchise Companies in India (2026 Comparison)",
-          "description": "Comparing Barekyne with leading general PCD pharma companies like Vindcare, Intra Life, and Scot Derma. Understand why a 5-SKU clinical ecosystem with 50-58% margins outperforms 200-SKU catalogs.",
-          "url": "https://barekyne.in/blog/barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison",
-          "mainEntityOfPage": "https://barekyne.in/blog/barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison",
-          "datePublished": "2026-06-16",
-          "author": {
-            "@type": "Organization",
-            "name": "Dr. Barekyne Editorial Board"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in"
-          },
-          "image": [
-            "https://barekyne.in/images/og-image.jpg"
-          ]
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://barekyne.in"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Barekyne vs Top PCD Pharma Franchise Companies in India (2026 Comparison)",
-              "item": "https://barekyne.in/blog/barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison"
-            }
-          ]
-        }
-      ];
-    case "derma-pcd-franchise-india-guide":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "@id": "https://barekyne.in/blog/derma-pcd-franchise-india-guide#blogposting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/derma-pcd-franchise-india-guide"
-          },
-          "headline": "Derma PCD Franchise in India 2025: The Complete Investor's Guide to Clinical Skincare Distribution",
-          "description": "Everything a serious pharma investor needs to know before entering India's high-growth clinical skincare PCD franchise market. Product science, ROI models, territory strategy, and how to choose the right derma franchise partner.",
-          "url": "https://barekyne.in/blog/derma-pcd-franchise-india-guide",
-          "datePublished": "2025-01-15",
-          "image": [
-            "https://barekyne.in/images/og-image.jpg"
-          ],
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "derma-pcd-pharma-franchise-india-secure-monopoly-rights":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "@id": "https://barekyne.in/blog/derma-pcd-pharma-franchise-india-secure-monopoly-rights/#blogposting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/derma-pcd-pharma-franchise-india-secure-monopoly-rights"
-          },
-          "headline": "Derma PCD Pharma Franchise in India: Secure Monopoly Rights with a Luxury Clinical Brand",
-          "description": "Looking for a highly profitable derma PCD pharma franchise in India? Partner with Barekyne for premium formulations, high margins, and B2B monopoly rights.",
-          "url": "https://barekyne.in/blog/derma-pcd-pharma-franchise-india-secure-monopoly-rights",
-          "datePublished": "2026-05-26",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in"
-          }
-        }
-      ];
-    case "growing-demand-clinical-skincare-india":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Growing Demand for Clinical Skincare in India",
-          "description": "Exploring the rapid growth of clinical and dermatology-grade skincare in India, market trends, and what it means for distributors and business partners.",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/growing-demand-clinical-skincare-india"
-          },
-          "url": "https://barekyne.in/blog/growing-demand-clinical-skincare-india",
-          "datePublished": "2025-04-28",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "how-to-build-profitable-clinical-skincare-distribution-business-india":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/how-to-build-profitable-clinical-skincare-distribution-business-india"
-          },
-          "headline": "How to Build a Profitable Clinical Skincare Distribution Business in India",
-          "description": "Discover how to launch a Clinical Skincare Distribution Business in India with monopoly rights, premium derma products, dermatologist partnerships and scalable B2B margins.",
-          "url": "https://barekyne.in/blog/how-to-build-profitable-clinical-skincare-distribution-business-india",
-          "datePublished": "2026-05-23",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "how-to-choose-best-derma-pcd-franchise-company-india":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "How to Choose the Best Derma PCD Franchise Company in India (2026 Guide)",
-          "description": "A comprehensive 2026 guide on evaluating and selecting the perfect Derma PCD franchise partner for long-term growth and sustainable profitability.",
-          "url": "https://barekyne.in/blog/how-to-choose-best-derma-pcd-franchise-company-india",
-          "mainEntityOfPage": "https://barekyne.in/blog/how-to-choose-best-derma-pcd-franchise-company-india",
-          "datePublished": "2026-05-24",
-          "image": "https://barekyne.in/images/og-image.jpg",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "how-to-start-high-margin-skincare-distributorship-india-2026":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/how-to-start-high-margin-skincare-distributorship-india-2026"
-          },
-          "headline": "How to Start a High-Margin Skincare Distributorship in India (2026 Guide)",
-          "description": "A comprehensive 2026 guide to starting a highly profitable clinical skincare distributorship in India, covering margins, licenses, and brand selection.",
-          "datePublished": "2026-05-23",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          },
-          "url": "https://barekyne.in/blog/how-to-start-high-margin-skincare-distributorship-india-2026"
-        }
-      ];
-    case "how-to-start-skincare-distribution-business-india":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "How to Start a Skincare Distribution Business in India",
-          "description": "A comprehensive guide to entering India's booming skincare distribution market, from choosing the right brand partner to building a successful distribution network.",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/how-to-start-skincare-distribution-business-india"
-          },
-          "url": "https://barekyne.in/blog/how-to-start-skincare-distribution-business-india",
-          "datePublished": "2025-05-15",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          },
-          "image": "https://barekyne.in/images/og-image.jpg"
-        }
-      ];
-    case "monopoly-rights-cosmetic-distribution":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "@id": "https://barekyne.in/blog/monopoly-rights-cosmetic-distribution#blogposting",
-          "mainEntityOfPage": "https://barekyne.in/blog/monopoly-rights-cosmetic-distribution",
-          "headline": "How Monopoly Rights Work in Cosmetic Distribution",
-          "description": "Understanding the monopoly rights model in cosmetic distribution — benefits, responsibilities, and how to secure exclusive territory rights for maximum profitability.",
-          "url": "https://barekyne.in/blog/monopoly-rights-cosmetic-distribution",
-          "datePublished": "2025-05-05",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          },
-          "image": "https://barekyne.in/images/og-image.jpg"
-        }
-      ];
-    case "pharma-franchise-derma-products-india-ultimate-b2b-guide":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "@id": "https://barekyne.in/blog/pharma-franchise-derma-products-india-ultimate-b2b-guide#blogpost",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/pharma-franchise-derma-products-india-ultimate-b2b-guide"
-          },
-          "headline": "Pharma Franchise for Derma Products in India: The Ultimate B2B Guide to Monopoly Rights & High ROI",
-          "description": "Discover why securing a pharma franchise for derma products is one of the most lucrative B2B opportunities in India. Learn about monopoly rights, ROI, and how to partner with premium clinical brands.",
-          "url": "https://barekyne.in/blog/pharma-franchise-derma-products-india-ultimate-b2b-guide",
-          "datePublished": "2026-05-26",
-          "author": {
-            "@type": "Person",
-            "name": "Barekyne Team"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "pharma-franchise-for-derma-products-setup-guide":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "@id": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide#blogposting",
-          "headline": "Pharma Franchise for Derma Products: The 2026 Business & Legal Setup Guide",
-          "description": "A complete operational guide to launching a Derma PCD franchise in India, covering drug licensing, territory agreements, and initial capital allocation strategies.",
-          "url": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide",
-          "mainEntityOfPage": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide",
-          "datePublished": "2025-03-01",
-          "inLanguage": "en",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne B2B Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          },
-          "image": "https://barekyne.in/images/og-image.jpg"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://barekyne.in/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Blog",
-              "item": "https://barekyne.in/blog"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Pharma Franchise for Derma Products: The 2026 Business & Legal Setup Guide",
-              "item": "https://barekyne.in/blog/pharma-franchise-for-derma-products-setup-guide"
-            }
-          ]
-        }
-      ];
-    case "top-derma-franchise-companies-india-2026":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "@id": "https://barekyne.in/blog/top-derma-franchise-companies-india-2026#blogposting",
-          "url": "https://barekyne.in/blog/top-derma-franchise-companies-india-2026",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/top-derma-franchise-companies-india-2026"
-          },
-          "headline": "Top Derma Franchise Companies in India 2026: A B2B Investor's Comparison",
-          "description": "An objective comparison of India's leading derma PCD franchise companies, evaluating each on product portfolio, monopoly terms, WHO-GMP compliance, and distributor ROI.",
-          "datePublished": "2025-03-10",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne B2B Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          },
-          "image": "https://barekyne.in/images/og-image.jpg"
-        }
-      ];
-    case "zero-white-cast-sunscreen-india-b2b":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/zero-white-cast-sunscreen-india-b2b"
-          },
-          "headline": "Zero White Cast Sunscreen India: The Financial Case for Patient Compliance",
-          "description": "Why distributing a cosmetically elegant, invisible SPF 50 sunscreen is the most profitable decision a derma franchise owner can make in the Indian market.",
-          "url": "https://barekyne.in/blog/zero-white-cast-sunscreen-india-b2b",
-          "datePublished": "2025-02-15",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum"
-          },
-          "headline": "Ethyl Ascorbic Acid vs L-Ascorbic Acid: Why Stable Vitamin C Serums Win in Indian Climate",
-          "description": "The science behind why 3-O-Ethyl Ascorbic Acid outperforms traditional L-Ascorbic Acid in India's hot, humid climate — and what this means for B2B distributors, clinics, and pharmacies.",
-          "url": "https://barekyne.in/blog/ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum",
-          "datePublished": "2026-06-06",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "kojic-acid-dipalmitate-alpha-arbutin-dark-spot-treatment":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/kojic-acid-dipalmitate-alpha-arbutin-dark-spot-treatment"
-          },
-          "headline": "Kojic Acid Dipalmitate + Alpha Arbutin: The Science of Multi-Pathway Dark Spot Treatment",
-          "description": "Why combining lipophilic Kojic Acid Dipalmitate with Alpha Arbutin and Niacinamide creates a triple-pathway depigmentation system that outperforms single-ingredient approaches.",
-          "url": "https://barekyne.in/blog/kojic-acid-dipalmitate-alpha-arbutin-dark-spot-treatment",
-          "datePublished": "2026-06-06",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "polyglutamic-acid-hyaluronic-acid-hydration-face-wash":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/polyglutamic-acid-hyaluronic-acid-hydration-face-wash"
-          },
-          "headline": "Polyglutamic Acid vs Hyaluronic Acid: Why PGA Holds 4-10x More Moisture in Your Face Wash",
-          "description": "The science of paradoxical rebound hydration — how Polyglutamic Acid in a face wash can make your skin more hydrated after cleansing, not less.",
-          "url": "https://barekyne.in/blog/polyglutamic-acid-hyaluronic-acid-hydration-face-wash",
-          "datePublished": "2026-06-06",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "dermawhite-wf-body-lotion-brightening-technology":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/dermawhite-wf-body-lotion-brightening-technology"
-          },
-          "headline": "Dermawhite™ WF: The Botanical Technology Behind 90% Melanin Inhibition in Body Lotions",
-          "description": "How Dermawhite™ WF — a clinically validated botanical melanin inhibitor — combined with 3% Vitamin C and Japanese botanicals creates the most effective body brightening system for Indian skin.",
-          "url": "https://barekyne.in/blog/dermawhite-wf-body-lotion-brightening-technology",
-          "datePublished": "2026-06-06",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "zinc-pca-sunscreen-oily-acne-prone-skin-india":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/zinc-pca-sunscreen-oily-acne-prone-skin-india"
-          },
-          "headline": "Zinc PCA Sunscreen for Oily & Acne-Prone Skin: Why India Needs Sebum-Intelligent Photoprotection",
-          "description": "How Zinc PCA transforms sunscreen from a greasy burden into an intelligent skincare product that controls oil, protects from UV, and repairs with antioxidants — designed specifically for Indian skin.",
-          "url": "https://barekyne.in/blog/zinc-pca-sunscreen-oily-acne-prone-skin-india",
-          "datePublished": "2026-06-06",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    case "complete-skincare-routine-indian-skin-am-pm-guide":
-      return [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://barekyne.in/blog/complete-skincare-routine-indian-skin-am-pm-guide"
-          },
-          "headline": "The Complete AM/PM Skincare Routine for Indian Skin: A Dermatologist-Aligned Guide",
-          "description": "A step-by-step morning and evening skincare routine using clinically formulated products designed specifically for Indian skin types, climate, and common concerns like pigmentation, oiliness, and acne.",
-          "url": "https://barekyne.in/blog/complete-skincare-routine-indian-skin-am-pm-guide",
-          "datePublished": "2026-06-06",
-          "author": {
-            "@type": "Organization",
-            "name": "Barekyne Clinical Division"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Barekyne",
-            "url": "https://barekyne.in",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://barekyne.in/images/og-image.jpg"
-            }
-          }
-        }
-      ];
-    default:
-      return null;
-  }
-}
 
 function renderContent(markdown: string): string {
   // Process tables first (before other replacements break the pipe syntax)
@@ -897,21 +113,55 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 2);
-  const customSchema = getCustomSchemaForPost(slug);
+  const blogSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": post.title,
+      "description": post.excerpt,
+      "url": `https://barekyne.in/blog/${slug}`,
+      "mainEntityOfPage": `https://barekyne.in/blog/${slug}`,
+      "datePublished": post.date,
+      "author": {
+        "@type": "Organization",
+        "name": post.author
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Barekyne",
+        "url": "https://barekyne.in",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://barekyne.in/images/og-image.jpg"
+        }
+      },
+      "image": [
+        "https://barekyne.in/images/og-image.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://barekyne.in"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": post.title,
+          "item": `https://barekyne.in/blog/${slug}`
+        }
+      ]
+    }
+  ];
 
   return (
     <>
-      {customSchema ? (
-        <JsonLd data={customSchema} />
-      ) : (
-        <ArticleJsonLd
-          title={post.title}
-          description={post.excerpt}
-          url={`https://barekyne.in/blog/${slug}`}
-          datePublished={post.date}
-          author={post.author}
-        />
-      )}
+      <JsonLd data={blogSchema} />
 
       {/* Breadcrumb */}
       <section className="pt-24 pb-4 bg-cream">
@@ -953,6 +203,22 @@ export default async function BlogPostPage({
                 </span>
               </div>
             </div>
+
+            {/* AI Summary / TL;DR */}
+            <aside 
+              className="mb-10 bg-white border border-beige/80 rounded-2xl p-6 md:p-8 shadow-sm"
+              data-speakable="true"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-2 h-2 rounded-full bg-gold animate-pulse" />
+                <h2 className="text-xs font-bold uppercase tracking-widest text-gold">
+                  AI Summary / Key Takeaways
+                </h2>
+              </div>
+              <p className="text-base md:text-lg text-charcoal font-medium leading-relaxed">
+                {post.excerpt}
+              </p>
+            </aside>
 
             {/* Content */}
             <div className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-charcoal prose-p:text-warm-gray prose-p:leading-relaxed prose-strong:text-charcoal prose-li:text-warm-gray prose-h2:text-2xl prose-h3:text-xl prose-a:text-gold hover:prose-a:text-gold-dark">
