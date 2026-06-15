@@ -9,10 +9,11 @@ import {
   Package,
   Users,
   CheckCircle2,
+  ChevronDown,
 } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
-import JsonLd from "@/components/seo/JsonLd";
+import JsonLd, { FAQJsonLd, SpeakableWebPageJsonLd } from "@/components/seo/JsonLd";
 import ContactForm from "@/components/shared/ContactForm";
 
 export const metadata: Metadata = {
@@ -21,6 +22,39 @@ export const metadata: Metadata = {
     "Become a Barekyne skincare distributor with exclusive monopoly territory rights. Derma PCD franchise with WHO-GMP clinical products, high margins, and dedicated support. Apply now.",
   alternates: { canonical: "/distributorship" },
 };
+
+const distributorshipFaqs = [
+  {
+    question: "What is the minimum investment to start a Barekyne distributorship?",
+    answer:
+      "The minimum investment to start a Barekyne PCD franchise is INR 50,000, which goes entirely into initial inventory. There are no franchise fees, royalty charges, or security deposits — your entire investment is in sellable stock with 50-58% margins.",
+  },
+  {
+    question: "Do I need a drug license to become a Barekyne distributor?",
+    answer:
+      "Partners can begin with just a GSTIN if they focus on cosmetic-notified formulations such as cleansers, lotions, and sunscreens. A Wholesale Drug License (Form 20B/21B) is only required if you plan to distribute Schedule H or prescription-category pharmaceutical products.",
+  },
+  {
+    question: "What profit margins do Barekyne distributors earn?",
+    answer:
+      "Barekyne distributors earn 50% to 58% net margins on MRP through direct-from-manufacturer pricing with zero middlemen. This is 2-3x higher than the 15-25% margins offered by traditional PCD franchise companies.",
+  },
+  {
+    question: "How does Barekyne's monopoly rights model work?",
+    answer:
+      "Barekyne grants legally binding, exclusive territorial distribution rights at the district level. No other distributor can supply Barekyne products within your allocated territory, guaranteeing zero internal competition and maximum ROI.",
+  },
+  {
+    question: "Is cold storage required for Barekyne skincare products?",
+    answer:
+      "No cold storage is required. All Barekyne formulations use climate-stable active ingredients — for example, Ethyl Ascorbic Acid instead of heat-sensitive L-Ascorbic Acid — specifically designed for India's hot and humid conditions.",
+  },
+  {
+    question: "What space or infrastructure do I need to start distributing?",
+    answer:
+      "Storage space as per stock volume is sufficient. There is no mandated minimum commercial space requirement — partners can start from their existing premises. No special equipment or cold chain infrastructure is needed.",
+  },
+] as const;
 
 const distributorshipSchema = [
   {
@@ -136,6 +170,12 @@ export default function DistributorshipPage() {
   return (
     <>
       <JsonLd data={distributorshipSchema} />
+      <FAQJsonLd faqs={distributorshipFaqs} />
+      <SpeakableWebPageJsonLd
+        name="Skincare Distributorship India — Exclusive Monopoly Rights"
+        url="https://barekyne.in/distributorship"
+        description="Become a Barekyne skincare distributor with exclusive monopoly territory rights. Derma PCD franchise with WHO-GMP clinical products, high margins."
+      />
       {/* Hero */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -144,7 +184,7 @@ export default function DistributorshipPage() {
               Distributorship &{" "}
               <span className="text-gold">Monopoly Rights</span>
             </h1>
-            <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto">
+            <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto" data-speakable="true">
               Secure exclusive territorial distribution rights for India&apos;s
               premium clinical skincare brand. High margins, growing demand,
               and comprehensive support.
@@ -196,7 +236,7 @@ export default function DistributorshipPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection>
               <SectionHeading title="What are Monopoly Rights?" centered={false} />
-              <p className="mt-6 text-warm-gray leading-relaxed">
+              <p className="mt-6 text-warm-gray leading-relaxed" data-speakable="true">
                 Monopoly rights grant you exclusive distribution authority for
                 Barekyne products within a defined geographic territory. No
                 other distributor can sell Barekyne products in your allocated
@@ -249,6 +289,35 @@ export default function DistributorshipPage() {
                     <p className="text-sm text-warm-gray mt-1">{s.description}</p>
                   </div>
                 </div>
+              </AnimatedSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── AEO FAQ Section ─────────────────────────────────────────────── */}
+      <section className="py-20 bg-ivory" id="faq">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="Frequently Asked Questions"
+            subtitle="Everything you need to know about becoming a Barekyne distributor."
+          />
+          <div className="mt-12 space-y-4">
+            {distributorshipFaqs.map((faq, i) => (
+              <AnimatedSection key={i} delay={i * 0.06}>
+                <details className="group bg-white rounded-2xl border border-beige/50 hover:border-gold/20 transition-all duration-300 overflow-hidden">
+                  <summary className="flex items-center justify-between cursor-pointer p-6 text-left">
+                    <h3 className="text-base font-heading font-bold text-charcoal pr-4">
+                      {faq.question}
+                    </h3>
+                    <ChevronDown className="w-5 h-5 text-gold shrink-0 group-open:rotate-180 transition-transform duration-300" />
+                  </summary>
+                  <div className="px-6 pb-6 pt-0">
+                    <p className="text-sm text-warm-gray leading-relaxed faq-answer" data-speakable="true">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </details>
               </AnimatedSection>
             ))}
           </div>

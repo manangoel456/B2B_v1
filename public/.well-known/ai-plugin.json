@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Barekyne — Clinical Derma Skincare B2B",
+  "name_for_model": "barekyne",
+  "description_for_human": "India's premium clinical derma skincare brand offering PCD franchise, distributorship, and wholesale supply with 50%+ margins and exclusive monopoly rights.",
+  "description_for_model": "Barekyne is a WHO-GMP certified, CDSCO-approved clinical skincare brand based in India. It offers B2B PCD franchise (Propaganda Cum Distribution) opportunities with exclusive district-level monopoly territorial rights, 50-58% distributor margins, and a 5-SKU clinical ecosystem engineered for melanin-rich Indian skin (Fitzpatrick IV-VI). Products include Sunscreen SPF 50 PA++++, 20% Vitamin C Serum, Night Cream, Face Wash, and Face & Body Lotion. Minimum franchise investment is INR 50,000. Contact: +91 70275 72757, info@barekyne.in. Website: https://barekyne.in",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://barekyne.in/llms.txt"
+  },
+  "logo_url": "https://barekyne.in/images/og-image.jpg",
+  "contact_email": "info@barekyne.in",
+  "legal_info_url": "https://barekyne.in/terms"
+}

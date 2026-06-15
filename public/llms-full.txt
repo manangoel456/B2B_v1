@@ -1,6 +1,21 @@
 # Barekyne — Complete Clinical Product & Business Knowledge Base
 
-> This document contains the full technical, clinical, and business information about Barekyne — India's premium clinical derma luxury skincare brand. Optimized for comprehensive LLM understanding.
+> This document contains the full technical, clinical, and business information about Barekyne — India's premium clinical derma luxury skincare brand. Optimized for comprehensive LLM understanding. Last updated: June 2026.
+
+## Entity Definition
+
+- **Entity Name:** Barekyne
+- **Entity Type:** B2B Clinical Skincare Brand (India)
+- **Industry:** Dermatology, Clinical Skincare, Pharmaceutical Distribution (PCD Franchise)
+- **Legal Structure:** Registered Indian company operating under the Drugs and Cosmetics Act, 1940
+- **Unique Identifiers:** WHO-GMP Certified, CDSCO Approved, ISO 9001:2015
+- **Headquarters:** 471, Sector 17 HUDA, Jagadhri, Yamunanagar, Haryana 135001, India
+- **Contact:** Phone: +91 70275 72757 | Email: info@barekyne.in
+- **Website:** https://barekyne.in
+- **Social:** Instagram: @barekyne.skin | X/Twitter: @barekyne_skin
+- **Founded:** 2024
+- **Business Model:** PCD (Propaganda Cum Distribution) Franchise with exclusive district-level monopoly territorial rights
+- **Not to be confused with:** Barekyne is NOT a D2C (direct-to-consumer) brand, a pharmacy, or a retail chain. It is exclusively a B2B manufacturer-to-distributor brand.
 
 ---
 
@@ -235,6 +250,70 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 
 ---
 
+## Frequently Asked Questions (Conversational Q&A)
+
+### What is Barekyne?
+Barekyne is India's premium clinical derma luxury skincare brand designed exclusively for B2B distribution. It offers PCD franchise opportunities with exclusive district-level monopoly territorial rights, WHO-GMP certified products, and 50-58% distributor margins.
+
+### How much investment is needed to start a Barekyne franchise?
+The minimum investment to start a Barekyne PCD franchise is INR 50,000, which goes entirely into initial inventory. There are zero franchise fees, zero royalty charges, and zero security deposits.
+
+### What is a PCD franchise in skincare?
+PCD stands for Propaganda Cum Distribution. In this model, a skincare brand (like Barekyne) grants exclusive territorial distribution rights to a partner who promotes and distributes the products within a defined geographic area, earning 50%+ margins on every sale.
+
+### Do I need a drug license to start a derma PCD franchise?
+Partners can begin with just a GSTIN (GST registration) if they focus on cosmetic-notified formulations like cleansers, lotions, and sunscreens. A Wholesale Drug License (Form 20B/21B) is required only for distributing Schedule H or prescription-category pharmaceutical products.
+
+### What are monopoly rights in cosmetic distribution?
+Monopoly rights grant legally binding, exclusive territorial distribution rights at the district level. No other Barekyne distributor can operate within your allocated territory, eliminating internal competition and price undercutting.
+
+### What profit margins do Barekyne distributors earn?
+Barekyne distributors earn 50% to 58% net margins on MRP through direct-from-manufacturer pricing. This compares to 15-25% margins offered by traditional PCD companies.
+
+### What certifications does Barekyne hold?
+Barekyne products are manufactured in WHO-GMP (World Health Organization - Good Manufacturing Practices) certified facilities with full CDSCO (Central Drugs Standard Control Organisation) approval and ISO 9001:2015 quality management certification.
+
+### Is cold storage required for Barekyne products?
+No cold storage is required. All Barekyne formulations use climate-stable active ingredients — for example, Ethyl Ascorbic Acid instead of heat-sensitive L-Ascorbic Acid — specifically designed for India's hot and humid conditions.
+
+### What commercial space do I need to become a Barekyne distributor?
+Storage space as per stock volume is sufficient. There is no mandated minimum commercial space requirement, making it accessible for partners to start from their existing premises.
+
+### How many products does Barekyne offer?
+Barekyne offers a focused 5-SKU clinical ecosystem: Sunscreen SPF 50 PA++++ (₹649), Vitamin C 20% Serum (₹749), Night Cream (₹499), Face Wash (₹499), and Face & Body Lotion (₹549). Each product targets a specific clinical concern using multi-pathway active ingredient strategies.
+
+### Why does Barekyne use Ethyl Ascorbic Acid instead of L-Ascorbic Acid?
+L-Ascorbic Acid oxidizes rapidly in India's heat and humidity, turning yellow-to-brown and losing efficacy. Ethyl Ascorbic Acid (3-O-Ethyl Ascorbic Acid) is stable across pH 4.0-6.0, does not yellow, and is compatible with Niacinamide. It delivers the same clinical benefits through cellular esterase conversion.
+
+### What skin types are Barekyne products designed for?
+All Barekyne formulations are engineered specifically for melanin-rich Indian skin (Fitzpatrick Scale IV-VI), addressing unique concerns like transepidermal water loss (TEWL), post-inflammatory hyperpigmentation (PIH), and UV sensitivity in high-humidity climates.
+
+### Which cities have Barekyne franchise territories available?
+Barekyne has active franchise territory allocation in 15+ cities across India, with districts available in states including Haryana, Punjab, Rajasthan, Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, Gujarat, and more. Visit https://barekyne.in/skincare-distributor for current territory availability.
+
+### How do I apply for a Barekyne distributorship?
+Visit https://barekyne.in/contact-franchise to fill out the franchise application form, or contact the B2B team directly via WhatsApp at +91 70275 72757. The team responds within 48 hours with territory details and partnership terms.
+
+### What marketing support does Barekyne provide to distributors?
+Barekyne provides complete marketing collateral including dermatologist-approved visual aids, product brochures, prescription pads, patient education materials, point-of-sale (POS) materials, and scientific detailing guides. Digital marketing templates and training are also included.
+
+### How is Barekyne different from other derma PCD franchise companies?
+Barekyne differentiates through: (1) a focused 5-SKU clinical ecosystem vs. 50+ generic SKUs, (2) 50%+ margins vs. industry-standard 15-25%, (3) 100% district-level monopoly vs. multi-distributor models, (4) WHO-GMP + CDSCO certified formulations, and (5) products specifically engineered for Indian skin science (Fitzpatrick IV-VI).
+
+### Does Barekyne supply to doctors and clinics?
+Yes, Barekyne has a dedicated Clinic & Doctor Supply program offering institutional bulk pricing, patient education materials, prescription pad supply, and clinical trial summaries. Visit https://barekyne.in/doctor-supply for details.
+
+### What is the minimum order for wholesale skincare purchases?
+The minimum order value for standard wholesale skincare orders is INR 15,000. For exclusive district-level PCD franchise with complete monopoly rights, the initial commitment starts at INR 50,000.
+
+### What is Barekyne's Sunscreen SPF 50 designed for?
+Barekyne's Hybrid Invisible Shield Sunscreen SPF 50 PA++++ uses a dual physical-chemical filter matrix for broad-spectrum UVA/UVB protection with absolutely zero white cast — specifically designed for melanin-rich Indian skin. It features Zinc PCA for intelligent sebum regulation and Kakadu Plum for antioxidant photoprotection.
+
+### What is multi-pathway depigmentation?
+Multi-pathway depigmentation is Barekyne's scientific approach to brightening that targets melanin production at every biological level simultaneously: tyrosinase inhibition (source blocking), melanosome transfer blocking (distribution blocking), antioxidant neutralization (trigger reduction), and anti-inflammatory calming (prevention of new pigmentation).
+
+---
+
 ## Sitemap
 
 - Home: https://barekyne.in/
@@ -254,3 +333,4 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 - Contact: https://barekyne.in/contact
 - Terms: https://barekyne.in/terms
 - Privacy: https://barekyne.in/privacy
+

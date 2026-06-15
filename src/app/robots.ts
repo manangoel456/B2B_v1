@@ -45,6 +45,35 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "cohere-ai",
         allow: "/",
       },
+      // ── Additional AI / LLM training crawlers ────────────────────────
+      {
+        userAgent: "Bytespider",
+        allow: "/",
+      },
+      {
+        userAgent: "Meta-ExternalAgent",
+        allow: "/",
+      },
+      {
+        userAgent: "FacebookBot",
+        allow: "/",
+      },
+      {
+        userAgent: "YouBot",
+        allow: "/",
+      },
+      {
+        userAgent: "CCBot",
+        allow: "/",
+      },
+      {
+        userAgent: "Amazonbot",
+        allow: "/",
+      },
+      {
+        userAgent: "OAI-SearchBot",
+        allow: "/",
+      },
     ],
     sitemap: "https://barekyne.in/sitemap.xml",
     // Next.js MetadataRoute.Robots doesn't officially support arbitrary keys like 'llms' yet in the type definition,

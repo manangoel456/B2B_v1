@@ -125,6 +125,9 @@ export default function RootLayout({
     >
       <head>
         <link rel="llms" href="/llms.txt" />
+        <link rel="llms-full" href="/llms-full.txt" />
+        <link rel="ai-agent" href="/.well-known/ai-plugin.json" />
+        <meta name="ai-content-declaration" content="original" />
       </head>
       <body className="min-h-full flex flex-col bg-ivory text-charcoal font-body">
         <LocalBusinessJsonLd />

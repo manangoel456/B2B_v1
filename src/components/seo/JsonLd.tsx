@@ -280,6 +280,47 @@ export function WebSiteJsonLd() {
   return <JsonLd data={data} />;
 }
 
+/**
+ * Speakable WebPage JSON-LD — helps voice assistants and AI answer engines
+ * identify the best extractable snippets from a page. The cssSelector
+ * targets answer-first summary blocks and FAQ sections.
+ */
+export function SpeakableWebPageJsonLd({
+  name,
+  url,
+  description,
+  speakableSelectors = ["[data-speakable]", "h1", ".faq-answer"],
+}: {
+  name: string;
+  url: string;
+  description?: string;
+  speakableSelectors?: string[];
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    ...(description && { description }),
+    isPartOf: {
+      "@id": "https://barekyne.in/#website",
+    },
+    about: {
+      "@id": "https://barekyne.in/#organization",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: speakableSelectors,
+    },
+    primaryImageOfPage: {
+      "@type": "ImageObject",
+      url: "https://barekyne.in/images/og-image.jpg",
+    },
+  };
+  return <JsonLd data={data} />;
+}
+
 export function WebPageJsonLd({
   name,
   url,
@@ -440,6 +481,10 @@ export function HomePageSchemaGraph({
       },
       about: {
         "@id": "https://barekyne.in/#organization",
+      },
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["[data-speakable]", "h1", ".faq-answer"],
       },
       primaryImageOfPage: {
         "@type": "ImageObject",
