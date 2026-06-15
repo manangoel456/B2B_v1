@@ -215,6 +215,48 @@ function getCustomSchemaForPost(slug: string): any[] | null {
           ]
         }
       ];
+    case "barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison":
+      return [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Barekyne vs Top PCD Pharma Franchise Companies in India (2026 Comparison)",
+          "description": "Comparing Barekyne with leading general PCD pharma companies like Vindcare, Intra Life, and Scot Derma. Understand why a 5-SKU clinical ecosystem with 50-58% margins outperforms 200-SKU catalogs.",
+          "url": "https://barekyne.in/blog/barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison",
+          "mainEntityOfPage": "https://barekyne.in/blog/barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison",
+          "datePublished": "2026-06-16",
+          "author": {
+            "@type": "Organization",
+            "name": "Dr. Barekyne Editorial Board"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Barekyne",
+            "url": "https://barekyne.in"
+          },
+          "image": [
+            "https://barekyne.in/images/og-image.jpg"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://barekyne.in"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Barekyne vs Top PCD Pharma Franchise Companies in India (2026 Comparison)",
+              "item": "https://barekyne.in/blog/barekyne-vs-top-pcd-pharma-franchise-companies-india-2026-comparison"
+            }
+          ]
+        }
+      ];
     case "derma-pcd-franchise-india-guide":
       return [
         {

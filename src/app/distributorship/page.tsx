@@ -19,7 +19,7 @@ import ContactForm from "@/components/shared/ContactForm";
 export const metadata: Metadata = {
   title: "Skincare Distributorship India — Exclusive Monopoly Rights",
   description:
-    "Become a Barekyne skincare distributor with exclusive monopoly territory rights. Derma PCD franchise with WHO-GMP clinical products, high margins, and dedicated support. Apply now.",
+    "Become a Barekyne skincare distributor with exclusive monopoly territory rights. PAN-India Derma PCD franchise with WHO-GMP & ISO 9001:2015 clinical products, 50-58% margins, and dedicated support. Apply now.",
   alternates: { canonical: "/distributorship" },
 };
 
@@ -174,7 +174,7 @@ export default function DistributorshipPage() {
       <SpeakableWebPageJsonLd
         name="Skincare Distributorship India — Exclusive Monopoly Rights"
         url="https://barekyne.in/distributorship"
-        description="Become a Barekyne skincare distributor with exclusive monopoly territory rights. Derma PCD franchise with WHO-GMP clinical products, high margins."
+        description="Become a Barekyne skincare distributor with exclusive monopoly territory rights. PAN-India Derma PCD franchise with WHO-GMP & ISO 9001:2015 clinical products, 50-58% margins."
       />
       {/* Hero */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
@@ -185,9 +185,9 @@ export default function DistributorshipPage() {
               <span className="text-gold">Monopoly Rights</span>
             </h1>
             <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto" data-speakable="true">
-              Secure exclusive territorial distribution rights for India&apos;s
-              premium clinical skincare brand. High margins, growing demand,
-              and comprehensive support.
+              Secure exclusive territorial distribution rights for our PAN-India expanding 
+              clinical skincare brand. Partner with a WHO-GMP and ISO 9001:2015 certified 
+              manufacturer for guaranteed 50-58% net margins and zero internal competition.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a

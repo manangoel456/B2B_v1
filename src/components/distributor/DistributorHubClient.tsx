@@ -74,7 +74,7 @@ export default function DistributorHubClient() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            Barekyne is granting exclusive monopoly rights to serious B2B pharma investors and distributors across India&apos;s highest-growth dermatology markets.
+            Barekyne is granting exclusive monopoly rights to serious B2B pharma investors and distributors for our PAN-India expansion across the highest-growth dermatology markets.
           </motion.p>
 
           {/* Animated stats */}
@@ -85,7 +85,7 @@ export default function DistributorHubClient() {
             className="grid grid-cols-3 gap-8 max-w-lg mx-auto"
           >
             {[
-              { value: "15", label: "Cities" },
+              { value: "15+", label: "Cities" },
               { value: "100+", label: "Districts" },
               { value: "5", label: "SKUs" },
             ].map((stat) => (
@@ -102,8 +102,8 @@ export default function DistributorHubClient() {
       <section className="bg-white border-b border-slate-100 py-8 px-6">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 md:gap-16">
           {[
-            { icon: <Shield className="w-5 h-5" />, text: "WHO-GMP Certified" },
-            { icon: <TrendingUp className="w-5 h-5" />, text: "50%+ Distributor Margins" },
+            { icon: <Shield className="w-5 h-5" />, text: "WHO-GMP & ISO Certified" },
+            { icon: <TrendingUp className="w-5 h-5" />, text: "50-58% Net Margins" },
             { icon: <Sparkles className="w-5 h-5" />, text: "Dermatologist Formulated" },
             { icon: <MapPin className="w-5 h-5" />, text: "District-Level Monopoly" },
           ].map((item) => (
