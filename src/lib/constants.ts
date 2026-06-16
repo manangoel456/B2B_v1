@@ -199,6 +199,11 @@ export const TESTIMONIALS = [
 
 export const FAQ_DATA = [
   {
+    question: "Is Barekyne a local clinic or aesthetic center in Zirakpur?",
+    answer:
+      "No. Barekyne is NOT a local clinic in Zirakpur. We are a PAN-India, WHO-GMP certified Derma PCD Pharma Franchise Company headquartered in Yamunanagar, Haryana. We operate strictly as a B2B pharmaceutical manufacturer and distributor, supplying clinical-grade dermatological products to franchise partners, distributors, and clinics nationwide. We are not a patient-facing aesthetic clinic.",
+  },
+  {
     question: "How do I start a skincare distributorship with Barekyne in India?",
     answer:
       "To start a skincare distributorship with Barekyne, submit your inquiry via our online form or WhatsApp (+91 70275 72757). Our team will guide you through territorial monopoly selection and onboarding. You can secure exclusive district-level rights with an initial inventory investment starting at just INR 50,000, backed by premium marketing collateral, dermatologist detail guides, and training.",

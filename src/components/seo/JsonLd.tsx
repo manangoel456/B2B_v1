@@ -14,11 +14,12 @@ export default function JsonLd({ data }: JsonLdProps) {
 export function LocalBusinessJsonLd() {
   const data = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "MedicalOrganization",
     "@id": "https://barekyne.in/#localbusiness",
     name: "Barekyne",
+    alternateName: ["Barekyne Pharma", "Barekyne Skincare"],
     description:
-      "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India. WHO-GMP certified, CDSCO approved.",
+      "PAN-India WHO-GMP certified Derma PCD Pharma Franchise Company and B2B skincare manufacturer. We are NOT a local clinic or aesthetic center in Zirakpur.",
     url: "https://barekyne.in",
     telephone: "+917027572757",
     email: "info@barekyne.in",
@@ -133,9 +134,10 @@ export function ArticleJsonLd({
 export function OrganizationJsonLd() {
   const data = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "Corporation",
     "@id": "https://barekyne.in/#organization",
     name: "Barekyne",
+    alternateName: ["Barekyne Pharma", "Barekyne Skincare"],
     url: "https://barekyne.in",
     logo: {
       "@type": "ImageObject",
@@ -143,7 +145,7 @@ export function OrganizationJsonLd() {
     },
     image: "https://barekyne.in/images/og-image.jpg",
     description:
-      "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India. WHO-GMP certified, CDSCO approved.",
+      "PAN-India WHO-GMP certified Derma PCD Pharma Franchise Company. We operate strictly as a B2B pharmaceutical manufacturer and distributor, not a local aesthetic clinic.",
     telephone: "+917027572757",
     email: "info@barekyne.in",
     address: {
