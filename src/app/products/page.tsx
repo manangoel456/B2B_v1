@@ -19,7 +19,7 @@ const productsFaqs = [
   {
     question: "What wholesale skincare products does Barekyne offer?",
     answer:
-      "Barekyne offers a focused 5-SKU clinical ecosystem: Sunscreen SPF 50 PA++++ (₹649), 20% Vitamin C Serum (₹749), Night Cream with Kojic Acid Dipalmitate (₹499), Multi-Acid Face Wash with Polyglutamic Acid (₹499), and Face & Body Lotion with Dermawhite™ WF (₹549). All products are WHO-GMP certified and CDSCO approved.",
+      "Barekyne offers a focused 5-SKU clinical ecosystem: Bare-UV sunscreen (₹649), 20% Bare-C20 serum (₹749), Bare night cream with Kojic Acid Dipalmitate (₹499), Multi-Acid Cicaglow facewash with Polyglutamic Acid (₹499), and Bare-hydra lotion with Dermawhite™ WF (₹549). All products are WHO-GMP certified and CDSCO approved.",
   },
   {
     question: "What makes Barekyne products different from other wholesale skincare brands?",
@@ -38,7 +38,7 @@ const productsFaqs = [
   },
 ] as const;
 
-// Note: 'face-body-lotion-pcd-franchise' and 'face-wash-pcd-franchise'
+// Note: 'bare-hydra-lotion-pcd-franchise' and 'cicaglow-facewash-pcd-franchise'
 // are the current slugs (renamed from previous brand-specific names).
 
 const productsSchema = [

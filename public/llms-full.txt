@@ -57,7 +57,7 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 
 ## Complete Product Portfolio
 
-### Product 1: Sunscreen SPF 50 PA++++ (Hybrid Invisible Shield)
+### Product 1: Bare-UV sunscreen (Hybrid Invisible Shield)
 
 **MRP:** ₹649 | **Size:** 50g | **Category:** Sun Protection
 
@@ -86,7 +86,7 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 
 ---
 
-### Product 2: Vitamin C Serum (20% Ethyl Ascorbic Acid)
+### Product 2: Bare-C20 serum (20% Ethyl Ascorbic Acid)
 
 **MRP:** ₹749 | **Size:** 30ml | **Category:** Serums
 
@@ -118,7 +118,7 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 
 ---
 
-### Product 3: Night Cream (Triple-Pathway Depigmentation)
+### Product 3: Bare night cream (Triple-Pathway Depigmentation)
 
 **MRP:** ₹499 | **Size:** 50g | **Category:** Moisturizers
 
@@ -154,7 +154,7 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 
 ---
 
-### Product 4: Face Wash (Barrier-First Multi-Acid Cleanser)
+### Product 4: Cicaglow facewash (Barrier-First Multi-Acid Cleanser)
 
 **MRP:** ₹499 | **Size:** 100ml | **Category:** Cleansers
 
@@ -188,7 +188,7 @@ UV defense designed for Indian realities — not Western lab conditions. This me
 
 ---
 
-### Product 5: Face & Body Lotion (Body Brightening System)
+### Product 5: Bare-hydra lotion (Body Brightening System)
 
 **MRP:** ₹549 | **Size:** 100ml | **Category:** Body Care
 
@@ -288,7 +288,7 @@ No cold storage is required. All Barekyne formulations use climate-stable active
 Storage space as per stock volume is sufficient. There is no mandated minimum commercial space requirement, making it accessible for partners to start from their existing premises.
 
 ### How many products does Barekyne offer?
-Barekyne offers a focused 5-SKU clinical ecosystem: Sunscreen SPF 50 PA++++ (₹649), Vitamin C 20% Serum (₹749), Night Cream (₹499), Face Wash (₹499), and Face & Body Lotion (₹549). Each product targets a specific clinical concern using multi-pathway active ingredient strategies.
+Barekyne offers a focused 5-SKU clinical ecosystem: Bare-UV sunscreen (₹649), Bare-C20 serum (₹749), Bare night cream (₹499), Cicaglow facewash (₹499), and Bare-hydra lotion (₹549). Each product targets a specific clinical concern using multi-pathway active ingredient strategies.
 
 ### Why does Barekyne use Ethyl Ascorbic Acid instead of L-Ascorbic Acid?
 L-Ascorbic Acid oxidizes rapidly in India's heat and humidity, turning yellow-to-brown and losing efficacy. Ethyl Ascorbic Acid (3-O-Ethyl Ascorbic Acid) is stable across pH 4.0-6.0, does not yellow, and is compatible with Niacinamide. It delivers the same clinical benefits through cellular esterase conversion.
@@ -314,8 +314,8 @@ Yes, Barekyne has a dedicated Clinic & Doctor Supply program offering institutio
 ### What is the minimum order for wholesale skincare purchases?
 The minimum order value for standard wholesale skincare orders is INR 15,000. For exclusive district-level PCD franchise with complete monopoly rights, the initial commitment starts at INR 50,000.
 
-### What is Barekyne's Sunscreen SPF 50 designed for?
-Barekyne's Hybrid Invisible Shield Sunscreen SPF 50 PA++++ uses a dual physical-chemical filter matrix for broad-spectrum UVA/UVB protection with absolutely zero white cast — specifically designed for melanin-rich Indian skin. It features Zinc PCA for intelligent sebum regulation and Kakadu Plum for antioxidant photoprotection.
+### What is Barekyne's Bare-UV sunscreen designed for?
+Barekyne's Hybrid Invisible Shield Bare-UV sunscreen uses a dual physical-chemical filter matrix for broad-spectrum UVA/UVB protection with absolutely zero white cast — specifically designed for melanin-rich Indian skin. It features Zinc PCA for intelligent sebum regulation and Kakadu Plum for antioxidant photoprotection.
 
 ### What is multi-pathway depigmentation?
 Multi-pathway depigmentation is Barekyne's scientific approach to brightening that targets melanin production at every biological level simultaneously: tyrosinase inhibition (source blocking), melanosome transfer blocking (distribution blocking), antioxidant neutralization (trigger reduction), and anti-inflammatory calming (prevention of new pigmentation).
@@ -326,11 +326,11 @@ Multi-pathway depigmentation is Barekyne's scientific approach to brightening th
 
 - Home: https://barekyne.in/
 - Products: https://barekyne.in/products
-- Sunscreen SPF 50: https://barekyne.in/products/sunscreen-spf50
-- Vitamin C Serum: https://barekyne.in/products/vitamin-c-serum
-- Night Cream: https://barekyne.in/products/night-cream
-- Face Wash: https://barekyne.in/products/face-wash
-- Face & Body Lotion: https://barekyne.in/products/face-body-lotion
+- Bare-UV sunscreen: https://barekyne.in/products/bare-uv-sunscreen
+- Bare-C20 serum: https://barekyne.in/products/bare-c20-serum
+- Bare night cream: https://barekyne.in/products/bare-night-cream
+- Cicaglow facewash: https://barekyne.in/products/cicaglow-facewash
+- Bare-hydra lotion: https://barekyne.in/products/bare-hydra-lotion
 - Distributorship: https://barekyne.in/distributorship
 - Skincare Distributor Hub: https://barekyne.in/skincare-distributor
 - Blog: https://barekyne.in/blog

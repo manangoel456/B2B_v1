@@ -21,14 +21,14 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    slug: "sunscreen-spf50",
-    name: "Sunscreen SPF 50 PA++++",
-    shortName: "Sunscreen SPF 50",
+    slug: "bare-uv-sunscreen",
+    name: "Bare-UV sunscreen",
+    shortName: "Bare-UV sunscreen",
     mrp: 649,
     category: "Sun Protection",
     tagline: "Hybrid Invisible Shield — Zero White Cast Photoprotection",
     description:
-      "Barekyne Sunscreen SPF 50 PA++++ is a hybrid invisible sunscreen engineered with a dual physical-chemical filter matrix for broad-spectrum UVA/UVB protection and zero white cast. Formulated with Hyaluronic Acid for trans-epidermal water loss (TEWL) prevention, Zinc PCA for intelligent sebum regulation, Silk Protein for a silky occlusive barrier, and Kakadu Plum Extract — the world's richest natural source of Vitamin C — for potent antioxidant photoprotection. Designed specifically for melanin-rich Indian skin (Fitzpatrick IV–VI) in high-UV climates.",
+      "Barekyne Bare-UV sunscreen is a hybrid invisible sunscreen engineered with a dual physical-chemical filter matrix for broad-spectrum UVA/UVB protection and zero white cast. Formulated with Hyaluronic Acid for trans-epidermal water loss (TEWL) prevention, Zinc PCA for intelligent sebum regulation, Silk Protein for a silky occlusive barrier, and Kakadu Plum Extract — the world's richest natural source of Vitamin C — for potent antioxidant photoprotection. Designed specifically for melanin-rich Indian skin (Fitzpatrick IV–VI) in high-UV climates.",
     shortBenefit: "Hybrid UV defense with sebum control & antioxidant repair",
     ingredients: ["Hyaluronic Acid", "Vitamin E", "Kakadu Plum Extract", "Zinc PCA", "Silk Protein"],
     keyIngredients: [
@@ -89,14 +89,14 @@ export const products: Product[] = [
   },
   {
     id: "2",
-    slug: "vitamin-c-serum",
-    name: "Vitamin C Serum",
-    shortName: "Vitamin C Serum",
+    slug: "bare-c20-serum",
+    name: "Bare-C20 serum",
+    shortName: "Bare-C20 serum",
     mrp: 749,
     category: "Serums",
     tagline: "20% Ethyl Ascorbic Acid — Stable Brightening & Anti-Aging Serum",
     description:
-      "Barekyne Vitamin C Serum is formulated with 20% Ethyl Ascorbic Acid (3-O-Ethyl Ascorbic Acid), the most stable and bioavailable form of Vitamin C that resists oxidation and pH degradation. Combined with 2% Niacinamide for melanin transfer inhibition, Hyaluronic Acid for barrier hydration, Liquorice Extract for tyrosinase inhibition, and Chamomile Extract for anti-inflammatory calming. A multi-pathway depigmentation system targeting dark spots, post-inflammatory hyperpigmentation (PIH), melasma, and photoaging.",
+      "Barekyne Bare-C20 serum is formulated with 20% Ethyl Ascorbic Acid (3-O-Ethyl Ascorbic Acid), the most stable and bioavailable form of Vitamin C that resists oxidation and pH degradation. Combined with 2% Niacinamide for melanin transfer inhibition, Hyaluronic Acid for barrier hydration, Liquorice Extract for tyrosinase inhibition, and Chamomile Extract for anti-inflammatory calming. A multi-pathway depigmentation system targeting dark spots, post-inflammatory hyperpigmentation (PIH), melasma, and photoaging.",
     shortBenefit: "Stable Vitamin C depigmentation with multi-pathway brightening",
     ingredients: ["20% Ethyl Ascorbic Acid", "Niacinamide 2%", "Hyaluronic Acid", "Liquorice Extract", "Chamomile Extract"],
     keyIngredients: [
@@ -136,9 +136,9 @@ export const products: Product[] = [
     suitableFor: "All skin types — especially hyperpigmented, dull, and photoaged skin",
     size: "30ml",
     images: [
-      "/images/products/vitamin-c-serum-1.png",
-      "/images/products/vitamin-c-serum-2.png",
-      "/images/products/vitamin-c-serum-3.png"
+      "/images/products/bare-c20-serum-1.png",
+      "/images/products/bare-c20-serum-2.png",
+      "/images/products/bare-c20-serum-3.png"
     ],
     faq: [
       {
@@ -157,14 +157,14 @@ export const products: Product[] = [
   },
   {
     id: "3",
-    slug: "night-cream",
-    name: "Night Cream",
-    shortName: "Night Cream",
+    slug: "bare-night-cream",
+    name: "Bare night cream",
+    shortName: "Bare night cream",
     mrp: 499,
     category: "Moisturizers",
     tagline: "Multi-Pathway Depigmentation — Overnight Brightening & Repair",
     description:
-      "Barekyne Night Cream is an advanced overnight depigmentation system powered by 2% Kojic Acid Dipalmitate (a lipophilic, stable derivative that penetrates deeper than standard Kojic Acid), 3% Niacinamide for melanosome transfer inhibition, and 1.5% Alpha Arbutin for gentle tyrosinase suppression. This triple-pathway approach targets melanin overproduction at every stage — from synthesis to transfer to surface expression — while your skin's circadian repair mechanisms are most active.",
+      "Barekyne Bare night cream is an advanced overnight depigmentation system powered by 2% Kojic Acid Dipalmitate (a lipophilic, stable derivative that penetrates deeper than standard Kojic Acid), 3% Niacinamide for melanosome transfer inhibition, and 1.5% Alpha Arbutin for gentle tyrosinase suppression. This triple-pathway approach targets melanin overproduction at every stage — from synthesis to transfer to surface expression — while your skin's circadian repair mechanisms are most active.",
     shortBenefit: "Triple-pathway depigmentation with overnight barrier repair",
     ingredients: ["Kojic Acid Dipalmitate 2%", "Niacinamide 3%", "Alpha Arbutin 1.5%"],
     keyIngredients: [
@@ -196,14 +196,14 @@ export const products: Product[] = [
     suitableFor: "All skin types — especially pigmentation-prone and melasma-affected skin",
     size: "50g",
     images: [
-      "/images/products/night-cream-1.png",
-      "/images/products/night-cream-2.png",
-      "/images/products/night-cream-3.png"
+      "/images/products/bare-night-cream-1.png",
+      "/images/products/bare-night-cream-2.png",
+      "/images/products/bare-night-cream-3.png"
     ],
     faq: [
       {
         question: "Can I use this cream during the day?",
-        answer: "This cream is specifically formulated for nighttime use when your skin's circadian repair mechanisms are most active, maximizing depigmentation efficacy. For daytime protection, pair it with our Sunscreen SPF 50.",
+        answer: "This cream is specifically formulated for nighttime use when your skin's circadian repair mechanisms are most active, maximizing depigmentation efficacy. For daytime protection, pair it with our Bare-UV sunscreen.",
       },
       {
         question: "Is Kojic Acid Dipalmitate better than regular Kojic Acid?",
@@ -217,14 +217,14 @@ export const products: Product[] = [
   },
   {
     id: "4",
-    slug: "face-wash",
-    name: "Face Wash",
-    shortName: "Face Wash",
+    slug: "cicaglow-facewash",
+    name: "Cicaglow facewash",
+    shortName: "Cicaglow facewash",
     mrp: 499,
     category: "Cleansers",
     tagline: "Barrier-First Cleansing — Multi-Acid + Paradoxical Hydration",
     description:
-      "Barekyne Face Wash is a barrier-first cleanser combining Glycolic Acid (AHA) and Salicylic Acid (BHA) for dual-exfoliation with Lactic Acid for gentle resurfacing. The paradoxical rebound hydration system uses Hyaluronic Acid and Polyglutamic Acid (which holds 4-10x more moisture than HA) to actively hydrate during cleansing — preventing the tight, stripped feeling of conventional acid cleansers. Enriched with Glutathione (the body's master antioxidant), Vitamin C for brightening, and Cica Extract for anti-inflammatory barrier repair.",
+      "Barekyne Cicaglow facewash is a barrier-first cleanser combining Glycolic Acid (AHA) and Salicylic Acid (BHA) for dual-exfoliation with Lactic Acid for gentle resurfacing. The paradoxical rebound hydration system uses Hyaluronic Acid and Polyglutamic Acid (which holds 4-10x more moisture than HA) to actively hydrate during cleansing — preventing the tight, stripped feeling of conventional acid cleansers. Enriched with Glutathione (the body's master antioxidant), Vitamin C for brightening, and Cica Extract for anti-inflammatory barrier repair.",
     shortBenefit: "Multi-acid exfoliation with paradoxical rebound hydration",
     ingredients: ["Glycolic Acid", "Salicylic Acid", "Lactic Acid", "Vitamin C", "Cica Extract", "Hyaluronic Acid", "Polyglutamic Acid", "Glutathione"],
     keyIngredients: [
@@ -268,14 +268,14 @@ export const products: Product[] = [
     suitableFor: "All skin types — especially oily, acne-prone, and pollution-exposed skin",
     size: "100ml",
     images: [
-      "/images/products/face-wash-1.png",
-      "/images/products/face-wash-2.png",
-      "/images/products/face-wash-3.png"
+      "/images/products/cicaglow-facewash-1.png",
+      "/images/products/cicaglow-facewash-2.png",
+      "/images/products/cicaglow-facewash-3.png"
     ],
     faq: [
       {
         question: "Can I use this face wash twice daily?",
-        answer: "Yes. Barekyne Face Wash is formulated with barrier-first philosophy — the Polyglutamic Acid and Hyaluronic Acid actively hydrate during cleansing, preventing the over-stripping that typically occurs with acid cleansers. Safe for twice-daily use.",
+        answer: "Yes. Barekyne Cicaglow facewash is formulated with barrier-first philosophy — the Polyglutamic Acid and Hyaluronic Acid actively hydrate during cleansing, preventing the over-stripping that typically occurs with acid cleansers. Safe for twice-daily use.",
       },
       {
         question: "Will the acids irritate my skin?",
@@ -289,14 +289,14 @@ export const products: Product[] = [
   },
   {
     id: "5",
-    slug: "face-body-lotion",
-    name: "Face & Body Lotion",
-    shortName: "Face & Body Lotion",
+    slug: "bare-hydra-lotion",
+    name: "Bare-hydra lotion",
+    shortName: "Bare-hydra lotion",
     mrp: 549,
     category: "Body Care",
     tagline: "3% Vitamin C + 1% Dermawhite™ WF — Body Brightening & Hydration",
     description:
-      "Barekyne Face & Body Lotion combines 3% Vitamin C for antioxidant brightening with 1% Dermawhite™ WF — a clinically validated botanical melanin inhibitor shown to achieve up to 90% melanin synthesis inhibition in in-vitro studies. Enriched with Papaya Extract (natural papain enzyme exfoliation), Guava Extract (rich in lycopene for UV-damage repair), and Saxifraga Sarmentosa (a traditional Japanese botanical tyrosinase inhibitor). Designed for India's hot, humid climate with a lightweight, non-greasy, fast-absorbing texture.",
+      "Barekyne Bare-hydra lotion combines 3% Vitamin C for antioxidant brightening with 1% Dermawhite™ WF — a clinically validated botanical melanin inhibitor shown to achieve up to 90% melanin synthesis inhibition in in-vitro studies. Enriched with Papaya Extract (natural papain enzyme exfoliation), Guava Extract (rich in lycopene for UV-damage repair), and Saxifraga Sarmentosa (a traditional Japanese botanical tyrosinase inhibitor). Designed for India's hot, humid climate with a lightweight, non-greasy, fast-absorbing texture.",
     shortBenefit: "Dermawhite™ WF body brightening with botanical melanin control",
     ingredients: ["Vitamin C 3%", "Dermawhite™ WF 1%", "Papaya Extract", "Guava Extract", "Saxifraga Sarmentosa"],
     keyIngredients: [
@@ -336,14 +336,14 @@ export const products: Product[] = [
     suitableFor: "All skin types — especially body pigmentation, tan removal, and uneven body skin tone",
     size: "100ml",
     images: [
-      "/images/products/face-body-lotion-1.png",
-      "/images/products/face-body-lotion-2.png",
-      "/images/products/face-body-lotion-3.png"
+      "/images/products/bare-hydra-lotion-1.png",
+      "/images/products/bare-hydra-lotion-2.png",
+      "/images/products/bare-hydra-lotion-3.png"
     ],
     faq: [
       {
         question: "Can I use this lotion on both face and body?",
-        answer: "Yes. Barekyne Face & Body Lotion is specifically formulated for both face and body application with a lightweight texture suitable for larger body areas.",
+        answer: "Yes. Barekyne Bare-hydra lotion is specifically formulated for both face and body application with a lightweight texture suitable for larger body areas.",
       },
       {
         question: "What is Dermawhite™ WF?",

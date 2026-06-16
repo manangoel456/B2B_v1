@@ -14,7 +14,7 @@ import ProductGallery from "@/components/products/ProductGallery";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getCustomProductSchema(slug: string): any[] | null {
   switch (slug) {
-    case "night-cream":
+    case "bare-night-cream":
       return [
         {
           "@context": "https://schema.org",
@@ -54,18 +54,18 @@ function getCustomProductSchema(slug: string): any[] | null {
         {
           "@context": "https://schema.org",
           "@type": "Product",
-          "@id": "https://barekyne.in/products/night-cream#product",
-          "url": "https://barekyne.in/products/night-cream",
-          "name": "Night Cream",
-          "description": "Barekyne Night Cream works while you sleep to repair, rejuvenate, and brighten your skin. Powered by Kojic Acid, Niacinamide, and Alpha Arbutin, this luxurious cream targets pigmentation, uneven tone, and dullness for a refreshed morning glow.",
-          "image": "https://barekyne.in/images/products/night-cream-1.png",
+          "@id": "https://barekyne.in/products/bare-night-cream#product",
+          "url": "https://barekyne.in/products/bare-night-cream",
+          "name": "Bare night cream",
+          "description": "Barekyne Bare night cream works while you sleep to repair, rejuvenate, and brighten your skin. Powered by Kojic Acid, Niacinamide, and Alpha Arbutin, this luxurious cream targets pigmentation, uneven tone, and dullness for a refreshed morning glow.",
+          "image": "https://barekyne.in/images/products/bare-night-cream-1.png",
           "sku": "3",
           "brand": {
             "@id": "https://barekyne.in/#org"
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://barekyne.in/products/night-cream",
+            "url": "https://barekyne.in/products/bare-night-cream",
             "priceCurrency": "INR",
             "price": 499,
             "availability": "https://schema.org/InStock",
@@ -75,7 +75,7 @@ function getCustomProductSchema(slug: string): any[] | null {
           }
         }
       ];
-    case "face-body-lotion":
+    case "bare-hydra-lotion":
       return [
         {
           "@context": "https://schema.org",
@@ -115,19 +115,19 @@ function getCustomProductSchema(slug: string): any[] | null {
         {
           "@context": "https://schema.org",
           "@type": "Product",
-          "@id": "https://barekyne.in/products/face-body-lotion#product",
-          "name": "Face & Body Lotion",
-          "description": "Barekyne Face & Body Lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
-          "image": "https://barekyne.in/images/products/face-body-lotion-1.png",
+          "@id": "https://barekyne.in/products/bare-hydra-lotion#product",
+          "name": "Bare-hydra lotion",
+          "description": "Barekyne Bare-hydra lotion provides year-round hydration with the brightening power of Vitamin C and the advanced skin-lightening technology of Dermawhite™. This lightweight, fast-absorbing lotion keeps skin soft, supple, and radiant in every season.",
+          "image": "https://barekyne.in/images/products/bare-hydra-lotion-1.png",
           "sku": "5",
           "brand": {
             "@type": "Organization",
             "@id": "https://barekyne.in/#organization"
           },
-          "url": "https://barekyne.in/products/face-body-lotion",
+          "url": "https://barekyne.in/products/bare-hydra-lotion",
           "offers": {
             "@type": "Offer",
-            "url": "https://barekyne.in/products/face-body-lotion",
+            "url": "https://barekyne.in/products/bare-hydra-lotion",
             "priceCurrency": "INR",
             "price": 549,
             "availability": "https://schema.org/InStock",
@@ -138,7 +138,7 @@ function getCustomProductSchema(slug: string): any[] | null {
           }
         }
       ];
-    case "sunscreen-spf50":
+    case "bare-uv-sunscreen":
       return [
         {
           "@context": "https://schema.org",
@@ -167,9 +167,9 @@ function getCustomProductSchema(slug: string): any[] | null {
         {
           "@context": "https://schema.org",
           "@type": "Product",
-          "@id": "https://barekyne.in/products/sunscreen-spf50#product",
-          "name": "Sunscreen SPF 50 PA++++",
-          "description": "Barekyne Sunscreen SPF 50 PA++++ provides broad-spectrum protection against UVA and UVB rays while keeping your skin hydrated and nourished. Formulated with Hyaluronic Acid and Kakadu Plum Extract for a lightweight, non-greasy finish that works as a perfect base for makeup.",
+          "@id": "https://barekyne.in/products/bare-uv-sunscreen#product",
+          "name": "Bare-UV sunscreen",
+          "description": "Barekyne Bare-UV sunscreen provides broad-spectrum protection against UVA and UVB rays while keeping your skin hydrated and nourished. Formulated with Hyaluronic Acid and Kakadu Plum Extract for a lightweight, non-greasy finish that works as a perfect base for makeup.",
           "image": [
             "https://barekyne.in/images/products/sunscreen-1.png"
           ],
@@ -177,10 +177,10 @@ function getCustomProductSchema(slug: string): any[] | null {
           "brand": {
             "@id": "https://barekyne.in/#organization"
           },
-          "url": "https://barekyne.in/products/sunscreen-spf50",
+          "url": "https://barekyne.in/products/bare-uv-sunscreen",
           "offers": {
             "@type": "Offer",
-            "url": "https://barekyne.in/products/sunscreen-spf50",
+            "url": "https://barekyne.in/products/bare-uv-sunscreen",
             "priceCurrency": "INR",
             "price": 649,
             "availability": "https://schema.org/InStock",
@@ -192,7 +192,7 @@ function getCustomProductSchema(slug: string): any[] | null {
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
-          "@id": "https://barekyne.in/products/sunscreen-spf50#breadcrumbs",
+          "@id": "https://barekyne.in/products/bare-uv-sunscreen#breadcrumbs",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -209,8 +209,8 @@ function getCustomProductSchema(slug: string): any[] | null {
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Sunscreen SPF 50 PA++++",
-              "item": "https://barekyne.in/products/sunscreen-spf50"
+              "name": "Bare-UV sunscreen",
+              "item": "https://barekyne.in/products/bare-uv-sunscreen"
             }
           ]
         }

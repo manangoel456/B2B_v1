@@ -836,31 +836,31 @@ export default async function CityFranchisePage(
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                name: "Vitamin C 20% Serum",
+                name: "Bare-C20 serum",
                 actives: "20% Vit C · 2% Niacinamide · Hyaluronic Acid",
                 indication: "Hyperpigmentation · PIH · Dull Skin",
                 mechanism: "Tyrosinase inhibition + melanosome transfer blockade",
               },
               {
-                name: "Hybrid Invisible Sunscreen SPF 50",
+                name: "Hybrid Invisible Bare-UV sunscreen",
                 actives: "Physical + Chemical dual-filter system",
                 indication: "Photoprotection · PIH Prevention",
                 mechanism: "Zero white cast on Fitzpatrick III–VI · Sweat resistant",
               },
               {
-                name: "Face Wash",
+                name: "Cicaglow facewash",
                 actives: "Glycolic Acid · Salicylic Acid · Vitamin C · Cica",
                 indication: "Acne · Oily Skin · Comedonal Acne",
                 mechanism: "AHA + BHA dual exfoliation with anti-inflammatory modulation",
               },
               {
-                name: "Advanced Night Cream",
+                name: "Advanced Bare night cream",
                 actives: "Retinol · Ceramides · Peptides",
                 indication: "Barrier Repair · Anti-Ageing · TEWL Reduction",
                 mechanism: "Collagen synthesis + ceramide barrier restoration",
               },
               {
-                name: "Face & Body Lotion",
+                name: "Bare-hydra lotion",
                 actives: "Vitamin C · Dermawhite™ Technology",
                 indication: "Year-round Hydration · Brightening",
                 mechanism: "Advanced depigmentation technology · 100ml",

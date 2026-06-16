@@ -148,7 +148,7 @@ Obtain a valid **GST Number** and a **Drug License** (if distributing schedule p
 Secure a signed **Exclusive Territory Agreement**. Do not partner with manufacturers that sell to multiple distributors in the same pin code or district. Ensure your contract guarantees 100% regional exclusivity.
 
 ### Step 3: Initial Inventory Strategy
-Start with a highly focused, fast-moving range rather than a bloated inventory. Invest in a structured, multi-functional ecosystem (including our [Face Wash](/products/face-wash), [Vitamin C 20% Serum](/products/vitamin-c-serum), [Advanced Night Cream](/products/night-cream), and [Invisible Sunscreen](/products/sunscreen-spf50)) that naturally encourages consumer cross-purchasing.
+Start with a highly focused, fast-moving range rather than a bloated inventory. Invest in a structured, multi-functional ecosystem (including our [Cicaglow facewash](/products/cicaglow-facewash), [Bare-C20 serum](/products/bare-c20-serum), [Advanced Bare night cream](/products/bare-night-cream), and [Invisible Sunscreen](/products/bare-uv-sunscreen)) that naturally encourages consumer cross-purchasing.
 
 ---
 
@@ -207,9 +207,9 @@ When selecting a wholesale derma manufacturing partner, evaluate their active in
 | Active / Formulation | Mechanism of Action | Side-Effect Profile | B2B Clinical Prescribability |
 | :--- | :--- | :--- | :--- |
 | **Hydroquinone (Generic)** | Destroys melanocytes directly | High risk of ochronosis & irritation | Banned in OTC cosmeceuticals; declining prescriptions |
-| **[Stable Vitamin C (20%) + Niacinamide (2%)](/products/vitamin-c-serum)** | Tyrosinase inhibition + melanosome transfer blockade | Minimal to none; strengthens skin barrier | **High**; standard clinical combination for daily wear |
+| **[Stable Vitamin C (20%) + Niacinamide (2%)](/products/bare-c20-serum)** | Tyrosinase inhibition + melanosome transfer blockade | Minimal to none; strengthens skin barrier | **High**; standard clinical combination for daily wear |
 | **Dermawhite™ Technology** | Cellular-level melanin synthesis regulation | Exceptionally safe for Fitzpatrick Scale IV-VI | **Very High**; next-generation botanical bio-active |
-| **[AHA / BHA Complexes (Glycolic + Salicylic)](/products/face-wash)** | Staggered epidermal exfoliation (cellular turnover) | Mild transient peeling; speeds up PIH resolution | **High**; standard dermatologist recommendation |
+| **[AHA / BHA Complexes (Glycolic + Salicylic)](/products/cicaglow-facewash)** | Staggered epidermal exfoliation (cellular turnover) | Mild transient peeling; speeds up PIH resolution | **High**; standard dermatologist recommendation |
 
 ---
 
@@ -311,11 +311,11 @@ Our clinical portfolio addresses the top dermatological concerns in India:
 
 | Product | Active Concentration | Clinical Target |
 |---------|---------------------|----------------|
-| [Vitamin C 20% Serum](/products/vitamin-c-serum) | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
-| [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
-| [Face Wash](/products/face-wash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
-| [Advanced Night Cream](/products/night-cream) | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging |
-| [Face & Body Lotion (100ml)](/products/face-body-lotion) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
+| [Bare-C20 serum](/products/bare-c20-serum) | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
+| [Hybrid Invisible Bare-UV sunscreen](/products/bare-uv-sunscreen) | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
+| [Cicaglow facewash](/products/cicaglow-facewash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
+| [Advanced Bare night cream](/products/bare-night-cream) | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging |
+| [Bare-hydra lotion (100ml)](/products/bare-hydra-lotion) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
 
 ### What This Means for Your ROI
 - **Monopoly Rights:** Legally binding territorial exclusivity at the district level.
@@ -419,9 +419,9 @@ A common mistake new derma franchise owners make is misallocating their initial 
 Do not spread your initial investment across 50 different products. Concentrate your capital on the 5-7 highest-prescribing clinical conditions. Barekyne’s 5-SKU "Total Clearance" ecosystem is designed specifically for this purpose. 
 
 Your initial inventory purchase should heavily index on:
-1. **Photoprotection:** Hybrid Invisible Sunscreen SPF 50 (Consumed rapidly, mandatory co-prescription).
-2. **Depigmentation:** Vitamin C 20% Serum (High-ticket, high-margin, chronic usage).
-3. **Cleansing:** Face Wash (High volume, entry-level clinical conversion).
+1. **Photoprotection:** Hybrid Invisible Bare-UV sunscreen (Consumed rapidly, mandatory co-prescription).
+2. **Depigmentation:** Bare-C20 serum (High-ticket, high-margin, chronic usage).
+3. **Cleansing:** Cicaglow facewash (High volume, entry-level clinical conversion).
 
 ### Marketing Collateral Over Office Space
 In the first 12 months, your distribution business lives in the clinics of dermatologists, not in a fancy office. Allocate capital toward clinical detailing. Barekyne supports franchise partners by providing scientific visual aids, clinical trial summaries, and premium sample kits. Your job is to deploy these assets into the hands of key opinion leaders (KOLs) in your territory.
@@ -466,16 +466,16 @@ If you have the capital and the distribution infrastructure, Barekyne provides t
     image: "/images/blog/distribution-guide.webp",
   },
   {
-    slug: "vitamin-c-serum-hyperpigmentation-clinical-roi",
-    title: "Vitamin C Serum for Hyperpigmentation: The Clinical ROI for Dermatology Franchises",
+    slug: "bare-c20-serum-hyperpigmentation-clinical-roi",
+    title: "Bare-C20 serum for Hyperpigmentation: The Clinical ROI for Dermatology Franchises",
     excerpt:
-      "Why distributing a clinically stabilized 20% Vitamin C Serum is the most reliable strategy for capturing prescription market share in the Indian derma sector.",
+      "Why distributing a clinically stabilized 20% Bare-C20 serum is the most reliable strategy for capturing prescription market share in the Indian derma sector.",
     content: `
 When analyzing a clinical skincare portfolio from a B2B investment perspective, not all products contribute equally to the bottom line. For a [Derma PCD franchise](/skincare-distributor), the undisputed anchor product—the primary driver of recurring prescription revenue—is the depigmentation serum. 
 
 In India, where Fitzpatrick III-VI skin types are structurally predisposed to melanin overproduction, post-inflammatory hyperpigmentation (PIH) and melasma constitute over 60% of aesthetic dermatology consultations. 
 
-Consequently, a [Vitamin C serum for hyperpigmentation](/products/vitamin-c-serum) is not a cosmetic luxury; it is a clinical necessity. This guide breaks down why Barekyne’s 20% Vitamin C Serum is engineered to dominate clinic prescriptions and generate massive ROI for our franchise partners.
+Consequently, a [Vitamin C serum for hyperpigmentation](/products/bare-c20-serum) is not a cosmetic luxury; it is a clinical necessity. This guide breaks down why Barekyne’s 20% Bare-C20 serum is engineered to dominate clinic prescriptions and generate massive ROI for our franchise partners.
 
 ---
 
@@ -497,7 +497,7 @@ Barekyne does not rely on Vitamin C alone. Our formulation pairs 20% Vitamin C w
 
 ## The B2B ROI: Why This Serum is a Franchise Engine
 
-For a regional distributor or PCD franchise owner, the Barekyne 20% Vitamin C Serum represents the ideal pharmaceutical product profile.
+For a regional distributor or PCD franchise owner, the Barekyne 20% Bare-C20 serum represents the ideal pharmaceutical product profile.
 
 ### 1. High Absolute Margin
 Clinical depigmentation serums occupy the premium pricing tier in dermatology. Because the formulation is complex (requiring advanced stabilization to prevent oxidation), the barrier to entry is high. This justifies a premium MRP. For a distributor operating on a 50%+ gross margin, selling one unit of a premium serum generates the same absolute profit as selling five generic face washes.
@@ -508,9 +508,9 @@ Treating hyperpigmentation is not an overnight process. Epidermal turnover takes
 A standard 30ml serum bottle lasts a patient exactly 30 to 45 days. Therefore, every single prescription written by a dermatologist guarantees at least 2 to 3 reorders per patient. This creates a compounding, highly predictable recurring revenue stream for the franchise partner holding that territory.
 
 ### 3. The "Gateway" Prescription
-The 20% Vitamin C Serum acts as a Trojan horse for the rest of the Barekyne portfolio. Dermatologists rarely prescribe a strong active without an accompanying barrier-repair and photoprotection protocol. 
+The 20% Bare-C20 serum acts as a Trojan horse for the rest of the Barekyne portfolio. Dermatologists rarely prescribe a strong active without an accompanying barrier-repair and photoprotection protocol. 
 
-When a doctor prescribes the Barekyne Vitamin C serum, they almost always co-prescribe the [Hybrid Invisible Sunscreen SPF 50](/products/sunscreen-spf50) (to prevent UV-induced tyrosinase reactivation) and the [Face Wash](/products/face-wash) (to accelerate epidermal turnover). Securing the serum prescription effectively secures the entire skincare basket.
+When a doctor prescribes the Barekyne Vitamin C serum, they almost always co-prescribe the [Hybrid Invisible Bare-UV sunscreen](/products/bare-uv-sunscreen) (to prevent UV-induced tyrosinase reactivation) and the [Cicaglow facewash](/products/cicaglow-facewash) (to accelerate epidermal turnover). Securing the serum prescription effectively secures the entire skincare basket.
 
 ---
 
@@ -530,7 +530,7 @@ Partner with [Barekyne](/) and secure the exclusive distribution rights for Indi
 
 <div className="flex gap-4 mt-8 mb-6">
   <a href="/early-access" className="px-6 py-3 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-amber-300 transition-colors">Secure Monopoly Rights →</a>
-  <a href="/products/vitamin-c-serum" className="px-6 py-3 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">View Serum Specifications →</a>
+  <a href="/products/bare-c20-serum" className="px-6 py-3 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">View Serum Specifications →</a>
 </div>
     `,
     author: "Barekyne Clinical Division",
@@ -552,7 +552,7 @@ In the Indian dermatology market, this is a profound miscalculation.
 
 The search for a **zero white cast sunscreen in India** is not merely a consumer cosmetic preference; it is the single largest factor determining patient compliance in clinical hyperpigmentation protocols. Franchise partners who distribute cosmetically elegant, invisible SPF 50 formulations capture massive recurring revenue streams that competitors using outdated physical filters simply cannot access.
 
-Here is the clinical and financial case for why Barekyne’s Hybrid Invisible Sunscreen SPF 50 is the cornerstone of our "Total Clearance" ecosystem.
+Here is the clinical and financial case for why Barekyne’s Hybrid Invisible Bare-UV sunscreen is the cornerstone of our "Total Clearance" ecosystem.
 
 ---
 
@@ -570,9 +570,9 @@ Patients refuse to apply the required 2mg/cm² of product because it ruins their
 
 ---
 
-## The Solution: Hybrid Invisible Sunscreen SPF 50
+## The Solution: Hybrid Invisible Bare-UV sunscreen
 
-Barekyne engineered the Hybrid Invisible Sunscreen SPF 50 specifically to solve the compliance collapse in the Indian market.
+Barekyne engineered the Hybrid Invisible Bare-UV sunscreen specifically to solve the compliance collapse in the Indian market.
 
 ### Dual-Filter Technology
 Rather than relying solely on large-particle physical filters or potentially irritating organic (chemical) filters, our formulation utilizes a hybrid approach. It combines micronized, encapsulated physical filters with highly stable, photostable chemical filters.
@@ -586,10 +586,10 @@ This matrix achieves three critical objectives:
 
 ## The Financial ROI for Franchise Owners
 
-For a Derma PCD franchise partner, the Barekyne Hybrid Invisible Sunscreen SPF 50 is not just a product; it is a compounding revenue engine. 
+For a Derma PCD franchise partner, the Barekyne Hybrid Invisible Bare-UV sunscreen is not just a product; it is a compounding revenue engine. 
 
 ### 1. Compulsory Co-Prescription
-Because photoprotection is mandatory for any depigmentation or exfoliation protocol, this sunscreen is a guaranteed co-prescription. Every time a dermatologist prescribes Barekyne’s Vitamin C 20% Serum or Face Wash, the Hybrid Sunscreen is added to the script. This instantly doubles the basket size and distributor margin per patient.
+Because photoprotection is mandatory for any depigmentation or exfoliation protocol, this sunscreen is a guaranteed co-prescription. Every time a dermatologist prescribes Barekyne’s Bare-C20 serum or Cicaglow facewash, the Hybrid Sunscreen is added to the script. This instantly doubles the basket size and distributor margin per patient.
 
 ### 2. High Consumption Velocity
 Unlike an active serum that is applied in drops, clinical protocols require sunscreen to be applied liberally (the "two-finger rule") and reapplied every 3-4 hours during peak UV exposure. A standard 50g tube of sunscreen is consumed 3x to 4x faster than a 30ml serum. For the franchise owner, this translates to rapid inventory turnover and exceptional monthly reorder velocity.
@@ -605,7 +605,7 @@ While patients require a prescription or clinical recommendation to initiate str
 Yes. Barekyne utilizes advanced micronized filters and stable organic UV absorbers to achieve SPF 50+ broad-spectrum protection. The protection level is determined by the specific filter matrix and formulation stability, not the visible thickness of the cream.
 
 ### Q2: Is the Barekyne sunscreen suitable for acne-prone skin?
-Absolutely. A primary concern for Indian patients with acne is that heavy sunscreens exacerbate comedones. Our Hybrid Invisible Sunscreen is strictly non-comedogenic, lightweight, and allows the skin to breathe, making it perfectly compatible with our Face Wash protocols.
+Absolutely. A primary concern for Indian patients with acne is that heavy sunscreens exacerbate comedones. Our Hybrid Invisible Sunscreen is strictly non-comedogenic, lightweight, and allows the skin to breathe, making it perfectly compatible with our Cicaglow facewash protocols.
 
 ### Q3: Why is sweat resistance important for the Indian market?
 India’s climate features high heat and extreme humidity. A sunscreen that is not sweat-resistant will rapidly degrade on the skin or run into the eyes, breaking the UV shield and causing irritation. Sweat-resistance ensures the SPF rating holds up under real-world Indian conditions.
@@ -624,7 +624,7 @@ Don't let your working capital sit in slow-moving commodity products. Distribute
 
 <div className="flex gap-4 mt-8 mb-6">
   <a href="/contact-franchise" className="px-6 py-3 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-amber-300 transition-colors">Apply for Monopoly Rights →</a>
-  <a href="/products/sunscreen-spf50" className="px-6 py-3 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">View Product Specs →</a>
+  <a href="/products/bare-uv-sunscreen" className="px-6 py-3 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">View Product Specs →</a>
 </div>
     `,
     author: "Barekyne Clinical Division",
@@ -664,30 +664,30 @@ India's diverse climate zones (from hyper-humid coastal metros to arid northern 
 
 Barekyne has engineered a tight, 5-SKU clinical portfolio. We do not overwhelm franchise partners with 200 redundant variants. We provide five high-potency formulations that address 90% of a typical Indian dermatologist’s prescription scenarios.
 
-### 1. Vitamin C 20% Serum: The Gold Standard Tyrosinase Inhibitor
-Hyperpigmentation is the number one aesthetic complaint in Indian dermatology clinics. Our **Vitamin C 20% Serum** utilizes a highly stable L-Ascorbic Acid derivative paired with 2% Niacinamide and Hyaluronic Acid. 
+### 1. Bare-C20 serum: The Gold Standard Tyrosinase Inhibitor
+Hyperpigmentation is the number one aesthetic complaint in Indian dermatology clinics. Our **Bare-C20 serum** utilizes a highly stable L-Ascorbic Acid derivative paired with 2% Niacinamide and Hyaluronic Acid. 
 
 **Clinical Rationale:** At 20% concentration, Vitamin C acts as a potent competitive inhibitor of tyrosinase, directly suppressing melanogenesis. The addition of Niacinamide prevents the transfer of melanosomes to keratinocytes. This dual-pathway blockade is essential for treating deep-seated PIH and melasma in Indian patients, driving massive month-on-month prescription reorders.
 
-### 2. Hybrid Invisible Sunscreen SPF 50: Solving the White Cast Compliance Issue
+### 2. Hybrid Invisible Bare-UV sunscreen: Solving the White Cast Compliance Issue
 In Indian dermatology, patient compliance with photoprotection protocols is historically poor due to the "white cast" left by traditional physical filters. 
 
-**Clinical Rationale:** Barekyne’s **Hybrid Invisible Sunscreen SPF 50** utilizes a dual physical-chemical filter system that provides broad-spectrum protection with absolutely zero white residue on Fitzpatrick IV-VI skin. It is sweat-resistant and cosmetically elegant. For a franchise owner, this is not just a sunscreen; it is a compulsory prescription add-on for every depigmentation and anti-acne protocol.
+**Clinical Rationale:** Barekyne’s **Hybrid Invisible Bare-UV sunscreen** utilizes a dual physical-chemical filter system that provides broad-spectrum protection with absolutely zero white residue on Fitzpatrick IV-VI skin. It is sweat-resistant and cosmetically elegant. For a franchise owner, this is not just a sunscreen; it is a compulsory prescription add-on for every depigmentation and anti-acne protocol.
 
-### 3. Face Wash: Calibrated Exfoliation
+### 3. Cicaglow facewash: Calibrated Exfoliation
 Oily, acne-prone skin requires exfoliation, but harsh scrubs induce micro-tears and PIH. 
 
-**Clinical Rationale:** The **Face Wash** utilizes a triple-active matrix of Glycolic Acid (AHA for surface desquamation), Salicylic Acid (BHA for follicular penetration), and Vitamin C. Crucially, it is buffered with Cica (Centella Asiatica) extract to suppress the inflammatory response. This makes it the ideal daily cleanser for urban Indian patients exposed to high pollution indices.
+**Clinical Rationale:** The **Cicaglow facewash** utilizes a triple-active matrix of Glycolic Acid (AHA for surface desquamation), Salicylic Acid (BHA for follicular penetration), and Vitamin C. Crucially, it is buffered with Cica (Centella Asiatica) extract to suppress the inflammatory response. This makes it the ideal daily cleanser for urban Indian patients exposed to high pollution indices.
 
-### 4. Advanced Night Cream: Overnight Barrier Restoration
+### 4. Advanced Bare night cream: Overnight Barrier Restoration
 Aggressive daytime treatments demand intensive nighttime recovery. 
 
-**Clinical Rationale:** The Barekyne **Advanced Night Cream** combines Retinol, Ceramides (NP, AP, EOP), and Peptides. While Retinol stimulates fibroblast activity and accelerates cellular turnover, the exogenous ceramides directly patch gaps in the lipid matrix of the stratum corneum, dramatically reducing TEWL. This balanced approach allows Indian patients to tolerate retinization without extreme erythema (redness) or barrier damage.
+**Clinical Rationale:** The Barekyne **Advanced Bare night cream** combines Retinol, Ceramides (NP, AP, EOP), and Peptides. While Retinol stimulates fibroblast activity and accelerates cellular turnover, the exogenous ceramides directly patch gaps in the lipid matrix of the stratum corneum, dramatically reducing TEWL. This balanced approach allows Indian patients to tolerate retinization without extreme erythema (redness) or barrier damage.
 
-### 5. Face & Body Lotion (100ml): Comprehensive Hydration
+### 5. Bare-hydra lotion (100ml): Comprehensive Hydration
 Systemic hydration is often overlooked in hyperpigmentation protocols. 
 
-**Clinical Rationale:** Formulated with Vitamin C and advanced Dermawhite™ technology, the **Face & Body Lotion (100ml)** provides year-round hydration while actively suppressing body pigmentation (such as elbow and knee friction hyperpigmentation). It serves as a high-volume anchor product for both clinic and pharmacy channels.
+**Clinical Rationale:** Formulated with Vitamin C and advanced Dermawhite™ technology, the **Bare-hydra lotion (100ml)** provides year-round hydration while actively suppressing body pigmentation (such as elbow and knee friction hyperpigmentation). It serves as a high-volume anchor product for both clinic and pharmacy channels.
 
 ---
 
@@ -703,7 +703,7 @@ Furthermore, our **Monopoly Territory Rights** ensure that once you establish de
 
 ## Frequently Asked Questions
 
-### Q1: Why is a 20% Vitamin C Serum recommended for Indian skin?
+### Q1: Why is a 20% Bare-C20 serum recommended for Indian skin?
 At 20% concentration, Vitamin C provides optimal tyrosinase inhibition to treat stubborn post-inflammatory hyperpigmentation (PIH) without inducing the severe barrier disruption associated with high-percentage chemical peels. It is the clinical sweet spot for efficacy and tolerance.
 
 ### Q2: What makes a sunscreen suitable for Fitzpatrick IV-VI skin types?
@@ -851,7 +851,7 @@ A clinically credible face wash for acne-prone and hyperpigmented Indian skin mu
 
 The combination with **Vitamin C** provides antioxidant protection against UV-induced lipid peroxidation, while **Cica Extract** (*Centella asiatica* phytosome) provides anti-inflammatory modulation that prevents the exfoliation process from triggering rebound inflammation — a critical formulation intelligence point for Fitzpatrick III–VI skin.
 
-### Barrier Repair Night Creams — The Science of Overnight Recovery
+### Barrier Repair Bare night creams — The Science of Overnight Recovery
 
 The skin barrier's primary function — preventing **transepidermal water loss (TEWL)** — is under constant assault from UV exposure, environmental pollution, and aggressive treatment protocols. A clinical night cream must actively restore barrier function rather than merely moisturise the surface.
 
@@ -871,11 +871,11 @@ Our **"Total Clearance" ecosystem** — five tightly engineered SKUs — is desi
 
 | SKU | Primary Clinical Application | Key Actives |
 |---|---|---|
-| Vitamin C 20% Serum | Hyperpigmentation, PIH, Dull Skin | 20% Vit C, 2% Niacinamide, Hyaluronic Acid |
-| Hybrid Invisible Sunscreen SPF 50 | Photoprotection, PIH Prevention | Physical + Chemical dual filters, Zero white cast |
-| Face Wash | Acne, Oily Skin, Comedonal Acne | Glycolic Acid, Salicylic Acid, Vitamin C, Cica |
-| Advanced Night Cream | Barrier Repair, Anti-Ageing, Retinol Therapy | Retinol, Ceramides, Peptides |
-| Face & Body Lotion 100ml | Year-round Hydration, Brightening | Vitamin C, Dermawhite™ Technology |
+| Bare-C20 serum | Hyperpigmentation, PIH, Dull Skin | 20% Vit C, 2% Niacinamide, Hyaluronic Acid |
+| Hybrid Invisible Bare-UV sunscreen | Photoprotection, PIH Prevention | Physical + Chemical dual filters, Zero white cast |
+| Cicaglow facewash | Acne, Oily Skin, Comedonal Acne | Glycolic Acid, Salicylic Acid, Vitamin C, Cica |
+| Advanced Bare night cream | Barrier Repair, Anti-Ageing, Retinol Therapy | Retinol, Ceramides, Peptides |
+| Bare-hydra lotion 100ml | Year-round Hydration, Brightening | Vitamin C, Dermawhite™ Technology |
 
 Each SKU is formulated specifically for **melanin-rich Indian skin** (Fitzpatrick III–VI) — not adapted from Western formulations but engineered from the ground up for Indian dermatological conditions.
 
@@ -914,7 +914,7 @@ Tier 1 metros — Delhi NCR, Mumbai, Bangalore, Hyderabad, Chennai, and Kolkata 
 
 ### Q6: How does a Derma PCD Franchise generate recurring revenue?
 
-The fundamental mechanism of recurring revenue in a derma franchise is prescription pull-through. Once a dermatologist prescribes your product for a condition (e.g., Vitamin C 20% Serum for PIH post-acne), patients typically require ongoing use for 3–6 months minimum for clinically significant results. Each patient who completes a full protocol reorders 3–5 times. As your prescription network expands across your territory, this creates a compounding, largely passive revenue base that grows with each new dermatologist relationship.
+The fundamental mechanism of recurring revenue in a derma franchise is prescription pull-through. Once a dermatologist prescribes your product for a condition (e.g., Bare-C20 serum for PIH post-acne), patients typically require ongoing use for 3–6 months minimum for clinically significant results. Each patient who completes a full protocol reorders 3–5 times. As your prescription network expands across your territory, this creates a compounding, largely passive revenue base that grows with each new dermatologist relationship.
 
 ---
 
@@ -1743,7 +1743,7 @@ Here is a breakdown of profit potential in Indias B2B skincare sector:
 | Dermatology Products | 35%–60% |
 | Cosmeceuticals | 50%–75% |
 | Sunscreens & Moisturizers | 30%–50% |
-| Medicated Face Washes | 20%–40% |
+| Medicated Cicaglow facewashes | 20%–40% |
 | Anti-Aging Products | 45%–80% |
 
 High-performance skincare brands with strong clinical positioning often generate the highest repeat purchase rates. They are ideal for long-term distribution businesses.
@@ -2239,11 +2239,11 @@ For a franchise partner operating in a Tier-2 Indian city with moderate dermatol
 
 | Revenue Driver | Monthly Volume | Net Margin Per Unit | Monthly Profit |
 | :--- | :--- | :--- | :--- |
-| **Vitamin C 20% Serum** | 40 units | ₹450 | ₹18,000 |
-| **Sunscreen SPF 50** | 60 units | ₹380 | ₹22,800 |
-| **Face Wash** | 50 units | ₹250 | ₹12,500 |
-| **Night Cream** | 25 units | ₹420 | ₹10,500 |
-| **Face & Body Lotion** | 20 units | ₹300 | ₹6,000 |
+| **Bare-C20 serum** | 40 units | ₹450 | ₹18,000 |
+| **Bare-UV sunscreen** | 60 units | ₹380 | ₹22,800 |
+| **Cicaglow facewash** | 50 units | ₹250 | ₹12,500 |
+| **Bare night cream** | 25 units | ₹420 | ₹10,500 |
+| **Bare-hydra lotion** | 20 units | ₹300 | ₹6,000 |
 | **Total Monthly Net Profit** | **195 units** | | **₹69,800** |
 
 ### Growth Scenario (After 12 Months)
@@ -2252,11 +2252,11 @@ With established dermatologist relationships, prescription pull-through, and pha
 
 | Revenue Driver | Monthly Volume | Net Margin Per Unit | Monthly Profit |
 | :--- | :--- | :--- | :--- |
-| **Vitamin C 20% Serum** | 100 units | ₹450 | ₹45,000 |
-| **Sunscreen SPF 50** | 150 units | ₹380 | ₹57,000 |
-| **Face Wash** | 120 units | ₹250 | ₹30,000 |
-| **Night Cream** | 60 units | ₹420 | ₹25,200 |
-| **Face & Body Lotion** | 50 units | ₹300 | ₹15,000 |
+| **Bare-C20 serum** | 100 units | ₹450 | ₹45,000 |
+| **Bare-UV sunscreen** | 150 units | ₹380 | ₹57,000 |
+| **Cicaglow facewash** | 120 units | ₹250 | ₹30,000 |
+| **Bare night cream** | 60 units | ₹420 | ₹25,200 |
+| **Bare-hydra lotion** | 50 units | ₹300 | ₹15,000 |
 | **Total Monthly Net Profit** | **480 units** | | **₹1,72,200** |
 
 ---
@@ -2276,13 +2276,13 @@ With established dermatologist relationships, prescription pull-through, and pha
 ## Working Capital Optimization Strategies
 
 ### 1. Focus on Fast-Moving SKUs First
-Start with the three highest-velocity products: Sunscreen (daily consumption), Vitamin C Serum (90-day prescription protocol), and Face Wash (daily use). These three products alone can generate 75% of your monthly revenue.
+Start with the three highest-velocity products: Sunscreen (daily consumption), Bare-C20 serum (90-day prescription protocol), and Cicaglow facewash (daily use). These three products alone can generate 75% of your monthly revenue.
 
 ### 2. Synchronize Inventory with Prescription Cycles
 Dermatologists prescribe in 30-day to 90-day protocols. Align your reorder timing with prescription renewal cycles to avoid stockouts during peak demand periods.
 
 ### 3. Leverage the Co-Prescription Effect
-Every Vitamin C Serum prescription almost always includes a Sunscreen co-prescription. Stock these paired products in a 1:1.5 ratio (serum:sunscreen) to maximize basket capture.
+Every Bare-C20 serum prescription almost always includes a Sunscreen co-prescription. Stock these paired products in a 1:1.5 ratio (serum:sunscreen) to maximize basket capture.
 
 ---
 
@@ -2405,11 +2405,11 @@ Yes. Barekyne offers a dedicated [doctor and clinic supply program](/doctor-supp
     image: "/images/blog/distribution-guide.webp",
   },
   {
-    slug: "ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-vitamin-c-serum",
-    title: "Ethyl Ascorbic Acid vs L-Ascorbic Acid: Why Stable Vitamin C Serums Win in Indian Climate",
+    slug: "ethyl-ascorbic-acid-vs-l-ascorbic-acid-stable-bare-c20-serum",
+    title: "Ethyl Ascorbic Acid vs L-Ascorbic Acid: Why Stable Bare-C20 serums Win in Indian Climate",
     excerpt: "The science behind why 3-O-Ethyl Ascorbic Acid outperforms traditional L-Ascorbic Acid in India's hot, humid climate — and what this means for B2B distributors, clinics, and pharmacies.",
     content: `
-# Ethyl Ascorbic Acid vs L-Ascorbic Acid: Why Stable Vitamin C Serums Win in Indian Climate
+# Ethyl Ascorbic Acid vs L-Ascorbic Acid: Why Stable Bare-C20 serums Win in Indian Climate
 
 ## The Vitamin C Stability Crisis in Indian Skincare
 
@@ -2439,11 +2439,11 @@ Once absorbed into the skin, EAA is converted to free Ascorbic Acid by cellular 
 
 ### No Conflict with Niacinamide
 
-There's a persistent myth that Vitamin C and Niacinamide cannot be used together. This is partially true for LAA — the combination at low pH can form nicotinic acid, causing flushing. EAA, formulated at higher pH, has no such interaction. This is why [Barekyne Vitamin C Serum](/products/vitamin-c-serum) successfully combines 20% Ethyl Ascorbic Acid with 2% Niacinamide in a single formulation.
+There's a persistent myth that Vitamin C and Niacinamide cannot be used together. This is partially true for LAA — the combination at low pH can form nicotinic acid, causing flushing. EAA, formulated at higher pH, has no such interaction. This is why [Barekyne Bare-C20 serum](/products/bare-c20-serum) successfully combines 20% Ethyl Ascorbic Acid with 2% Niacinamide in a single formulation.
 
 ## The Multi-Pathway Brightening System
 
-Barekyne doesn't rely on Vitamin C alone for brightening. The [Vitamin C Serum](/products/vitamin-c-serum) uses a multi-pathway depigmentation approach:
+Barekyne doesn't rely on Vitamin C alone for brightening. The [Bare-C20 serum](/products/bare-c20-serum) uses a multi-pathway depigmentation approach:
 
 ### Pathway 1: Tyrosinase Inhibition (Liquorice Extract)
 
@@ -2490,7 +2490,7 @@ Product returns due to discoloration are one of the biggest margin killers in sk
 
 ## The Barekyne Formulation Philosophy
 
-[Barekyne's Vitamin C Serum](/products/vitamin-c-serum) represents the intersection of ingredient science and Indian market reality. We chose 20% Ethyl Ascorbic Acid not because it's newer or trendier, but because it solves the single biggest practical problem with Vitamin C skincare in India: **stability.**
+[Barekyne's Bare-C20 serum](/products/bare-c20-serum) represents the intersection of ingredient science and Indian market reality. We chose 20% Ethyl Ascorbic Acid not because it's newer or trendier, but because it solves the single biggest practical problem with Vitamin C skincare in India: **stability.**
 
 Combined with Liquorice Extract (tyrosinase inhibition), Niacinamide (melanosome transfer blocking), Hyaluronic Acid (barrier hydration), and Chamomile Extract (anti-inflammatory calming), this creates a multi-pathway system that addresses hyperpigmentation at every biological level.
 
@@ -2508,7 +2508,7 @@ Distributors who position stable EAA-based serums now will capture the quality-c
 
 Yes. Clinical studies demonstrate equivalent brightening, collagen synthesis, and antioxidant efficacy. The difference is stability and tolerability — EAA delivers the same results without the degradation, irritation, and pH sensitivity issues.
 
-### Can I use Barekyne Vitamin C Serum with other actives?
+### Can I use Barekyne Bare-C20 serum with other actives?
 
 Yes. Unlike LAA serums, Barekyne's EAA formulation is compatible with Niacinamide, AHAs, BHAs, and most skincare actives. Avoid simultaneous use with retinol — alternate AM/PM instead.
 
@@ -2516,7 +2516,7 @@ Yes. Unlike LAA serums, Barekyne's EAA formulation is compatible with Niacinamid
 
 Research suggests 15-20% as the optimal range for topical Vitamin C. Barekyne uses 20% Ethyl Ascorbic Acid — at the upper end of the efficacy range while remaining stable and well-tolerated.
 
-### How should distributors store Barekyne Vitamin C Serum?
+### How should distributors store Barekyne Bare-C20 serum?
 
 Unlike LAA serums that require refrigeration, Barekyne's EAA-based serum is stable at normal Indian ambient temperatures. Store in a cool, dry place away from direct sunlight. No refrigeration needed.
     `,
@@ -2546,9 +2546,9 @@ The Indian skincare market is flooded with products claiming to "remove dark spo
 
 Targeting only one pathway leaves the others unaddressed. This is why most "brightening" products deliver marginal, temporary results.
 
-## The Multi-Pathway Solution: Barekyne Night Cream
+## The Multi-Pathway Solution: Barekyne Bare night cream
 
-[Barekyne Night Cream](/products/night-cream) uses three precisely concentrated actives, each targeting a different pathway in the melanin production chain:
+[Barekyne Bare night cream](/products/bare-night-cream) uses three precisely concentrated actives, each targeting a different pathway in the melanin production chain:
 
 ### Active 1: Kojic Acid Dipalmitate 2% — Melanin Synthesis Inhibition
 
@@ -2592,7 +2592,7 @@ At 1.5%, Alpha Arbutin provides a secondary layer of tyrosinase inhibition throu
 
 ## Why Nighttime Application Matters
 
-[Barekyne Night Cream](/products/night-cream) is formulated specifically for nighttime use. This isn't just marketing — there's circadian biology behind it:
+[Barekyne Bare night cream](/products/bare-night-cream) is formulated specifically for nighttime use. This isn't just marketing — there's circadian biology behind it:
 
 ### Skin Repair Peaks at Night
 
@@ -2612,7 +2612,7 @@ UV exposure triggers melanogenesis and can degrade some active ingredients. Nigh
 |----------|-------------------------|-------------------|
 | Single-ingredient (Kojic Acid alone) | 15-20% pigmentation reduction | 8-12% |
 | Single-ingredient (Alpha Arbutin alone) | 10-15% pigmentation reduction | 10-15% |
-| Multi-pathway (Barekyne Night Cream) | 35-45% pigmentation reduction | <2% |
+| Multi-pathway (Barekyne Bare night cream) | 35-45% pigmentation reduction | <2% |
 
 *Note: Individual results vary. Data based on internal consumer trials and distributor feedback.*
 
@@ -2642,27 +2642,27 @@ Yes. Unlike hydroquinone, Kojic Acid Dipalmitate does not cause ochronosis or me
 
 Most users notice visible improvement in dark spots and overall skin tone within 6-8 weeks of consistent nightly use. Full results typically manifest at 12-16 weeks.
 
-### Can I use Barekyne Night Cream with other actives?
+### Can I use Barekyne Bare night cream with other actives?
 
-Yes. The formulation is compatible with most skincare routines. Apply the night cream as the last step after serums. In the morning, follow up with [Barekyne Sunscreen SPF 50](/products/sunscreen-spf50) to protect against new pigmentation.
+Yes. The formulation is compatible with most skincare routines. Apply the night cream as the last step after serums. In the morning, follow up with [Barekyne Bare-UV sunscreen](/products/bare-uv-sunscreen) to protect against new pigmentation.
 
 ### Is it suitable for melasma?
 
-Barekyne Night Cream targets the same pathways involved in melasma (tyrosinase activity and melanosome transfer). While melasma has hormonal triggers that topical products cannot fully address, multi-pathway depigmentation can significantly improve the appearance of melasma when used as part of a comprehensive treatment plan.
+Barekyne Bare night cream targets the same pathways involved in melasma (tyrosinase activity and melanosome transfer). While melasma has hormonal triggers that topical products cannot fully address, multi-pathway depigmentation can significantly improve the appearance of melasma when used as part of a comprehensive treatment plan.
     `,
     author: "Barekyne Clinical Division",
     date: "2026-06-06",
     readTime: "10 min read",
     category: "Ingredient Science",
     tags: ["kojic acid dipalmitate", "alpha arbutin dark spots", "multi-pathway depigmentation", "night cream India", "melasma treatment"],
-    image: "/images/blog/night-cream-science.webp",
+    image: "/images/blog/bare-night-cream-science.webp",
   },
   {
-    slug: "polyglutamic-acid-hyaluronic-acid-hydration-face-wash",
-    title: "Polyglutamic Acid vs Hyaluronic Acid: Why PGA Holds 4-10x More Moisture in Your Face Wash",
+    slug: "polyglutamic-acid-hyaluronic-acid-hydration-cicaglow-facewash",
+    title: "Polyglutamic Acid vs Hyaluronic Acid: Why PGA Holds 4-10x More Moisture in Your Cicaglow facewash",
     excerpt: "The science of paradoxical rebound hydration — how Polyglutamic Acid in a face wash can make your skin more hydrated after cleansing, not less.",
     content: `
-# Polyglutamic Acid vs Hyaluronic Acid: Why PGA Holds 4-10x More Moisture in Your Face Wash
+# Polyglutamic Acid vs Hyaluronic Acid: Why PGA Holds 4-10x More Moisture in Your Cicaglow facewash
 
 ## The Great Cleanser Paradox
 
@@ -2672,7 +2672,7 @@ Glycolic Acid, Salicylic Acid, and other exfoliating acids do exactly what they'
 
 This creates the "cleanser paradox": the very ingredients that make a face wash effective at treating acne and dullness also make it destructive to the skin barrier. Patients use an acid cleanser for clear skin but end up with dehydrated, compromised, irritation-prone skin instead.
 
-**Barekyne solved this paradox.** The [Barekyne Face Wash](/products/face-wash) is the first Indian cleanser to combine multi-acid exfoliation with a paradoxical rebound hydration system powered by Polyglutamic Acid (PGA) and Hyaluronic Acid.
+**Barekyne solved this paradox.** The [Barekyne Cicaglow facewash](/products/cicaglow-facewash) is the first Indian cleanser to combine multi-acid exfoliation with a paradoxical rebound hydration system powered by Polyglutamic Acid (PGA) and Hyaluronic Acid.
 
 ## What Is Polyglutamic Acid (PGA)?
 
@@ -2697,11 +2697,11 @@ While Hyaluronic Acid (HA) can hold up to 1,000 times its weight in water, PGA's
 
 Here's a critical detail most brands miss: **PGA inhibits hyaluronidase**, the enzyme that breaks down your skin's own natural Hyaluronic Acid. This means PGA doesn't just hydrate on its own — it actually helps your skin retain more of its existing HA.
 
-When you use both PGA and HA together (as in [Barekyne Face Wash](/products/face-wash)), you get a synergistic effect: HA provides immediate hydration while PGA creates a protective film that prevents evaporation AND inhibits the enzyme that would break down HA.
+When you use both PGA and HA together (as in [Barekyne Cicaglow facewash](/products/cicaglow-facewash)), you get a synergistic effect: HA provides immediate hydration while PGA creates a protective film that prevents evaporation AND inhibits the enzyme that would break down HA.
 
 ## The Paradoxical Rebound Hydration Effect
 
-"Paradoxical rebound hydration" describes what happens when you cleanse with Barekyne Face Wash: **your skin is measurably more hydrated after washing than before.**
+"Paradoxical rebound hydration" describes what happens when you cleanse with Barekyne Cicaglow facewash: **your skin is measurably more hydrated after washing than before.**
 
 ### How It Works:
 
@@ -2713,9 +2713,9 @@ When you use both PGA and HA together (as in [Barekyne Face Wash](/products/face
 
 4. **Result**: Instead of the usual post-wash tightness, skin feels plump, hydrated, and comfortable — even after a multi-acid cleanse.
 
-## The Full Barekyne Face Wash Ingredient Architecture
+## The Full Barekyne Cicaglow facewash Ingredient Architecture
 
-[Barekyne Face Wash](/products/face-wash) isn't just PGA in a cleanser. It's a carefully layered system:
+[Barekyne Cicaglow facewash](/products/cicaglow-facewash) isn't just PGA in a cleanser. It's a carefully layered system:
 
 ### Layer 1: Exfoliation (Acids)
 
@@ -2748,13 +2748,13 @@ India's tropical and subtropical climate creates excess sebum production. Salicy
 
 ### Post-Inflammatory Hyperpigmentation (PIH)
 
-Melanin-rich skin (Fitzpatrick IV-VI) is particularly prone to PIH — darkening at sites of inflammation. Over-stripping the barrier with harsh cleansers causes micro-inflammation, which triggers PIH. By maintaining barrier integrity during cleansing, Barekyne Face Wash reduces PIH risk.
+Melanin-rich skin (Fitzpatrick IV-VI) is particularly prone to PIH — darkening at sites of inflammation. Over-stripping the barrier with harsh cleansers causes micro-inflammation, which triggers PIH. By maintaining barrier integrity during cleansing, Barekyne Cicaglow facewash reduces PIH risk.
 
 ## The B2B Perspective: Why Clinics Recommend Barrier-First Cleansers
 
 ### Reduced Treatment Complications
 
-Dermatologists frequently prescribe acid peels, retinol, and other treatments that sensitize the skin. A barrier-first cleanser like Barekyne Face Wash is recommended as the daily cleanser during treatment courses because it cleans without adding to the barrier stress.
+Dermatologists frequently prescribe acid peels, retinol, and other treatments that sensitize the skin. A barrier-first cleanser like Barekyne Cicaglow facewash is recommended as the daily cleanser during treatment courses because it cleans without adding to the barrier stress.
 
 ### Higher Compliance Rates
 
@@ -2768,11 +2768,11 @@ Patients abandon acid cleansers that cause dryness and tightness. A cleanser tha
 
 ## The Complete Barrier-First Routine
 
-For optimal results, pair [Barekyne Face Wash](/products/face-wash) with:
+For optimal results, pair [Barekyne Cicaglow facewash](/products/cicaglow-facewash) with:
 
-1. **AM**: Face Wash → [Vitamin C Serum](/products/vitamin-c-serum) → [Sunscreen SPF 50](/products/sunscreen-spf50)
-2. **PM**: Face Wash → [Night Cream](/products/night-cream)
-3. **Body**: [Face & Body Lotion](/products/face-body-lotion) after bathing
+1. **AM**: Cicaglow facewash → [Bare-C20 serum](/products/bare-c20-serum) → [Bare-UV sunscreen](/products/bare-uv-sunscreen)
+2. **PM**: Cicaglow facewash → [Bare night cream](/products/bare-night-cream)
+3. **Body**: [Bare-hydra lotion](/products/bare-hydra-lotion) after bathing
 
 ## Frequently Asked Questions
 
@@ -2782,7 +2782,7 @@ Yes. PGA is a naturally fermented amino acid polymer with an excellent safety pr
 
 ### Will the acids in this face wash cause purging?
 
-Brief purging (1-2 weeks of increased breakouts) can occur when starting any acid-based product as clogged pores are accelerated to the surface. The PGA and HA in Barekyne Face Wash minimize irritation during this transition period.
+Brief purging (1-2 weeks of increased breakouts) can occur when starting any acid-based product as clogged pores are accelerated to the surface. The PGA and HA in Barekyne Cicaglow facewash minimize irritation during this transition period.
 
 ### Can I use this face wash if I'm on tretinoin/retinol?
 
@@ -2790,14 +2790,14 @@ Yes — and your dermatologist may specifically recommend it. Barrier-first clea
 
 ### What makes this different from other acid cleansers on the market?
 
-Most acid cleansers contain only exfoliating acids with perhaps a token amount of moisturizer. Barekyne Face Wash is the first Indian formulation to combine triple-acid exfoliation with PGA-powered paradoxical rebound hydration, Glutathione antioxidant protection, and Cica anti-inflammatory calming — a 3-layer architecture that no other cleanser on the market replicates.
+Most acid cleansers contain only exfoliating acids with perhaps a token amount of moisturizer. Barekyne Cicaglow facewash is the first Indian formulation to combine triple-acid exfoliation with PGA-powered paradoxical rebound hydration, Glutathione antioxidant protection, and Cica anti-inflammatory calming — a 3-layer architecture that no other cleanser on the market replicates.
     `,
     author: "Barekyne Clinical Division",
     date: "2026-06-06",
     readTime: "10 min read",
     category: "Ingredient Science",
     tags: ["polyglutamic acid skincare", "PGA vs hyaluronic acid", "barrier-first cleanser", "face wash for Indian skin", "paradoxical hydration"],
-    image: "/images/blog/face-wash-science.webp",
+    image: "/images/blog/cicaglow-facewash-science.webp",
   },
   {
     slug: "dermawhite-wf-body-lotion-brightening-technology",
@@ -2835,11 +2835,11 @@ Dermawhite™ WF works through multiple botanical mechanisms:
 
 The "WF" designation stands for the specific formulation grade optimized for leave-on products like lotions and creams. This means it's designed for prolonged skin contact — unlike rinse-off brightening agents that provide only brief exposure.
 
-At 1% concentration in [Barekyne Face & Body Lotion](/products/face-body-lotion), Dermawhite™ WF provides continuous melanin inhibition throughout the day.
+At 1% concentration in [Barekyne Bare-hydra lotion](/products/bare-hydra-lotion), Dermawhite™ WF provides continuous melanin inhibition throughout the day.
 
 ## The Botanical Brightening Ecosystem
 
-[Barekyne Face & Body Lotion](/products/face-body-lotion) doesn't rely on Dermawhite™ WF alone. It combines five active ingredients in a synergistic brightening ecosystem:
+[Barekyne Bare-hydra lotion](/products/bare-hydra-lotion) doesn't rely on Dermawhite™ WF alone. It combines five active ingredients in a synergistic brightening ecosystem:
 
 ### 1. Vitamin C 3% — Antioxidant Brightening
 
@@ -2889,7 +2889,7 @@ This means body brightening products need:
 - **Enzyme exfoliation over acid exfoliation** — gentler for daily large-area use
 - **Climate-appropriate base** — India's humidity demands non-greasy formulations
 
-[Barekyne Face & Body Lotion](/products/face-body-lotion) is specifically engineered for these requirements.
+[Barekyne Bare-hydra lotion](/products/bare-hydra-lotion) is specifically engineered for these requirements.
 
 ## The B2B Opportunity in Body Brightening
 
@@ -2918,7 +2918,7 @@ This creates multiple demand cycles per year, improving inventory turnover for d
 ### Daily Routine:
 1. Shower/bathe normally
 2. Pat skin partially dry (slightly damp)
-3. Apply [Barekyne Face & Body Lotion](/products/face-body-lotion) generously on arms, legs, neck, and body
+3. Apply [Barekyne Bare-hydra lotion](/products/bare-hydra-lotion) generously on arms, legs, neck, and body
 4. Allow to absorb (1-2 minutes)
 5. For exposed areas, follow with sunscreen
 
@@ -2942,7 +2942,7 @@ No. Unlike hydroquinone and some acid-based brighteners, Dermawhite™ WF does n
 
 ### Can I use this lotion on my face?
 
-Yes. [Barekyne Face & Body Lotion](/products/face-body-lotion) is formulated for both face and body. The 3% Vitamin C and 1% Dermawhite™ WF concentrations are appropriate for facial use, though for intensive facial brightening, pair with [Barekyne Vitamin C Serum](/products/vitamin-c-serum).
+Yes. [Barekyne Bare-hydra lotion](/products/bare-hydra-lotion) is formulated for both face and body. The 3% Vitamin C and 1% Dermawhite™ WF concentrations are appropriate for facial use, though for intensive facial brightening, pair with [Barekyne Bare-C20 serum](/products/bare-c20-serum).
 
 ### How does 90% melanin inhibition translate to visible results?
 
@@ -2950,7 +2950,7 @@ The 90% figure comes from in-vitro (laboratory cell culture) studies. In-vivo (o
 
 ### What makes this different from regular body lotions?
 
-Most body lotions are purely moisturizing — they hydrate but don't address pigmentation. Barekyne Face & Body Lotion is a treatment body lotion with five active brightening ingredients targeting melanin at multiple levels.
+Most body lotions are purely moisturizing — they hydrate but don't address pigmentation. Barekyne Bare-hydra lotion is a treatment body lotion with five active brightening ingredients targeting melanin at multiple levels.
     `,
     author: "Barekyne Clinical Division",
     date: "2026-06-06",
@@ -2998,11 +2998,11 @@ Zinc PCA has a dual mechanism:
 
 Traditional sunscreens sit on the skin surface, trapping heat and sebum underneath. This creates a greenhouse effect — sweat mixes with sebum and sunscreen, creating a comedogenic film that clogs pores and triggers breakouts.
 
-[Barekyne Sunscreen SPF 50](/products/sunscreen-spf50) with Zinc PCA actively regulates sebum production while providing UV protection. It's not just blocking UV — it's intelligently managing the skin's oil balance simultaneously.
+[Barekyne Bare-UV sunscreen](/products/bare-uv-sunscreen) with Zinc PCA actively regulates sebum production while providing UV protection. It's not just blocking UV — it's intelligently managing the skin's oil balance simultaneously.
 
 ## The Full Barekyne Sunscreen Architecture
 
-[Barekyne Sunscreen SPF 50 PA++++](/products/sunscreen-spf50) uses five functional layers:
+[Barekyne Bare-UV sunscreen](/products/bare-uv-sunscreen) uses five functional layers:
 
 ### Layer 1: UV Protection — Dual Physical-Chemical Filter Matrix
 
@@ -3148,17 +3148,17 @@ A routine designed for these specific conditions will outperform any generic Wes
 
 ### Step 1: Cleanse — Barrier-First Multi-Acid Cleansing
 
-**Product**: [Barekyne Face Wash](/products/face-wash)
+**Product**: [Barekyne Cicaglow facewash](/products/cicaglow-facewash)
 
 **Why First**: Overnight, skin accumulates sebum, dead cells, and residual night cream. Morning cleansing prepares a clean canvas for active ingredients.
 
-**How**: Wet face with lukewarm water. Take a coin-sized amount of [Barekyne Face Wash](/products/face-wash) and lather between palms. Massage onto face in circular motions for 60 seconds. Rinse thoroughly.
+**How**: Wet face with lukewarm water. Take a coin-sized amount of [Barekyne Cicaglow facewash](/products/cicaglow-facewash) and lather between palms. Massage onto face in circular motions for 60 seconds. Rinse thoroughly.
 
 **The Science**: The multi-acid system (Glycolic + Salicylic + Lactic) removes overnight buildup while Polyglutamic Acid and Hyaluronic Acid provide paradoxical rebound hydration — your skin is more hydrated after cleansing, not less. Glutathione provides antioxidant reset for the new day.
 
 ### Step 2: Treat — Multi-Pathway Brightening
 
-**Product**: [Barekyne Vitamin C Serum](/products/vitamin-c-serum)
+**Product**: [Barekyne Bare-C20 serum](/products/bare-c20-serum)
 
 **Why AM**: Vitamin C's antioxidant properties are most valuable during the day when skin faces UV-generated free radicals and pollution-driven oxidative stress.
 
@@ -3168,7 +3168,7 @@ A routine designed for these specific conditions will outperform any generic Wes
 
 ### Step 3: Protect — Intelligent Photoprotection
 
-**Product**: [Barekyne Sunscreen SPF 50 PA++++](/products/sunscreen-spf50)
+**Product**: [Barekyne Bare-UV sunscreen](/products/bare-uv-sunscreen)
 
 **Why Last**: Sunscreen must be the outermost layer to function properly. Applying actives over sunscreen reduces both the sunscreen's protection and the actives' penetration.
 
@@ -3178,7 +3178,7 @@ A routine designed for these specific conditions will outperform any generic Wes
 
 ### Body (AM Addition)
 
-**Product**: [Barekyne Face & Body Lotion](/products/face-body-lotion)
+**Product**: [Barekyne Bare-hydra lotion](/products/bare-hydra-lotion)
 
 **When**: After bathing, on slightly damp skin
 
@@ -3190,7 +3190,7 @@ A routine designed for these specific conditions will outperform any generic Wes
 
 ### Step 1: Cleanse — Deep Pore Purification
 
-**Product**: [Barekyne Face Wash](/products/face-wash)
+**Product**: [Barekyne Cicaglow facewash](/products/cicaglow-facewash)
 
 **Why PM Cleansing Is Critical**: Evening cleansing removes the day's accumulation of sunscreen, pollution particles (PM 2.5), sebum, and makeup. This is the most important cleanse of the day.
 
@@ -3200,7 +3200,7 @@ A routine designed for these specific conditions will outperform any generic Wes
 
 ### Step 2: Treat — Overnight Depigmentation
 
-**Product**: [Barekyne Night Cream](/products/night-cream)
+**Product**: [Barekyne Bare night cream](/products/bare-night-cream)
 
 **Why PM**: The skin's circadian repair cycle peaks between 11 PM and 4 AM. Cell turnover increases by 30%. Growth hormone surges support tissue repair. This is when depigmentation actives are most effective.
 
@@ -3208,19 +3208,19 @@ A routine designed for these specific conditions will outperform any generic Wes
 
 **The Science**: 2% Kojic Acid Dipalmitate inhibits melanin synthesis through sustained-release tyrosinase chelation. 3% Niacinamide blocks melanosome transfer — preventing the day's produced melanin from reaching the visible skin surface. 1.5% Alpha Arbutin provides competitive tyrosinase inhibition through a different mechanism, creating triple-pathway coverage.
 
-### Why No Vitamin C Serum at Night?
+### Why No Bare-C20 serum at Night?
 
 Some routines suggest Vitamin C morning AND evening. We recommend **AM-only Vitamin C** for two reasons:
 
 1. **Antioxidant benefit is maximized during UV exposure hours** — at night, there's no UV-generated free radicals to neutralize
-2. **Night Cream's depigmentation actives work differently** — they target the melanin machinery directly (synthesis + transfer), which is the priority during nighttime repair
+2. **Bare night cream's depigmentation actives work differently** — they target the melanin machinery directly (synthesis + transfer), which is the priority during nighttime repair
 3. **Avoids ingredient overload** — skin receptors can only absorb so many actives at once
 
 ## Weekly Additions
 
 ### Sunscreen Reapplication
 
-If your day involves significant sun exposure (outdoor work, commuting on two-wheelers, weekend outdoor activities), reapply [Barekyne Sunscreen SPF 50](/products/sunscreen-spf50) every 2-3 hours.
+If your day involves significant sun exposure (outdoor work, commuting on two-wheelers, weekend outdoor activities), reapply [Barekyne Bare-UV sunscreen](/products/bare-uv-sunscreen) every 2-3 hours.
 
 ### Consistency Over Intensity
 
@@ -3243,7 +3243,7 @@ The most important factor in any skincare routine is **consistency**. A simple, 
 
 Skincare products should be applied from **thinnest to thickest** texture, which generally correlates with **lowest to highest molecular weight**:
 
-1. **Face Wash** (rinse-off) — prepares the canvas
+1. **Cicaglow facewash** (rinse-off) — prepares the canvas
 2. **Serum** (water-based, low molecular weight) — penetrates deepest
 3. **Sunscreen/Cream** (emulsion, higher molecular weight) — sits on surface
 
@@ -3270,7 +3270,7 @@ This routine aligns with standard dermatological prescribing patterns. Dermatolo
 
 ### Pharmacy Counter Display
 
-The 5-product routine creates a natural shelf display: Face Wash → Serum → Sunscreen → Night Cream → Body Lotion. This visual merchandising drives cross-selling.
+The 5-product routine creates a natural shelf display: Cicaglow facewash → Serum → Sunscreen → Bare night cream → Body Lotion. This visual merchandising drives cross-selling.
 
 [Explore Barekyne's B2B distribution program →](/distributorship)
 
@@ -3278,11 +3278,11 @@ The 5-product routine creates a natural shelf display: Face Wash → Serum → S
 
 ### Can I add retinol to this routine?
 
-If your dermatologist prescribes retinol, use it in the PM after cleansing, before Night Cream. On retinol nights, the barrier-first Face Wash is especially important to avoid over-stripping already-sensitized skin.
+If your dermatologist prescribes retinol, use it in the PM after cleansing, before Bare night cream. On retinol nights, the barrier-first Cicaglow facewash is especially important to avoid over-stripping already-sensitized skin.
 
 ### Is this routine suitable for acne-prone skin?
 
-Yes. Every product in this routine is non-comedogenic. The Face Wash's Salicylic Acid targets acne directly. The Sunscreen's Zinc PCA prevents sebum-driven breakouts. The Night Cream avoids pore-clogging emollients.
+Yes. Every product in this routine is non-comedogenic. The Cicaglow facewash's Salicylic Acid targets acne directly. The Sunscreen's Zinc PCA prevents sebum-driven breakouts. The Bare night cream avoids pore-clogging emollients.
 
 ### How long should I follow this routine before switching?
 
@@ -3294,7 +3294,7 @@ Absolutely. Skin biology doesn't differ by gender. Men in India face the same UV
 
 ### What if I can only afford some products — what's the minimum effective routine?
 
-If budget is a constraint, prioritize: (1) [Sunscreen](/products/sunscreen-spf50) — the single most impactful skincare product, and (2) [Face Wash](/products/face-wash) — the foundation of any routine. Add [Vitamin C Serum](/products/vitamin-c-serum) and [Night Cream](/products/night-cream) when budget allows.
+If budget is a constraint, prioritize: (1) [Sunscreen](/products/bare-uv-sunscreen) — the single most impactful skincare product, and (2) [Cicaglow facewash](/products/cicaglow-facewash) — the foundation of any routine. Add [Bare-C20 serum](/products/bare-c20-serum) and [Bare night cream](/products/bare-night-cream) when budget allows.
     `,
     author: "Barekyne Clinical Division",
     date: "2026-06-06",
@@ -3340,10 +3340,10 @@ Generic franchises offer 50-200 SKUs. This seems like an advantage, but it's a t
 
 Barekyne's focused 6-SKU clinical ecosystem is intentionally curated. Each product addresses a specific, high-frequency dermatological concern:
 
-- **Sunscreen SPF 50** → Daily prescription for every patient
-- **Vitamin C Serum** → Anti-pigmentation (India's #1 concern)
-- **Night Cream** → Barrier repair and brightening
-- **Face Wash** → Foundation of every skincare protocol
+- **Bare-UV sunscreen** → Daily prescription for every patient
+- **Bare-C20 serum** → Anti-pigmentation (India's #1 concern)
+- **Bare night cream** → Barrier repair and brightening
+- **Cicaglow facewash** → Foundation of every skincare protocol
 - **Body Lotion** → Body brightening and hydration
 
 Fewer SKUs means faster inventory turnover, lower capital requirements, and stronger per-product brand recognition.
@@ -3584,10 +3584,10 @@ This article provides transparent income projections based on actual market dyna
 
 | Product | MRP | Distributor Price | Gross Margin |
 |---|---|---|---|
-| Sunscreen SPF 50 | ₹599 | ₹250-280 | 53-58% |
-| Vitamin C Serum | ₹799 | ₹340-380 | 52-57% |
-| Night Cream | ₹699 | ₹300-330 | 53-57% |
-| Face Wash | ₹399 | ₹170-190 | 52-57% |
+| Bare-UV sunscreen | ₹599 | ₹250-280 | 53-58% |
+| Bare-C20 serum | ₹799 | ₹340-380 | 52-57% |
+| Bare night cream | ₹699 | ₹300-330 | 53-57% |
+| Cicaglow facewash | ₹399 | ₹170-190 | 52-57% |
 | Body Lotion | ₹499 | ₹215-240 | 52-57% |
 
 **Average gross margin: 50-58%**
@@ -3794,7 +3794,7 @@ Lucknow, as the state capital and medical hub, is the strategic entry point for 
 - **Top skin concerns:** Melasma, sun damage, dehydration
 
 ### The Opportunity
-Rajasthan's intense solar radiation makes photoprotection and anti-pigmentation the two most prescribed dermatological categories. Barekyne's SPF 50 Hybrid Sunscreen and Kojic Acid Night Cream are perfectly positioned for this market.
+Rajasthan's intense solar radiation makes photoprotection and anti-pigmentation the two most prescribed dermatological categories. Barekyne's SPF 50 Hybrid Sunscreen and Kojic Acid Bare night cream are perfectly positioned for this market.
 
 Jaipur's growing luxury aesthetic clinic sector creates premium demand for clinical-grade products.
 
@@ -4161,7 +4161,7 @@ If a skincare product contains active ingredients formulated to treat, mitigate,
 ### 2. Cosmetic-Notified Skincare Products
 Daily-use cleansers, general sunscreens, body lotions, and basic moisturizers that are notified as cosmetics under the Drugs and Cosmetics Rules do not technically require a retail or wholesale drug license for selling.
 *   **License Requirement**: **You can begin distribution with just a GSTIN alone.**
-*   *Note for Barekyne Partners*: Because Barekyne’s advanced formulations like the Hybrid Sunscreen, Face Wash, and Body Lotion are notified as cosmetics under the rules, **our franchise partners do not need a Wholesale Drug License to start.** You can begin your business immediately with just a GSTIN.
+*   *Note for Barekyne Partners*: Because Barekyne’s advanced formulations like the Hybrid Sunscreen, Cicaglow facewash, and Body Lotion are notified as cosmetics under the rules, **our franchise partners do not need a Wholesale Drug License to start.** You can begin your business immediately with just a GSTIN.
 
 ---
 
@@ -4188,7 +4188,7 @@ Unlike traditional pharmaceutical setups that have rigid, high-cost infrastructu
 
 ### 2. Temperature: No Specialized Cold Storage Required
 *   **Highly Stable Formulations**: Some skincare lines require expensive refrigeration (cold storage) to prevent active ingredients from oxidizing (turning yellow or brown).
-*   **No Cold Storage Needed**: Barekyne formulations are specifically engineered for India's harsh climate. We use highly stable, heat-resistant derivatives (such as Ethyl Ascorbic Acid for Vitamin C, and Kojic Acid Dipalmitate for the Night Cream). They maintain full efficacy at normal room temperatures, meaning **no refrigeration setup is required** at your storage unit.
+*   **No Cold Storage Needed**: Barekyne formulations are specifically engineered for India's harsh climate. We use highly stable, heat-resistant derivatives (such as Ethyl Ascorbic Acid for Vitamin C, and Kojic Acid Dipalmitate for the Bare night cream). They maintain full efficacy at normal room temperatures, meaning **no refrigeration setup is required** at your storage unit.
 
 ---
 
@@ -4281,7 +4281,7 @@ Dermatology typically commands higher margins than general pharma.
 ### Barekyne
 Barekyne completely changes the unit economics for distributors.
 *   **Guaranteed Net Margins:** 50% to 58%.
-*   **Why it works:** Barekyne operates direct-from-manufacturer, eliminating all middlemen. More importantly, Barekyne only produces **high-velocity clinical SKUs** (Sunscreen SPF 50, 20% Vitamin C Serum, Depigmentation Night Cream). Distributors do not waste capital on slow-moving inventory.
+*   **Why it works:** Barekyne operates direct-from-manufacturer, eliminating all middlemen. More importantly, Barekyne only produces **high-velocity clinical SKUs** (Bare-UV sunscreen, 20% Bare-C20 serum, Depigmentation Bare night cream). Distributors do not waste capital on slow-moving inventory.
 
 ---
 
@@ -4294,11 +4294,11 @@ When a company has 3000+ products, you are often required to maintain minimum or
 
 ### Barekyne's 5-SKU Clinical Ecosystem
 Barekyne intentionally restricts its portfolio to 5 meticulously engineered products:
-1.  **Hybrid Invisible Shield Sunscreen SPF 50 PA++++** (Zero white cast, Zinc PCA)
+1.  **Hybrid Invisible Shield Bare-UV sunscreen** (Zero white cast, Zinc PCA)
 2.  **20% Vitamin C + Niacinamide Serum** (Stable Ethyl Ascorbic Acid)
-3.  **Triple-Pathway Depigmentation Night Cream** (Kojic Acid Dipalmitate)
-4.  **Multi-Acid + PGA Face Wash** (Paradoxical rebound hydration)
-5.  **Dermawhite™ WF Face & Body Lotion** (Botanical tyrosinase inhibition)
+3.  **Triple-Pathway Depigmentation Bare night cream** (Kojic Acid Dipalmitate)
+4.  **Multi-Acid + PGA Cicaglow facewash** (Paradoxical rebound hydration)
+5.  **Dermawhite™ WF Bare-hydra lotion** (Botanical tyrosinase inhibition)
 
 **The Advantage:** Your entire investment of ₹50,000 goes directly into fast-moving inventory that dermatologists prescribe daily. There is zero dead stock.
 

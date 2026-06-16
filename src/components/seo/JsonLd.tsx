@@ -191,7 +191,7 @@ export function OrganizationJsonLd() {
               "@type": "Offer",
               itemOffered: {
                 "@type": "Product",
-                name: "Vitamin C 20% Serum",
+                name: "Bare-C20 serum",
                 description:
                   "20% L-Ascorbic Acid + 2% Niacinamide serum for hyperpigmentation, PIH, and melasma treatment",
               },
@@ -206,7 +206,7 @@ export function OrganizationJsonLd() {
               "@type": "Offer",
               itemOffered: {
                 "@type": "Product",
-                name: "Hybrid Invisible Sunscreen SPF 50",
+                name: "Hybrid Invisible Bare-UV sunscreen",
                 description:
                   "Zero white cast broad-spectrum sunscreen for Fitzpatrick IV-VI skin with dual physical-chemical filter matrix",
               },

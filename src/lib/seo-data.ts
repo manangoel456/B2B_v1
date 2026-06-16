@@ -81,7 +81,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Mira Road", "Borivali", "Kandivali", "Malad"
     ],
     regionalDermaFacts:
-      "Mumbai's coastal humidity drives elevated rates of acne vulgaris and fungal skin conditions, creating strong recurring demand for Barekyne's Face Wash and Hybrid Sunscreen range.",
+      "Mumbai's coastal humidity drives elevated rates of acne vulgaris and fungal skin conditions, creating strong recurring demand for Barekyne's Cicaglow facewash and Hybrid Sunscreen range.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/mumbai",
     ogImage: "/og/mumbai-franchise.jpg",
     structuredData: {
@@ -112,7 +112,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Bannerghatta Road", "Tumkur Road Corridor", "Yelahanka"
     ],
     regionalDermaFacts:
-      "Bangalore's year-round moderate climate paradoxically drives elevated UV exposure awareness, creating strong demand for SPF-focused products. Barekyne's Zero White Cast Sunscreen SPF 50 is an exceptionally high-velocity SKU in this market.",
+      "Bangalore's year-round moderate climate paradoxically drives elevated UV exposure awareness, creating strong demand for SPF-focused products. Barekyne's Zero White Cast Bare-UV sunscreen is an exceptionally high-velocity SKU in this market.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/bangalore",
     ogImage: "/og/bangalore-franchise.jpg",
     structuredData: {
@@ -236,7 +236,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Asansol-Durgapur", "Siliguri", "Kalyani"
     ],
     regionalDermaFacts:
-      "West Bengal's high humidity drives elevated rates of fungal infections and acne. Barekyne's Face Wash (Glycolic + Salicylic + Vitamin C) addresses the region's most prevalent dermatological concerns directly.",
+      "West Bengal's high humidity drives elevated rates of fungal infections and acne. Barekyne's Cicaglow facewash (Glycolic + Salicylic + Vitamin C) addresses the region's most prevalent dermatological concerns directly.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/kolkata",
     ogImage: "/og/kolkata-franchise.jpg",
     structuredData: {
@@ -267,7 +267,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Surat North", "Vadodara", "Rajkot"
     ],
     regionalDermaFacts:
-      "Ahmedabad's extreme summer temperatures (routinely exceeding 42°C) create year-round, high-urgency demand for SPF protection. Barekyne's Hybrid Invisible Sunscreen SPF 50 is positioned as a clinically essential SKU — not a cosmetic luxury — in this market.",
+      "Ahmedabad's extreme summer temperatures (routinely exceeding 42°C) create year-round, high-urgency demand for SPF protection. Barekyne's Hybrid Invisible Bare-UV sunscreen is positioned as a clinically essential SKU — not a cosmetic luxury — in this market.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/ahmedabad",
     ogImage: "/og/ahmedabad-franchise.jpg",
     structuredData: {
@@ -298,7 +298,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Kota", "Bikaner", "Sikar"
     ],
     regionalDermaFacts:
-      "Rajasthan's UV Index regularly exceeds 10 in summer months. Barekyne's Hybrid Invisible Sunscreen SPF 50 and Vitamin C 20% Serum form a high-velocity depigmentation protocol for this region's PIH-heavy patient population.",
+      "Rajasthan's UV Index regularly exceeds 10 in summer months. Barekyne's Hybrid Invisible Bare-UV sunscreen and Bare-C20 serum form a high-velocity depigmentation protocol for this region's PIH-heavy patient population.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/jaipur",
     ogImage: "/og/jaipur-franchise.jpg",
     structuredData: {
@@ -391,7 +391,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Kollam", "Malappuram", "Palakkad"
     ],
     regionalDermaFacts:
-      "Kerala's year-round high humidity and tropical UV exposure creates persistent acne, hyperpigmentation, and TEWL-related skin barrier issues. Barekyne's Advanced Night Cream (Ceramides + Retinol + Peptides) is exceptionally well-positioned for Kerala's barrier-repair need.",
+      "Kerala's year-round high humidity and tropical UV exposure creates persistent acne, hyperpigmentation, and TEWL-related skin barrier issues. Barekyne's Advanced Bare night cream (Ceramides + Retinol + Peptides) is exceptionally well-positioned for Kerala's barrier-repair need.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/kochi",
     ogImage: "/og/kochi-franchise.jpg",
     structuredData: {
@@ -608,7 +608,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Thaltej", "Bopal", "Maninagar"
     ],
     regionalDermaFacts:
-      "The extreme dry heat of Ahmedabad's summers and high pollution levels create strong demand for Barekyne's Face Wash, which features paradoxical rebound hydration to protect the skin barrier while deep cleansing.",
+      "The extreme dry heat of Ahmedabad's summers and high pollution levels create strong demand for Barekyne's Cicaglow facewash, which features paradoxical rebound hydration to protect the skin barrier while deep cleansing.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/ahmedabad",
     ogImage: "/og/ahmedabad-franchise.jpg",
     structuredData: {
