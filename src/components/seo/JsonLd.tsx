@@ -194,6 +194,11 @@ export function OrganizationJsonLd() {
                 name: "Bare-C20 serum",
                 description:
                   "20% L-Ascorbic Acid + 2% Niacinamide serum for hyperpigmentation, PIH, and melasma treatment",
+                offers: {
+                  "@type": "Offer",
+                  priceCurrency: "INR",
+                  price: "749",
+                },
               },
             },
           ],
@@ -209,6 +214,11 @@ export function OrganizationJsonLd() {
                 name: "Hybrid Invisible Bare-UV sunscreen",
                 description:
                   "Zero white cast broad-spectrum sunscreen for Fitzpatrick IV-VI skin with dual physical-chemical filter matrix",
+                offers: {
+                  "@type": "Offer",
+                  priceCurrency: "INR",
+                  price: "649",
+                },
               },
             },
           ],
