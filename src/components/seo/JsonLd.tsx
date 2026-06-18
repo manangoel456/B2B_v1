@@ -197,7 +197,7 @@ export function OrganizationJsonLd() {
                 offers: {
                   "@type": "Offer",
                   priceCurrency: "INR",
-                  price: "749",
+                  price: "990",
                 },
               },
             },
@@ -217,7 +217,7 @@ export function OrganizationJsonLd() {
                 offers: {
                   "@type": "Offer",
                   priceCurrency: "INR",
-                  price: "649",
+                  price: "749",
                 },
               },
             },

@@ -24,7 +24,7 @@ export const products: Product[] = [
     slug: "bare-uv-sunscreen",
     name: "Bare-UV sunscreen",
     shortName: "Bare-UV sunscreen",
-    mrp: 649,
+    mrp: 749,
     category: "Sun Protection",
     tagline: "Hybrid Invisible Shield — Zero White Cast Photoprotection",
     description:
@@ -92,7 +92,7 @@ export const products: Product[] = [
     slug: "bare-c20-serum",
     name: "Bare-C20 serum",
     shortName: "Bare-C20 serum",
-    mrp: 749,
+    mrp: 990,
     category: "Serums",
     tagline: "20% Ethyl Ascorbic Acid — Stable Brightening & Anti-Aging Serum",
     description:
@@ -220,7 +220,7 @@ export const products: Product[] = [
     slug: "cicaglow-facewash",
     name: "Cicaglow facewash",
     shortName: "Cicaglow facewash",
-    mrp: 499,
+    mrp: 549,
     category: "Cleansers",
     tagline: "Barrier-First Cleansing — Multi-Acid + Paradoxical Hydration",
     description:
