@@ -914,7 +914,7 @@ export default async function CityFranchisePage(
                 By bypassing third-party super stockists and traditional distributors, we guarantee direct-from-manufacturer supply lines, enabling industry-leading ROI on B2B skincare procurement.
               </p>
               <ul className="space-y-2 text-sm text-slate-300">
-                <li className="flex items-center gap-2">✓ <strong>50% to 58% net margins</strong> on high-MRP products</li>
+                <li className="flex items-center gap-2">✓ <strong>industry-leading net margins</strong> on high-MRP products</li>
                 <li className="flex items-center gap-2">✓ Initial franchise packages starting at <strong>INR 50,000</strong></li>
                 <li className="flex items-center gap-2">✓ Continuous scientific visual aid & detailing support</li>
               </ul>

@@ -597,7 +597,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
     h1: "Derma PCD Franchise in Ahmedabad — B2B Skincare Distributorship",
     metaTitle: "Derma PCD Franchise Ahmedabad | Barekyne Monopoly Rights",
     metaDescription:
-      "Join Barekyne's premium derma franchise network in Ahmedabad. Secure district-level monopoly rights and 50-58% margins on WHO-GMP clinical skincare.",
+      "Join Barekyne's premium derma franchise network in Ahmedabad. Secure district-level monopoly rights and industry-leading profit margins on WHO-GMP clinical skincare.",
     heroSubheadline:
       "High-Velocity Clinical Skincare for Gujarat's Most Dynamic B2B Market",
     marketInsight:
@@ -721,7 +721,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
     h1: "Derma PCD Franchise in Lucknow — UP Skincare Distributorship Opportunity",
     metaTitle: "Derma PCD Franchise Lucknow | Barekyne B2B Skincare",
     metaDescription:
-      "Launch a highly profitable derma PCD franchise in Lucknow. Barekyne offers exclusive district-level monopoly, WHO-GMP clinical products, and 50%+ margins.",
+      "Launch a highly profitable derma PCD franchise in Lucknow. Barekyne offers exclusive district-level monopoly, WHO-GMP clinical products, and high-yield profit margins.",
     heroSubheadline:
       "Lead Uttar Pradesh's Clinical Skincare Market with Barekyne's Monopoly Franchise",
     marketInsight:

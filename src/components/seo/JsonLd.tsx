@@ -230,7 +230,7 @@ export function OrganizationJsonLd() {
         "@type": "Offer",
         name: "Derma PCD Franchise",
         description:
-          "Exclusive district-level monopoly rights for clinical skincare distribution with 50-58% margins. Starting investment INR 50,000.",
+          "Exclusive district-level monopoly rights for clinical skincare distribution with industry-leading profit margins. Starting investment INR 50,000.",
         areaServed: { "@type": "Country", name: "India" },
       },
       {
@@ -283,7 +283,7 @@ export function WebSiteJsonLd() {
       "Barekyne Derma Franchise",
     ],
     description:
-      "India's premium clinical derma PCD franchise and skincare distributorship. WHO-GMP certified products with exclusive monopoly rights and 50%+ margins.",
+      "India's premium clinical derma PCD franchise and skincare distributorship. WHO-GMP certified products with exclusive monopoly rights and high-yield profit margins.",
     publisher: {
       "@id": "https://barekyne.in/#organization",
     },

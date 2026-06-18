@@ -211,7 +211,7 @@ export const FAQ_DATA = [
   {
     question: "What are monopoly rights in cosmetic and derma distribution?",
     answer:
-      "Monopoly rights grant you legally binding, exclusive territorial distribution rights for Barekyne clinical cosmeceuticals in a designated district or region. This prevents internal brand competition and price undercutting by guaranteeing that no other distributor can supply Barekyne products within your allocated territory, ensuring maximum ROI and stable 50%+ margins.",
+      "Monopoly rights grant you legally binding, exclusive territorial distribution rights for Barekyne clinical cosmeceuticals in a designated district or region. This prevents internal brand competition and price undercutting by guaranteeing that no other distributor can supply Barekyne products within your allocated territory, ensuring maximum ROI and stable high-yield profit margins.",
   },
   {
     question: "Does Barekyne supply skincare products to clinics and dermatologists?",
@@ -226,12 +226,12 @@ export const FAQ_DATA = [
   {
     question: "Is Barekyne a derma skincare franchise opportunity in India?",
     answer:
-      "Absolutely. Barekyne is a leading premium derma skincare franchise opportunity in India. We offer WHO-GMP certified, CDSCO-approved clinical skincare formulations. Our franchise model empowers B2B partners with complete monopoly rights, advanced marketing toolkits, and an industry-leading 50%+ profit margin structure designed for long-term scalability.",
+      "Absolutely. Barekyne is a leading premium derma skincare franchise opportunity in India. We offer WHO-GMP certified, CDSCO-approved clinical skincare formulations. Our franchise model empowers B2B partners with complete monopoly rights, advanced marketing toolkits, and an industry-leading industry-leading profit margin structure designed for long-term scalability.",
   },
   {
     question: "What makes Barekyne different from other wholesale skincare suppliers in India?",
     answer:
-      "Barekyne sets itself apart as the first clinical derma brand engineered specifically for melanin-rich skin science (Fitzpatrick Scale IV-VI). While generic suppliers distribute standard formulas, we offer WHO-GMP certified, stabilizer-protected active ingredient formulations (e.g., stable Vitamin C and multi-weight Hyaluronic Acid) with unparalleled 50%+ distributor margins and legal monopoly protection.",
+      "Barekyne sets itself apart as the first clinical derma brand engineered specifically for melanin-rich skin science (Fitzpatrick Scale IV-VI). While generic suppliers distribute standard formulas, we offer WHO-GMP certified, stabilizer-protected active ingredient formulations (e.g., stable Vitamin C and multi-weight Hyaluronic Acid) with unparalleled industry-leading distributor margins and legal monopoly protection.",
   },
 ] as const;
 

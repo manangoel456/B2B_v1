@@ -9,7 +9,7 @@ import { FAQJsonLd, SpeakableWebPageJsonLd } from "@/components/seo/JsonLd";
 export const metadata: Metadata = {
   title: "Apply for Derma PCD Franchise | Secure Exclusive Monopoly Rights",
   description:
-    "Secure your exclusive district monopoly rights with 50-58% profit margins. Start a premium clinical skincare franchise in your region. Apply in 2 minutes.",
+    "Secure your exclusive district monopoly rights with industry-leading ROI profit margins. Start a premium clinical skincare franchise in your region. Apply in 2 minutes.",
   alternates: { canonical: "/contact-franchise" },
 };
 
@@ -50,7 +50,7 @@ export default function ContactPage() {
       <SpeakableWebPageJsonLd
         name="Apply for Derma PCD Franchise | Secure Exclusive Monopoly Rights"
         url="https://barekyne.in/contact-franchise"
-        description="Secure your exclusive district monopoly rights with 50-58% profit margins. Start a premium clinical skincare franchise in your region."
+        description="Secure your exclusive district monopoly rights with industry-leading ROI profit margins. Start a premium clinical skincare franchise in your region."
       />
       <section className="pt-28 pb-12 lg:pt-36 lg:pb-16 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

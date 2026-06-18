@@ -19,7 +19,7 @@ import ContactForm from "@/components/shared/ContactForm";
 export const metadata: Metadata = {
   title: "Skincare Distributorship India — Exclusive Monopoly Rights",
   description:
-    "Become a Barekyne skincare distributor with exclusive monopoly territory rights. PAN-India Derma PCD franchise with WHO-GMP & ISO 9001:2015 clinical products, 50-58% margins, and dedicated support. Apply now.",
+    "Become a Barekyne skincare distributor with exclusive monopoly territory rights. PAN-India Derma PCD franchise with WHO-GMP & ISO 9001:2015 clinical products, industry-leading profit margins, and dedicated support. Apply now.",
   alternates: { canonical: "/distributorship" },
 };
 
@@ -27,7 +27,7 @@ const distributorshipFaqs = [
   {
     question: "What is the minimum investment to start a Barekyne distributorship?",
     answer:
-      "The minimum investment to start a Barekyne PCD franchise is INR 50,000, which goes entirely into initial inventory. There are no franchise fees, royalty charges, or security deposits — your entire investment is in sellable stock with 50-58% margins.",
+      "The minimum investment to start a Barekyne PCD franchise is INR 50,000, which goes entirely into initial inventory. There are no franchise fees, royalty charges, or security deposits — your entire investment is in sellable stock with industry-leading profit margins.",
   },
   {
     question: "Do I need a drug license to become a Barekyne distributor?",
@@ -37,7 +37,7 @@ const distributorshipFaqs = [
   {
     question: "What profit margins do Barekyne distributors earn?",
     answer:
-      "Barekyne distributors earn 50% to 58% net margins on MRP through direct-from-manufacturer pricing with zero middlemen. This is 2-3x higher than the 15-25% margins offered by traditional PCD franchise companies.",
+      "Barekyne distributors earn industry-leading net margins on MRP through direct-from-manufacturer pricing with zero middlemen. This is 2-3x higher than the 15-25% margins offered by traditional PCD franchise companies.",
   },
   {
     question: "How does Barekyne's monopoly rights model work?",
@@ -174,7 +174,7 @@ export default function DistributorshipPage() {
       <SpeakableWebPageJsonLd
         name="Skincare Distributorship India — Exclusive Monopoly Rights"
         url="https://barekyne.in/distributorship"
-        description="Become a Barekyne skincare distributor with exclusive monopoly territory rights. PAN-India Derma PCD franchise with WHO-GMP & ISO 9001:2015 clinical products, 50-58% margins."
+        description="Become a Barekyne skincare distributor with exclusive monopoly territory rights. PAN-India Derma PCD franchise with WHO-GMP & ISO 9001:2015 clinical products, industry-leading profit margins."
       />
       {/* Hero */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
@@ -187,7 +187,7 @@ export default function DistributorshipPage() {
             <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto" data-speakable="true">
               Secure exclusive territorial distribution rights for our PAN-India expanding 
               clinical skincare brand. Partner with a WHO-GMP and ISO 9001:2015 certified 
-              manufacturer for guaranteed 50-58% net margins and zero internal competition.
+              manufacturer for guaranteed industry-leading net margins and zero internal competition.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a

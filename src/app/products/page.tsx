@@ -11,7 +11,7 @@ import JsonLd, { FAQJsonLd, SpeakableWebPageJsonLd } from "@/components/seo/Json
 export const metadata: Metadata = {
   title: "Buy Wholesale Skincare Products India — Clinical Range | Barekyne",
   description:
-    "Sourcing wholesale skincare products in India? Settle for nothing less than WHO-GMP certified clinical-grade. Explore our 5-SKU ecosystem with 50%+ margins.",
+    "Sourcing wholesale skincare products in India? Settle for nothing less than WHO-GMP certified clinical-grade. Explore our 5-SKU ecosystem with high-yield profit margins.",
   alternates: { canonical: "/products" },
 };
 
@@ -29,7 +29,7 @@ const productsFaqs = [
   {
     question: "What are the wholesale margins on Barekyne skincare products?",
     answer:
-      "Barekyne distributors earn 50% to 58% net margins on MRP through direct-from-manufacturer pricing. The minimum wholesale order is INR 15,000, and PCD franchise partners with monopoly rights invest a minimum of INR 50,000 in initial inventory.",
+      "Barekyne distributors earn industry-leading net margins on MRP through direct-from-manufacturer pricing. The minimum wholesale order is INR 15,000, and PCD franchise partners with monopoly rights invest a minimum of INR 50,000 in initial inventory.",
   },
   {
     question: "Are Barekyne products suitable for all skin types?",
@@ -130,7 +130,7 @@ export default function ProductsPage() {
       <SpeakableWebPageJsonLd
         name="Buy Wholesale Skincare Products India — Clinical Range | Barekyne"
         url="https://barekyne.in/products"
-        description="Sourcing wholesale skincare products in India? WHO-GMP certified clinical-grade 5-SKU ecosystem with 50%+ margins."
+        description="Sourcing wholesale skincare products in India? WHO-GMP certified clinical-grade 5-SKU ecosystem with high-yield profit margins."
       />
       {/* Hero */}
       <section className="pt-28 pb-12 lg:pt-36 lg:pb-16 bg-gradient-to-b from-cream to-ivory">

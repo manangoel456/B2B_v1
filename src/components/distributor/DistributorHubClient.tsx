@@ -103,7 +103,7 @@ export default function DistributorHubClient() {
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 md:gap-16">
           {[
             { icon: <Shield className="w-5 h-5" />, text: "WHO-GMP & ISO Certified" },
-            { icon: <TrendingUp className="w-5 h-5" />, text: "50-58% Net Margins" },
+            { icon: <TrendingUp className="w-5 h-5" />, text: "industry-leading net margins" },
             { icon: <Sparkles className="w-5 h-5" />, text: "Dermatologist Formulated" },
             { icon: <MapPin className="w-5 h-5" />, text: "District-Level Monopoly" },
           ].map((item) => (

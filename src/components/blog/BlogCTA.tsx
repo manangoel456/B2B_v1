@@ -27,13 +27,13 @@ export default function BlogCTA() {
 
         <p className="mt-3 text-white/60 text-sm sm:text-base max-w-xl leading-relaxed">
           Join Barekyne&apos;s exclusive PCD franchise network. Secure district-level
-          monopoly rights with 50-58% margins on WHO-GMP clinical skincare.
+          monopoly rights with industry-leading profit margins on WHO-GMP clinical skincare.
         </p>
 
         {/* Value Props */}
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
           {[
-            { icon: <TrendingUp className="w-4 h-4" />, text: "50-58% Net Margins" },
+            { icon: <TrendingUp className="w-4 h-4" />, text: "industry-leading net margins" },
             { icon: <Shield className="w-4 h-4" />, text: "Monopoly Territory Rights" },
             { icon: <MapPin className="w-4 h-4" />, text: "14+ Cities Available" },
           ].map((item) => (
