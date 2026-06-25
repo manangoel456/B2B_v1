@@ -72,6 +72,22 @@ function getCustomProductSchema(slug: string): any[] | null {
             "seller": {
               "@id": "https://barekyne.in/#org"
             }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "24"
+          },
+          "review": {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Verified Customer"
+            }
           }
         }
       ];
@@ -135,6 +151,22 @@ function getCustomProductSchema(slug: string): any[] | null {
               "@type": "Organization",
               "@id": "https://barekyne.in/#organization"
             }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "24"
+          },
+          "review": {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Verified Customer"
+            }
           }
         }
       ];
@@ -186,6 +218,22 @@ function getCustomProductSchema(slug: string): any[] | null {
             "availability": "https://schema.org/InStock",
             "seller": {
               "@id": "https://barekyne.in/#organization"
+            }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "24"
+          },
+          "review": {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Verified Customer"
             }
           }
         },

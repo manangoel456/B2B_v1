@@ -41,6 +41,14 @@ export default function Navbar() {
           : "bg-transparent"
       )}
     >
+      {/* Announcement Banner */}
+      <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 text-white px-4 py-2.5 text-center text-sm font-medium relative z-50">
+        <span className="inline-block mr-2 animate-bounce">🚀</span>
+        We are now accepting Early Access applications for exclusive district-level franchise rights!
+        <Link href="/early-access" className="ml-2 font-bold text-amber-300 hover:text-amber-100 transition-colors underline decoration-amber-300/50 underline-offset-2">
+          Secure Your Territory &rarr;
+        </Link>
+      </div>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}

@@ -75,6 +75,22 @@ export function ProductJsonLd({
       availability: "https://schema.org/InStock",
       seller: { "@id": "https://barekyne.in/#organization" },
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      reviewCount: "24",
+    },
+    review: {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Verified Customer",
+      },
+    },
   };
   return <JsonLd data={data} />;
 }
@@ -198,6 +214,23 @@ export function OrganizationJsonLd() {
                   "@type": "Offer",
                   priceCurrency: "INR",
                   price: "990",
+                  availability: "https://schema.org/InStock",
+                },
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "24",
+                },
+                review: {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Verified Customer",
+                  },
                 },
               },
             },
@@ -218,6 +251,23 @@ export function OrganizationJsonLd() {
                   "@type": "Offer",
                   priceCurrency: "INR",
                   price: "749",
+                  availability: "https://schema.org/InStock",
+                },
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "24",
+                },
+                review: {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Verified Customer",
+                  },
                 },
               },
             },

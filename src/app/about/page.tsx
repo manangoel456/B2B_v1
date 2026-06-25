@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Award, Factory, Globe, Rocket, Heart, Users } from "lucide-react";
+import { Award, Factory, Globe, Rocket, Heart, Users, ChevronDown } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import SectionHeading from "@/components/shared/SectionHeading";
 import FinalCTA from "@/components/home/FinalCTA";
-import JsonLd from "@/components/seo/JsonLd";
+import JsonLd, { FAQJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "About Barekyne — India's Clinical Derma Skincare Brand for B2B Partners",
@@ -110,10 +110,34 @@ const values = [
   },
 ];
 
+const aboutFaqs = [
+  {
+    question: "Where is Barekyne headquartered and what is its business model?",
+    answer:
+      "Barekyne is headquartered in Yamunanagar, Haryana, and operates strictly as a B2B pharmaceutical manufacturer and distributor. We are not a local aesthetic clinic or patient-facing center. We offer a high-yield B2B PCD franchise, doctor clinic supply programs, and wholesale distribution across India.",
+  },
+  {
+    question: "Are Barekyne clinical skincare products WHO-GMP certified and CDSCO approved?",
+    answer:
+      "Yes. Every Barekyne formulation complies strictly with the Drugs and Cosmetics Act, 1940. All products are manufactured in state-of-the-art WHO-GMP and ISO 9001:2015 certified facilities with full CDSCO approvals for active ingredient concentrations.",
+  },
+  {
+    question: "What is the minimum investment required to secure exclusive monopoly rights?",
+    answer:
+      "The minimum investment for an exclusive district-level Barekyne franchise is INR 50,000, which goes 100% into sellable inventory. We charge zero franchise fees, zero security deposits, and zero royalty fees, enabling partners to secure up to 58% net margins.",
+  },
+  {
+    question: "What makes Barekyne's skincare formulation science unique?",
+    answer:
+      "Barekyne is engineered specifically for melanin-rich Indian skin (Fitzpatrick Scale IV-VI) under high-humidity climates. We utilize a multi-pathway depigmentation approach (tyrosinase inhibition and melanosome blocking) combined with barrier-first hydration (using Polyglutamic Acid, which holds 4-10x more moisture than Hyaluronic Acid) and climate-stable active ingredients.",
+  },
+] as const;
+
 export default function AboutPage() {
   return (
     <>
       <JsonLd data={aboutPageSchema} />
+      <FAQJsonLd faqs={aboutFaqs} />
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-3xl">
@@ -260,6 +284,34 @@ export default function AboutPage() {
                   <p className="text-3xl font-heading font-bold text-gold">{stat.number}</p>
                   <p className="text-sm text-warm-gray mt-1">{stat.label}</p>
                 </div>
+              </AnimatedSection>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* ── AEO FAQ Section ─────────────────────────────────────────────── */}
+      <section className="py-20 bg-ivory border-t border-beige/30" id="faq">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="About Barekyne FAQs"
+            subtitle="Get quick answers regarding our clinical science, corporate background, and franchise models."
+          />
+          <div className="mt-12 space-y-4">
+            {aboutFaqs.map((faq, i) => (
+              <AnimatedSection key={i} delay={i * 0.06}>
+                <details className="group bg-white rounded-2xl border border-beige/50 hover:border-gold/20 transition-all duration-300 overflow-hidden">
+                  <summary className="flex items-center justify-between cursor-pointer p-6 text-left">
+                    <h3 className="text-base font-heading font-bold text-charcoal pr-4">
+                      {faq.question}
+                    </h3>
+                    <ChevronDown className="w-5 h-5 text-gold shrink-0 group-open:rotate-180 transition-transform duration-300" />
+                  </summary>
+                  <div className="px-6 pb-6 pt-0">
+                    <p className="text-sm text-warm-gray leading-relaxed faq-answer" data-speakable="true">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </details>
               </AnimatedSection>
             ))}
           </div>

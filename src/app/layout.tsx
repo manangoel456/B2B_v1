@@ -81,7 +81,7 @@ export const metadata: Metadata = {
       "India's premium clinical derma PCD franchise with monopoly rights. Barekyne offers exclusive skincare distributorship across 14 cities — WHO-GMP products, high margins.",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Barekyne Premium Clinical Skincare",
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
     description:
       "India's premium clinical derma PCD franchise with monopoly rights. Exclusive skincare distributorship across 14 cities.",
     creator: "@barekyne_skin",
-    images: ["/images/og-image.jpg"],
+    images: ["/images/og-image.png"],
   },
   robots: {
     index: true,

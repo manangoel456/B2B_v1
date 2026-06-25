@@ -1,25 +1,62 @@
 const fs = require('fs');
+const path = require('path');
+
+// Helper to extract slugs using regex
+function extractSlugs(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const regex = /slug:\s*"([^"]+)"/g;
+  const slugs = [];
+  let match;
+  while ((match = regex.exec(content)) !== null) {
+    if (!slugs.includes(match[1])) {
+      slugs.push(match[1]);
+    }
+  }
+  return slugs;
+}
+
+function extractCitySlugs(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const regex = /city:\s*"([^"]+)"/g;
+  const cities = [];
+  let match;
+  while ((match = regex.exec(content)) !== null) {
+    // Avoid duplicates
+    if (!cities.includes(match[1])) {
+      cities.push(match[1]);
+    }
+  }
+  return cities;
+}
 
 async function pingIndexNow() {
+  const baseUrl = "https://barekyne.in";
+  
+  // Extract dynamic slugs
+  const products = extractSlugs(path.join(__dirname, 'src/lib/products.ts'));
+  const blogs = extractSlugs(path.join(__dirname, 'src/lib/blog.ts'));
+  const cities = extractCitySlugs(path.join(__dirname, 'src/lib/seo-data.ts'));
+  
+  const urlList = [
+    `${baseUrl}/`,
+    `${baseUrl}/about`,
+    `${baseUrl}/products`,
+    `${baseUrl}/distributorship`,
+    `${baseUrl}/contact-franchise`,
+    `${baseUrl}/doctor-supply`,
+    `${baseUrl}/bulk-orders`,
+    `${baseUrl}/skincare-distributor`,
+    `${baseUrl}/blog`,
+    ...products.map(slug => `${baseUrl}/products/${slug}`),
+    ...blogs.map(slug => `${baseUrl}/blog/${slug}`),
+    ...cities.map(city => `${baseUrl}/skincare-distributor/${city}`)
+  ];
+
   const payload = {
     host: "barekyne.in",
     key: "887dc84ab8d886c39a9468b887dc84ab",
     keyLocation: "https://barekyne.in/887dc84ab8d886c39a9468b887dc84ab.txt",
-    urlList: [
-      "https://barekyne.in/",
-      "https://barekyne.in/skincare-distributor",
-      "https://barekyne.in/products",
-      "https://barekyne.in/blog",
-      "https://barekyne.in/skincare-distributor/mohali",
-      "https://barekyne.in/skincare-distributor/delhi",
-      "https://barekyne.in/blog/complete-guide-starting-derma-pcd-franchise-india",
-      "https://barekyne.in/blog/anti-pigmentation-derma-franchise-solutions-india-2026",
-      "https://barekyne.in/products/sunscreen-spf50",
-      "https://barekyne.in/products/vitamin-c-serum",
-      "https://barekyne.in/products/night-cream",
-      "https://barekyne.in/products/face-wash",
-      "https://barekyne.in/products/face-body-lotion"
-    ]
+    urlList: urlList
   };
 
   const endpoints = [
@@ -27,7 +64,7 @@ async function pingIndexNow() {
     "https://www.bing.com/indexnow"
   ];
 
-  console.log("Submitting IndexNow URLs for Barekyne...");
+  console.log(`Submitting ${urlList.length} IndexNow URLs for Barekyne...`);
   
   for (const endpoint of endpoints) {
     try {

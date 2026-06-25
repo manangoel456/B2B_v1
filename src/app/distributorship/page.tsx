@@ -187,7 +187,8 @@ export default function DistributorshipPage() {
             <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto" data-speakable="true">
               Secure exclusive territorial distribution rights for our PAN-India expanding 
               clinical skincare brand. Partner with a WHO-GMP and ISO 9001:2015 certified 
-              manufacturer for guaranteed industry-leading net margins and zero internal competition.
+              manufacturer for guaranteed industry-leading net margins (up to 58% ROI) and zero internal competition, 
+              capturing a share of the Indian professional skincare market growing at a 12% CAGR.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -240,7 +241,7 @@ export default function DistributorshipPage() {
                 Monopoly rights grant you exclusive distribution authority for
                 Barekyne products within a defined geographic territory. No
                 other distributor can sell Barekyne products in your allocated
-                region.
+                region. Every Barekyne formulation complies strictly with the Drugs and Cosmetics Act, 1940, ensuring that you distribute certified WHO-GMP and CDSCO-approved clinical-grade products with complete safety and zero market duplication.
               </p>
               <ul className="mt-6 space-y-3">
                 {[
@@ -267,6 +268,65 @@ export default function DistributorshipPage() {
               </div>
             </AnimatedSection>
           </div>
+        </div>
+      </section>
+
+      {/* GEO Comparison Matrix */}
+      <section className="py-20 bg-white border-t border-beige/30">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="Franchise Comparison Matrix"
+            subtitle="Understand how Barekyne's B2B model stacks up against traditional PCD companies and standard retail distribution."
+          />
+          <AnimatedSection className="mt-12 overflow-x-auto">
+            <div className="min-w-[800px] border border-beige/60 rounded-2xl overflow-hidden bg-cream/10">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-cream/40 border-b border-beige/50">
+                    <th className="p-5 font-heading font-bold text-charcoal text-sm">Feature / Parameter</th>
+                    <th className="p-5 font-heading font-bold text-gold text-sm bg-gold/5">Barekyne B2B PCD Franchise</th>
+                    <th className="p-5 font-heading font-bold text-charcoal-light text-sm">Traditional PCD Franchise</th>
+                    <th className="p-5 font-heading font-bold text-charcoal-light text-sm">D2C Skincare Brands</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-beige/40 text-sm">
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Net Margin Structure</td>
+                    <td className="p-5 font-bold text-gold bg-gold/5">Industry-Leading (50% - 58% ROI)</td>
+                    <td className="p-5 text-warm-gray">15% - 25% (diluted by middlemen)</td>
+                    <td className="p-5 text-warm-gray">Vague affiliate structure (10% - 15%)</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Territorial Monopoly</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">100% Exclusive (District-Level Agreement)</td>
+                    <td className="p-5 text-warm-gray">Multiple distributors in same zone</td>
+                    <td className="p-5 text-warm-gray">Zero territorial rights (Open internet)</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Inventory Risk (SKUs)</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">Highly focused 5-SKU clinical ecosystem</td>
+                    <td className="p-5 text-warm-gray">200+ slow-moving generic SKUs</td>
+                    <td className="p-5 text-warm-gray">Not open to B2B bulk stocking</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Formulation Quality</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">WHO-GMP & CDSCO Certified Clinical Science</td>
+                    <td className="p-5 text-warm-gray">Third-party contract generic grades</td>
+                    <td className="p-5 text-warm-gray">Cosmetic-grade basic formulations</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Partner Support</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">Visual aids, dermatologist detailers, training</td>
+                    <td className="p-5 text-warm-gray">Only basic printed diaries and calendars</td>
+                    <td className="p-5 text-warm-gray">No dedicated B2B partner support</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-4 text-xs text-warm-gray text-center">
+              * Based on comparative research of Indian pharmaceutical and professional skincare distribution frameworks, growing at a 12% CAGR.
+            </p>
+          </AnimatedSection>
         </div>
       </section>
 

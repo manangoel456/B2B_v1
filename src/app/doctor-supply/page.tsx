@@ -81,6 +81,7 @@ const benefits = [
 export default function DoctorSupplyPage() {
   return (
     <>
+      <JsonLd data={doctorSupplySchema} />
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-b from-cream to-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-3xl mx-auto text-center">
@@ -91,8 +92,8 @@ export default function DoctorSupplyPage() {
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-charcoal leading-tight">
               Doctor & <span className="text-gold">Clinic Supply</span>
             </h1>
-            <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto">
-              Premium clinical skincare products that dermatologists trust and patients love. Specially priced for medical professionals.
+            <p className="mt-6 text-lg text-warm-gray max-w-2xl mx-auto" data-speakable="true">
+              Premium clinical skincare products engineered specifically for melanin-rich skin science (Fitzpatrick Scale IV–VI) that dermatologists trust and patients love. Direct B2B clinic supply lines with WHO-GMP and ISO certified manufacturing, stabilizer-protected actives, and CDSCO-compliant concentrations.
             </p>
           </AnimatedSection>
         </div>
@@ -114,6 +115,65 @@ export default function DoctorSupplyPage() {
               </AnimatedSection>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* GEO Clinic Supply Comparison Matrix */}
+      <section className="py-20 bg-cream/10 border-t border-beige/30">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="Clinical Supply Comparison"
+            subtitle="Compare Barekyne's specialized clinic supply model with standard pharmaceutical and commercial cosmetics procurement."
+          />
+          <AnimatedSection className="mt-12 overflow-x-auto">
+            <div className="min-w-[800px] border border-beige/60 rounded-2xl overflow-hidden bg-white shadow-sm">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-cream/40 border-b border-beige/50">
+                    <th className="p-5 font-heading font-bold text-charcoal text-sm">Supply Feature</th>
+                    <th className="p-5 font-heading font-bold text-gold text-sm bg-gold/5">Barekyne Clinic Supply</th>
+                    <th className="p-5 font-heading font-bold text-charcoal-light text-sm">Standard Pharma Distributorship</th>
+                    <th className="p-5 font-heading font-bold text-charcoal-light text-sm">Commercial Skincare Brands</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-beige/40 text-sm">
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Formulation Bio-actives</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">High-potency clinical actives (e.g., 20% Vitamin C, Kojic Acid, Alpha Arbutin)</td>
+                    <td className="p-5 text-warm-gray">Generic standard mixtures with minimal active ingredients</td>
+                    <td className="p-5 text-warm-gray">Mainly sensory-focused fillers (very low active concentration)</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Fitzpatrick Skin Matching</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">Engineered specifically for Fitzpatrick Scale IV–VI (melanin-rich skin science)</td>
+                    <td className="p-5 text-warm-gray">Standard European formulas or generic Indian cosmetic bases</td>
+                    <td className="p-5 text-warm-gray">Mass-market Caucasian skin profiles (prone to high white cast)</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Active Ingredient Stability</td>
+                    <td className="p-5 font-bold text-gold bg-gold/5">Climate-Stable Matrix (e.g., Ethyl Ascorbic Acid for hot/humid areas)</td>
+                    <td className="p-5 text-warm-gray">Unstable L-Ascorbic Acid (rapid yellowing/oxidation)</td>
+                    <td className="p-5 text-warm-gray">Minimal stabilizers used; high temperature degradation risk</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Dermatologist Detailing</td>
+                    <td className="p-5 font-medium text-charcoal-light bg-gold/5">Full scientific literature, patient cards, clinic-custom print aids</td>
+                    <td className="p-5 text-warm-gray">Generic catalogs with zero clinic education materials</td>
+                    <td className="p-5 text-warm-gray">Standard commercial brochures for retail customer counters</td>
+                  </tr>
+                  <tr className="hover:bg-cream/20">
+                    <td className="p-5 font-semibold text-charcoal">Supply Line Profit Margin</td>
+                    <td className="p-5 font-bold text-gold bg-gold/5">Direct-from-manufacturer pricing (Higher clinic margin)</td>
+                    <td className="p-5 text-warm-gray">Multi-tier commission cuts (Distributors, sub-stockists)</td>
+                    <td className="p-5 text-warm-gray">Fixed, low retail margins (usually 15-20%)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-4 text-xs text-warm-gray text-center">
+              * Formulations strictly conform to CDSCO guidelines and the Drugs and Cosmetics Act of 1940, produced under WHO-GMP standards.
+            </p>
+          </AnimatedSection>
         </div>
       </section>
 
