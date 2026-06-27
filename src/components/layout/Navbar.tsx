@@ -42,10 +42,11 @@ export default function Navbar() {
       )}
     >
       {/* Announcement Banner */}
-      <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 text-white px-4 py-2.5 text-center text-sm font-medium relative z-50">
-        <span className="inline-block mr-2 animate-bounce">🚀</span>
-        We are now accepting Early Access applications for exclusive district-level franchise rights!
-        <Link href="/early-access" className="ml-2 font-bold text-amber-300 hover:text-amber-100 transition-colors underline decoration-amber-300/50 underline-offset-2">
+      <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 text-white px-4 py-2.5 text-center text-xs sm:text-sm font-medium relative z-50">
+        <span className="inline-block mr-1 sm:mr-2 animate-bounce">🚀</span>
+        <span className="hidden sm:inline">We are now accepting Early Access applications for exclusive district-level franchise rights!</span>
+        <span className="sm:hidden">Early Access:</span>
+        <Link href="/early-access" className="ml-1 sm:ml-2 font-bold text-amber-300 hover:text-amber-100 transition-colors underline decoration-amber-300/50 underline-offset-2 whitespace-nowrap">
           Secure Your Territory &rarr;
         </Link>
       </div>

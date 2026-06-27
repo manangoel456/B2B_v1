@@ -20,7 +20,7 @@ export default function EarlyAccessClient() {
       {floatingParticles.map((p) => (
         <motion.div
           key={p.id}
-          className="absolute rounded-full pointer-events-none"
+          className="hidden md:block absolute rounded-full pointer-events-none"
           style={{
             left: `${p.x}%`,
             top: `${p.y}%`,
