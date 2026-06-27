@@ -20,6 +20,7 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
           src={mainImage} 
           alt={productName} 
           fill
+          priority={true}
           sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover mix-blend-multiply opacity-95 transition-all duration-500"
         />
