@@ -33,6 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ── Static pages ──────────────────────────────────────────────────────
   const staticPages = [
     { url: baseUrl, priority: 1.0 },
+    { url: `${baseUrl}/faq`, priority: 0.95 },            // AEO — FAQPage schema for AI bots
+    { url: `${baseUrl}/api/llms`, priority: 0.95 },       // AEO — structured JSON for AI crawlers
     { url: `${baseUrl}/skincare-distributor`, priority: 0.9 },
     { url: `${baseUrl}/distributorship`, priority: 0.9 },
     { url: `${baseUrl}/contact-franchise`, priority: 0.9 },
