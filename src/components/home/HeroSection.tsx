@@ -18,7 +18,7 @@ export default function HeroSection() {
         }}
       />
 
-      {/* Decorative elements */}
+      {/* Decorative blobs — hidden on mobile, desktop-only */}
       <motion.div
         className="hidden md:block absolute top-20 right-10 w-72 h-72 bg-gold/5 rounded-full blur-3xl"
         animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
@@ -33,48 +33,28 @@ export default function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="max-w-4xl">
           {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm border border-gold/20 rounded-full mb-8"
-          >
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm border border-gold/20 rounded-full mb-8">
             <span className="w-2 h-2 bg-gold rounded-full animate-pulse" />
             <span className="text-xs font-semibold text-gold uppercase tracking-wider">
               Clinical Derma Luxury Skincare
             </span>
-          </motion.div>
+          </div>
 
-          {/* Headline */}
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold text-charcoal leading-[1.1] tracking-tight"
-          >
-            Premium Derma PCD Franchise & Skincare{" "}
+          {/* H1 Headline — plain HTML, NO Framer Motion, renders instantly for LCP */}
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold text-charcoal leading-[1.1] tracking-tight">
+            Premium Derma PCD Franchise &amp; Skincare{" "}
             <span className="text-gold">Distributorship Across India</span>
-          </motion.h1>
+          </h1>
 
           {/* Subheadline */}
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 text-lg lg:text-xl text-warm-gray max-w-2xl leading-relaxed"
-          >
+          <p className="mt-6 text-lg lg:text-xl text-warm-gray max-w-2xl leading-relaxed">
             Barekyne delivers high-performance skincare formulations crafted for
             modern dermatology markets, distributors, wholesalers, pharmacies,
             and professional skincare networks.
-          </motion.p>
+          </p>
 
           {/* CTAs */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.3 }}
-            className="mt-10 flex flex-col sm:flex-row gap-4"
-          >
+          <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link
               href="/contact"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold text-white font-semibold rounded-full hover:bg-gold-dark transition-all duration-300 hover:shadow-xl hover:shadow-gold/25 text-sm lg:text-base"
@@ -93,15 +73,10 @@ export default function HeroSection() {
               <Phone className="w-4 h-4" />
               Book a Call
             </a>
-          </motion.div>
+          </div>
 
           {/* Trust strip */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.5 }}
-            className="mt-14 flex flex-wrap items-center gap-6 text-sm text-warm-gray"
-          >
+          <div className="mt-14 flex flex-wrap items-center gap-6 text-sm text-warm-gray">
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-gold rounded-full" />
               PAN India Supply
@@ -114,7 +89,7 @@ export default function HeroSection() {
               <span className="w-1.5 h-1.5 bg-gold rounded-full" />
               High-Margin Products
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

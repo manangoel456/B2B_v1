@@ -128,6 +128,9 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
     >
       <head>
+        {/* Font preloads — eliminates render-blocking woff2 latency */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="llms" href="/llms.txt" />
         <link rel="llms-full" href="/llms-full.txt" />
         <link rel="ai-agent" href="/.well-known/ai-plugin.json" />
