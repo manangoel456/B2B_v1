@@ -84,9 +84,13 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Barekyne Premium Clinical Skincare",
+        alt: "Barekyne — India's Premium Clinical Derma Franchise Brand",
+        type: "image/png",
       },
     ],
+    countryName: "India",
+    emails: ["info@barekyne.in"],
+    phoneNumbers: ["+917027572757"],
   },
   twitter: {
     card: "summary_large_image",
@@ -128,6 +132,20 @@ export default function RootLayout({
         <link rel="llms-full" href="/llms-full.txt" />
         <link rel="ai-agent" href="/.well-known/ai-plugin.json" />
         <meta name="ai-content-declaration" content="original" />
+        {/* ── Meta AI / Facebook Optimization ─────────────────────── */}
+        <meta property="fb:app_id" content="barekyne" />
+        <meta name="facebook-domain-verification" content="barekyne-clinical-skincare-b2b" />
+        <meta property="og:site_name" content="Barekyne" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:locale:alternate" content="hi_IN" />
+        <meta property="business:contact_data:street_address" content="471, Sector 17 HUDA, Jagadhri" />
+        <meta property="business:contact_data:locality" content="Yamunanagar" />
+        <meta property="business:contact_data:region" content="Haryana" />
+        <meta property="business:contact_data:postal_code" content="135001" />
+        <meta property="business:contact_data:country_name" content="India" />
+        <meta property="business:contact_data:email" content="info@barekyne.in" />
+        <meta property="business:contact_data:phone_number" content="+91 70275 72757" />
+        <meta property="business:contact_data:website" content="https://barekyne.in" />
       </head>
       <body className="min-h-full flex flex-col bg-ivory text-charcoal font-body">
         <LocalBusinessJsonLd />

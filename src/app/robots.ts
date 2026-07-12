@@ -54,6 +54,15 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "Meta-ExternalAgent",
         allow: "/",
       },
+      // Meta AI variants — covers Meta AI training, Facebook search, Instagram AI
+      {
+        userAgent: "Meta-ExternalFetcher",
+        allow: "/",
+      },
+      {
+        userAgent: "facebookexternalhit",
+        allow: "/",
+      },
       {
         userAgent: "FacebookBot",
         allow: "/",

@@ -34,9 +34,15 @@ export function LocalBusinessJsonLd() {
     sameAs: [
       "https://www.instagram.com/barekyne.skin/",
       "https://x.com/barekyne_skin",
+      "https://www.facebook.com/barekyne",
+      "https://wa.me/917027572757",
+      "https://www.linkedin.com/company/barekyne",
+      "https://www.indiamart.com/barekyne",
+      "https://barekyne.in",
     ],
     priceRange: "₹₹",
-    image: "https://barekyne.in/images/og-image.jpg",
+    image: "https://barekyne.in/images/barekyne-icon.png",
+    logo: "https://barekyne.in/images/barekyne-icon.png",
     parentOrganization: {
       "@id": "https://barekyne.in/#organization",
     },
