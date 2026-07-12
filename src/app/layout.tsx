@@ -12,13 +12,13 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",  // 'optional' = don't block LCP for font download
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",  // 'optional' = don't block LCP for font download
 });
 
 export const metadata: Metadata = {
