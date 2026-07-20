@@ -37,23 +37,25 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-3">
-            <Link
-              href="/contact"
+            <a
+              href={SITE_CONFIG.whatsappCatalogueUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 bg-white text-gold font-semibold rounded-full hover:bg-ivory transition-all duration-300 hover:shadow-lg text-sm"
               id="footer-cta-catalogue"
-              title="Request Catalogue"
+              title="Request Catalogue on WhatsApp"
             >
               Request Catalogue
-            </Link>
+            </a>
             <a
-              href={SITE_CONFIG.whatsappUrl}
+              href={SITE_CONFIG.whatsappConsultationUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-charcoal text-white font-semibold rounded-full hover:bg-charcoal-light transition-all duration-300 text-sm"
-              id="footer-cta-whatsapp"
-              title="WhatsApp Us"
+              id="footer-cta-consultation"
+              title="Book Consultation on WhatsApp"
             >
-              WhatsApp Us
+              Book Consultation
             </a>
           </div>
         </div>

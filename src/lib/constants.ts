@@ -7,6 +7,17 @@ export const SITE_CONFIG = {
   phoneRaw: "917027572757",
   email: "info@barekyne.in",
   whatsappUrl: "https://wa.me/917027572757",
+  // Pre-filled WhatsApp deep links
+  whatsappCatalogueUrl:
+    "https://wa.me/917027572757?text=" +
+    encodeURIComponent(
+      "Hi Barekyne! 👋 I would like to request your complete product catalogue — including all 5 SKUs, MRP, and wholesale pricing. Please share the details. Thank you!"
+    ),
+  whatsappConsultationUrl:
+    "https://wa.me/917027572757?text=" +
+    encodeURIComponent(
+      "Hi Barekyne! 👋 I'm interested in booking a consultation to learn more about your PCD franchise / distributorship opportunity. Please let me know your available time slots. Thank you!"
+    ),
   address: {
     building: "471",
     street: "Sector 17 HUDA",
@@ -22,6 +33,7 @@ export const SITE_CONFIG = {
     twitter: "https://x.com/barekyne_skin",
   },
 } as const;
+
 
 export const NAV_ITEMS = [
   { label: "Home", href: "/" },

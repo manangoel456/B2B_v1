@@ -40,20 +40,24 @@ export default function FinalCTA() {
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/contact"
+            <a
+              href={SITE_CONFIG.whatsappCatalogueUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-gold text-white font-semibold rounded-full hover:bg-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-gold/25"
               id="final-cta-catalogue"
-              title="Request Catalogue"
+              title="Request Catalogue on WhatsApp"
             >
               Request Catalogue
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <a
-              href="tel:+917027572757"
+              href={SITE_CONFIG.whatsappConsultationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-all duration-300 border border-white/10"
               id="final-cta-consultation"
-              title="Book Consultation"
+              title="Book Consultation on WhatsApp"
             >
               <CalendarCheck className="w-4 h-4" />
               Book Consultation
