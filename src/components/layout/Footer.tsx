@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, MapPin, Mail } from "lucide-react";
 import { SITE_CONFIG, NAV_ITEMS } from "@/lib/constants";
+import FooterCTAButtons from "@/components/layout/FooterCTAButtons";
 
 function InstagramIcon({ className }: { className?: string }) {
   return (
@@ -36,28 +37,7 @@ export default function Footer() {
               Join India&apos;s fastest-growing clinical skincare distribution network.
             </p>
           </div>
-          <div className="flex gap-3">
-            <a
-              href={SITE_CONFIG.whatsappCatalogueUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-white text-gold font-semibold rounded-full hover:bg-ivory transition-all duration-300 hover:shadow-lg text-sm"
-              id="footer-cta-catalogue"
-              title="Request Catalogue on WhatsApp"
-            >
-              Request Catalogue
-            </a>
-            <a
-              href={SITE_CONFIG.whatsappConsultationUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-charcoal text-white font-semibold rounded-full hover:bg-charcoal-light transition-all duration-300 text-sm"
-              id="footer-cta-consultation"
-              title="Book Consultation on WhatsApp"
-            >
-              Book Consultation
-            </a>
-          </div>
+          <FooterCTAButtons />
         </div>
       </div>
 
