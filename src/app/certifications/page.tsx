@@ -56,11 +56,11 @@ const CERTIFICATIONS = [
     title: "Cosmetic Manufacturing License",
     issuingBody: "State Drugs / Cosmetic Licensing Authority, Haryana",
     description:
-      "State-issued license authorizing Barekyne to legally manufacture and sell cosmetic and cosmeceutical skincare formulations across India. Issued under the Drugs & Cosmetics Act.",
-    scope: "All 5 Barekyne SKUs — cosmetic formulations",
+      "State-issued license authorizing Barekyne to legally manufacture and sell cosmetic and cosmeceutical skincare formulations across India. Issued under the Drugs \u0026 Cosmetics Act.",
+    scope: "All 5 Barekyne SKUs \u2014 cosmetic formulations",
     significance:
       "Mandatory for legal distribution across India. Required by pharmacies and institutional buyers.",
-    file: "drug-license.pdf",
+    file: "cosmetic-license.pdf",
   },
   {
     id: "iso-9001",
@@ -85,14 +85,14 @@ const CERTIFICATIONS = [
     bgColor: "bg-violet-50",
     borderColor: "border-violet-200",
     badgeColor: "bg-violet-100 text-violet-700",
-    title: "Drug & Cosmetics Act License",
+    title: "Drug Manufacturing License",
     issuingBody: "State Licensing Authority, Haryana",
     description:
-      "Full compliance certificate under the Drugs & Cosmetics Act confirming Barekyne meets all manufacturing, labelling, and safety standards for cosmeceutical distribution in India.",
-    scope: "Manufacturing facility — Yamunanagar, Haryana",
+      "State-issued drug manufacturing license authorizing production of regulated cosmeceutical formulations. Separate from the cosmetic license and required for prescription-grade products.",
+    scope: "Manufacturing facility \u2014 Yamunanagar, Haryana",
     significance:
       "Required for wholesale drug license holders and institutional procurement.",
-    file: "drug-license.pdf",
+    file: null,
   },
   {
     id: "gst",
