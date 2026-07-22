@@ -117,10 +117,10 @@ export default function Footer() {
               <li>
                 <Link
                   href="/terms"
-                  title="Terms & Conditions"
+                  title="Terms &amp; Conditions"
                   className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
                 >
-                  Terms & Conditions
+                  Terms &amp; Conditions
                 </Link>
               </li>
               <li>
@@ -130,6 +130,15 @@ export default function Footer() {
                   className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
                 >
                   Shipping Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/certifications"
+                  title="Certifications &amp; Compliance"
+                  className="text-sm text-white/60 hover:text-gold transition-colors duration-300"
+                >
+                  Certifications &amp; Compliance
                 </Link>
               </li>
             </ul>

@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog`, priority: 0.8 },
     { url: `${baseUrl}/doctor-supply`, priority: 0.7 },
     { url: `${baseUrl}/bulk-orders`, priority: 0.7 },
+    { url: `${baseUrl}/certifications`, priority: 0.7 },
     { url: `${baseUrl}/contact`, priority: 0.6 },
     { url: `${baseUrl}/about`, priority: 0.6 },
     { url: `${baseUrl}/privacy-policy`, priority: 0.3 },
