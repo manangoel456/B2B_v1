@@ -22,7 +22,7 @@ export function LocalBusinessJsonLd() {
       "PAN-India WHO-GMP certified Derma PCD Pharma Franchise Company and B2B skincare manufacturer. We are NOT a local clinic or aesthetic center in Zirakpur.",
     url: "https://barekyne.in",
     telephone: "+917027572757",
-    email: "info@barekyne.in",
+    email: "support.barekyne@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "471, Sector 17 HUDA, Jagadhri",
@@ -169,7 +169,7 @@ export function OrganizationJsonLd() {
     description:
       "PAN-India WHO-GMP certified Derma PCD Pharma Franchise Company. We operate strictly as a B2B pharmaceutical manufacturer and distributor, not a local aesthetic clinic.",
     telephone: "+917027572757",
-    email: "info@barekyne.in",
+    email: "support.barekyne@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "471, Sector 17 HUDA, Jagadhri",
@@ -500,7 +500,7 @@ export function HomePageSchemaGraph({
       description:
         "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
       telephone: "+917027572757",
-      email: "info@barekyne.in",
+      email: "support.barekyne@gmail.com",
       address: {
         "@type": "PostalAddress",
         streetAddress: "471, Sector 17 HUDA, Jagadhri",

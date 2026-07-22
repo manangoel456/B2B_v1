@@ -23,7 +23,7 @@ const contactSchema = [
     "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
     "url": "https://barekyne.in",
     "telephone": "+917027572757",
-    "email": "info@barekyne.in",
+    "email": "support.barekyne@gmail.com",
     "image": "https://barekyne.in/images/og-image.jpg",
     "logo": "https://barekyne.in/images/og-image.jpg",
     "priceRange": "₹₹",
@@ -56,7 +56,7 @@ const contactSchema = [
         "@type": "ContactPoint",
         "contactType": "customer support",
         "telephone": "+917027572757",
-        "email": "info@barekyne.in",
+        "email": "support.barekyne@gmail.com",
         "url": "https://barekyne.in/contact"
       }
     ]
@@ -102,7 +102,7 @@ const contactBulkSchema = [
       "logo": "https://barekyne.in/images/og-image.jpg",
       "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
       "telephone": "+917027572757",
-      "email": "info@barekyne.in",
+      "email": "support.barekyne@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "471, Sector 17 HUDA, Jagadhri",
@@ -123,7 +123,7 @@ const contactBulkSchema = [
         {
           "@type": "ContactPoint",
           "telephone": "+917027572757",
-          "email": "info@barekyne.in"
+          "email": "support.barekyne@gmail.com"
         }
       ]
     }

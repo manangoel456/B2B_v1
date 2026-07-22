@@ -25,7 +25,7 @@ export async function GET() {
       },
       contact: {
         phone: "+91 70275 72757",
-        email: "info@barekyne.in",
+        email: "support.barekyne@gmail.com",
         whatsapp: "+91 70275 72757",
         website: "https://barekyne.in",
       },

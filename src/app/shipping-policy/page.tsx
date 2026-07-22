@@ -51,7 +51,7 @@ export default function ShippingPolicyPage() {
               { title: "5. Order Tracking", content: "All shipments include tracking information. Partners receive tracking details via email and WhatsApp once the order is dispatched." },
               { title: "6. Damaged or Missing Items", content: "In the rare event of damaged or missing items, please report within 48 hours of delivery with photographic evidence. Barekyne will arrange replacement or credit as appropriate." },
               { title: "7. Returns", content: "B2B returns are subject to partnership agreement terms. Products must be in original packaging and condition. Contact your account manager for return authorization." },
-              { title: "8. Contact", content: "For shipping-related queries, contact us at info@barekyne.in or +91 70 2757 2757." },
+              { title: "8. Contact", content: "For shipping-related queries, contact us at support.barekyne@gmail.com or +91 70 2757 2757." },
             ].map((section) => (
               <div key={section.title} className="bg-white p-6 rounded-2xl border border-beige/50">
                 <h2 className="text-xl font-heading font-bold text-charcoal mb-3">{section.title}</h2>

@@ -89,7 +89,7 @@ export const metadata: Metadata = {
       },
     ],
     countryName: "India",
-    emails: ["info@barekyne.in"],
+    emails: ["support.barekyne@gmail.com"],
     phoneNumbers: ["+917027572757"],
   },
   twitter: {
@@ -146,7 +146,7 @@ export default function RootLayout({
         <meta property="business:contact_data:region" content="Haryana" />
         <meta property="business:contact_data:postal_code" content="135001" />
         <meta property="business:contact_data:country_name" content="India" />
-        <meta property="business:contact_data:email" content="info@barekyne.in" />
+        <meta property="business:contact_data:email" content="support.barekyne@gmail.com" />
         <meta property="business:contact_data:phone_number" content="+91 70275 72757" />
         <meta property="business:contact_data:website" content="https://barekyne.in" />
       </head>

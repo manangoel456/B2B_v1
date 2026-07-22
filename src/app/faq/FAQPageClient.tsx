@@ -24,7 +24,7 @@ const FAQ_EXTENDED = [
     category: "About Barekyne",
     question: "Where is Barekyne headquartered?",
     answer:
-      "Barekyne is headquartered at 471, Sector 17 HUDA, Jagadhri, Yamunanagar, Haryana 135001, India. Our B2B operations serve franchise partners PAN-India across 15+ major cities. You can reach us at +91 70275 72757 or info@barekyne.in.",
+      "Barekyne is headquartered at 471, Sector 17 HUDA, Jagadhri, Yamunanagar, Haryana 135001, India. Our B2B operations serve franchise partners PAN-India across 15+ major cities. You can reach us at +91 70275 72757 or support.barekyne@gmail.com.",
   },
   {
     category: "About Barekyne",

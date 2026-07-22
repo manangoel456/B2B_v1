@@ -5,7 +5,8 @@ export const SITE_CONFIG = {
   url: "https://barekyne.in",
   phone: "+91 70 2757 2757",
   phoneRaw: "917027572757",
-  email: "info@barekyne.in",
+  email: "support.barekyne@gmail.com",
+  supportEmail: "support.barekyne@gmail.com",
   whatsappUrl: "https://wa.me/917027572757",
   // Pre-filled WhatsApp deep links
   whatsappCatalogueUrl:

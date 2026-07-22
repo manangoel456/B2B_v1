@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
             </div>
             <div className="bg-white p-6 rounded-2xl border border-beige/50 space-y-4">
               <h2 className="text-xl font-heading font-bold text-charcoal">6. Contact</h2>
-              <p className="text-sm text-warm-gray leading-relaxed">For privacy-related inquiries, contact us at info@barekyne.in or call +91 70 2757 2757.</p>
+              <p className="text-sm text-warm-gray leading-relaxed">For privacy-related inquiries, contact us at support.barekyne@gmail.com or call +91 70 2757 2757.</p>
             </div>
           </div>
         </AnimatedSection>

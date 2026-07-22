@@ -52,7 +52,7 @@ export default function TermsPage() {
               { title: "6. Limitation of Liability", content: "Barekyne shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website or reliance on information provided herein." },
               { title: "7. Governing Law", content: "These terms are governed by the laws of India. Any disputes shall be subject to the jurisdiction of courts in Yamunanagar, Haryana." },
               { title: "8. Modifications", content: "Barekyne reserves the right to modify these terms at any time. Continued use of the website constitutes acceptance of modified terms." },
-              { title: "9. Contact", content: "For questions about these terms, contact us at info@barekyne.in or +91 70 2757 2757." },
+              { title: "9. Contact", content: "For questions about these terms, contact us at support.barekyne@gmail.com or +91 70 2757 2757." },
             ].map((section) => (
               <div key={section.title} className="bg-white p-6 rounded-2xl border border-beige/50">
                 <h2 className="text-xl font-heading font-bold text-charcoal mb-3">{section.title}</h2>

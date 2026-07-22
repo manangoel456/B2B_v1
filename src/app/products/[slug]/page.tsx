@@ -26,7 +26,7 @@ function getCustomProductSchema(slug: string): any[] | null {
           "logo": "https://barekyne.in/images/og-image.jpg",
           "image": "https://barekyne.in/images/og-image.jpg",
           "telephone": "+917027572757",
-          "email": "info@barekyne.in",
+          "email": "support.barekyne@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "471, Sector 17 HUDA, Jagadhri",
@@ -102,7 +102,7 @@ function getCustomProductSchema(slug: string): any[] | null {
           "logo": "https://barekyne.in/images/og-image.jpg",
           "description": "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
           "telephone": "+917027572757",
-          "email": "info@barekyne.in",
+          "email": "support.barekyne@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "471, Sector 17 HUDA, Jagadhri",
@@ -181,7 +181,7 @@ function getCustomProductSchema(slug: string): any[] | null {
           "logo": "https://barekyne.in/images/og-image.jpg",
           "description": "Premium clinical derma luxury skincare brand for distributors, clinics, and retailers across India.",
           "telephone": "+917027572757",
-          "email": "info@barekyne.in",
+          "email": "support.barekyne@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "471, Sector 17 HUDA, Jagadhri",

@@ -42,7 +42,7 @@ const aboutPageSchema = [
       "Premium clinical derma luxury skincare brand for distributors, wholesalers, pharmacies, clinics & franchise partners across India.",
     logo: "https://barekyne.in/images/og-image.jpg",
     image: "https://barekyne.in/images/og-image.jpg",
-    email: "info@barekyne.in",
+    email: "support.barekyne@gmail.com",
     telephone: "+917027572757",
     address: {
       "@type": "PostalAddress",
