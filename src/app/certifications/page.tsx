@@ -44,7 +44,7 @@ const CERTIFICATIONS = [
     scope: "All Barekyne product formulations",
     significance:
       "Required for institutional supply, export, and dermatologist prescription confidence.",
-    file: null as string | null, // Set to "who-gmp-certificate.pdf" once uploaded
+    file: "who-gmp-certificate.pdf",
   },
   {
     id: "cdsco",
@@ -53,14 +53,14 @@ const CERTIFICATIONS = [
     bgColor: "bg-blue-50",
     borderColor: "border-blue-200",
     badgeColor: "bg-blue-100 text-blue-700",
-    title: "CDSCO Approval",
-    issuingBody: "Central Drugs Standard Control Organisation, India",
+    title: "Cosmetic Manufacturing License",
+    issuingBody: "State Drugs / Cosmetic Licensing Authority, Haryana",
     description:
-      "Regulatory approval from India's apex drug regulatory authority confirming all Barekyne formulations meet CDSCO standards for safety, quality, and efficacy.",
-    scope: "All 5 SKUs — cosmetic and cosmeceutical formulations",
+      "State-issued license authorizing Barekyne to legally manufacture and sell cosmetic and cosmeceutical skincare formulations across India. Issued under the Drugs & Cosmetics Act.",
+    scope: "All 5 Barekyne SKUs — cosmetic formulations",
     significance:
-      "Mandatory for legal distribution of cosmeceutical products across India.",
-    file: null as string | null, // Set to "cdsco-approval.pdf" once uploaded
+      "Mandatory for legal distribution across India. Required by pharmacies and institutional buyers.",
+    file: "drug-license.pdf",
   },
   {
     id: "iso-9001",
@@ -76,7 +76,7 @@ const CERTIFICATIONS = [
     scope: "Manufacturing, QC, supply chain, and distribution processes",
     significance:
       "Demonstrates commitment to global quality benchmarks — preferred by institutional and export buyers.",
-    file: null as string | null, // Set to "iso-9001-certificate.pdf" once uploaded
+    file: null, // ISO 9001:2015 — not yet uploaded
   },
   {
     id: "drug-license",
@@ -85,14 +85,14 @@ const CERTIFICATIONS = [
     bgColor: "bg-violet-50",
     borderColor: "border-violet-200",
     badgeColor: "bg-violet-100 text-violet-700",
-    title: "Drug Manufacturing License",
+    title: "Drug & Cosmetics Act License",
     issuingBody: "State Licensing Authority, Haryana",
     description:
-      "State-issued manufacturing license authorizing Barekyne to legally manufacture and distribute regulated cosmeceutical and cosmetic skincare formulations in India.",
+      "Full compliance certificate under the Drugs & Cosmetics Act confirming Barekyne meets all manufacturing, labelling, and safety standards for cosmeceutical distribution in India.",
     scope: "Manufacturing facility — Yamunanagar, Haryana",
     significance:
       "Required for wholesale drug license holders and institutional procurement.",
-    file: null as string | null, // Set to "drug-license.pdf" once uploaded
+    file: "drug-license.pdf",
   },
   {
     id: "gst",
@@ -107,7 +107,7 @@ const CERTIFICATIONS = [
       "GST registration confirming Barekyne is a legally registered business entity in India, eligible for B2B invoice generation with valid GSTIN for input tax credit.",
     scope: "All B2B transactions and distributor invoicing",
     significance: "Mandatory for distributors claiming GST input tax credit.",
-    file: null as string | null, // Set to "gst-certificate.pdf" once uploaded
+    file: "gst-certificate.pdf",
   },
   {
     id: "msme",
@@ -123,7 +123,7 @@ const CERTIFICATIONS = [
     scope: "Entire business entity",
     significance:
       "Enables MSME-linked benefits for franchise partners and preferential bank financing.",
-    file: null as string | null, // Set to "msme-certificate.pdf" once uploaded
+    file: "msme-certificate.pdf",
   },
 ];
 
