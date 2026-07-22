@@ -44,7 +44,7 @@ const CERTIFICATIONS = [
     scope: "All Barekyne product formulations",
     significance:
       "Required for institutional supply, export, and dermatologist prescription confidence.",
-    file: "who-gmp-certificate.pdf",
+    file: null,
   },
   {
     id: "cdsco",
@@ -60,7 +60,7 @@ const CERTIFICATIONS = [
     scope: "All 5 Barekyne SKUs \u2014 cosmetic formulations",
     significance:
       "Mandatory for legal distribution across India. Required by pharmacies and institutional buyers.",
-    file: "cosmetic-license.pdf",
+    file: null,
   },
   {
     id: "iso-9001",
@@ -107,7 +107,7 @@ const CERTIFICATIONS = [
       "GST registration confirming Barekyne is a legally registered business entity in India, eligible for B2B invoice generation with valid GSTIN for input tax credit.",
     scope: "All B2B transactions and distributor invoicing",
     significance: "Mandatory for distributors claiming GST input tax credit.",
-    file: "gst-certificate.pdf",
+    file: null,
   },
   {
     id: "msme",
@@ -123,7 +123,7 @@ const CERTIFICATIONS = [
     scope: "Entire business entity",
     significance:
       "Enables MSME-linked benefits for franchise partners and preferential bank financing.",
-    file: "msme-certificate.pdf",
+    file: null,
   },
 ];
 
