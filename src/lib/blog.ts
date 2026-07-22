@@ -380,7 +380,7 @@ Our clinical portfolio addresses the top dermatological concerns in India:
 
 | Product | Active Concentration | Clinical Target |
 |---------|---------------------|----------------|
-| [Bare-C20 serum](/products/bare-c20-serum) | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
+| [Bare-C20 serum](/products/bare-c20-serum) | 20% Ethyl Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
 | [Hybrid Invisible Bare-UV sunscreen](/products/bare-uv-sunscreen) | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
 | [Cicaglow facewash](/products/cicaglow-facewash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
 | [Bare night cream](/products/bare-night-cream) | 2% Kojic Acid Dipalmitate + 3% Niacinamide + 1.5% Alpha Arbutin | Triple-Pathway Overnight Depigmentation |
@@ -734,7 +734,7 @@ India's diverse climate zones (from hyper-humid coastal metros to arid northern 
 Barekyne has engineered a tight, 5-SKU clinical portfolio. We do not overwhelm franchise partners with 200 redundant variants. We provide five high-potency formulations that address 90% of a typical Indian dermatologist’s prescription scenarios.
 
 ### 1. Bare-C20 serum: The Gold Standard Tyrosinase Inhibitor
-Hyperpigmentation is the number one aesthetic complaint in Indian dermatology clinics. Our **Bare-C20 serum** utilizes a highly stable L-Ascorbic Acid derivative paired with 2% Niacinamide and Hyaluronic Acid. 
+Hyperpigmentation is the number one aesthetic complaint in Indian dermatology clinics. Our **Bare-C20 serum** utilizes 20% Ethyl Ascorbic Acid (3-O-Ethyl Ascorbic Acid) — the most climate-stable, bioavailable form of Vitamin C — paired with 2% Niacinamide and Hyaluronic Acid.
 
 **Clinical Rationale:** At 20% concentration, Vitamin C acts as a potent competitive inhibitor of tyrosinase, directly suppressing melanogenesis. The addition of Niacinamide prevents the transfer of melanosomes to keratinocytes. This dual-pathway blockade is essential for treating deep-seated PIH and melasma in Indian patients, driving massive month-on-month prescription reorders.
 

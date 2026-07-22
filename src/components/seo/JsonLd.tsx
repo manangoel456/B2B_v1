@@ -215,7 +215,7 @@ export function OrganizationJsonLd() {
                 "@type": "Product",
                 name: "Bare-C20 serum",
                 description:
-                  "20% L-Ascorbic Acid + 2% Niacinamide serum for hyperpigmentation, PIH, and melasma treatment",
+                  "20% Ethyl Ascorbic Acid + 2% Niacinamide serum for hyperpigmentation, PIH, and melasma treatment",
                 offers: {
                   "@type": "Offer",
                   priceCurrency: "INR",
