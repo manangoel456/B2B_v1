@@ -383,7 +383,7 @@ Our clinical portfolio addresses the top dermatological concerns in India:
 | [Bare-C20 serum](/products/bare-c20-serum) | 20% L-Ascorbic Acid + 2% Niacinamide | Hyperpigmentation, PIH, Melasma |
 | [Hybrid Invisible Bare-UV sunscreen](/products/bare-uv-sunscreen) | Dual Physical-Chemical Filter Matrix | Photoprotection (Zero White Cast) |
 | [Cicaglow facewash](/products/cicaglow-facewash) | Glycolic + Salicylic + Vitamin C + Cica | Acne, Pollution Damage |
-| [Advanced Bare night cream](/products/bare-night-cream) | Retinol + Ceramides (NP, AP, EOP) + Peptides | Barrier Repair, Anti-Aging |
+| [Bare night cream](/products/bare-night-cream) | 2% Kojic Acid Dipalmitate + 3% Niacinamide + 1.5% Alpha Arbutin | Triple-Pathway Overnight Depigmentation |
 | [Bare-hydra lotion (100ml)](/products/bare-hydra-lotion) | Vitamin C + Dermawhite™ | Body Hydration, Body Pigmentation |
 
 ### What This Means for Your ROI
@@ -751,7 +751,7 @@ Oily, acne-prone skin requires exfoliation, but harsh scrubs induce micro-tears 
 ### 4. Advanced Bare night cream: Overnight Barrier Restoration
 Aggressive daytime treatments demand intensive nighttime recovery. 
 
-**Clinical Rationale:** The Barekyne **Advanced Bare night cream** combines Retinol, Ceramides (NP, AP, EOP), and Peptides. While Retinol stimulates fibroblast activity and accelerates cellular turnover, the exogenous ceramides directly patch gaps in the lipid matrix of the stratum corneum, dramatically reducing TEWL. This balanced approach allows Indian patients to tolerate retinization without extreme erythema (redness) or barrier damage.
+**Clinical Rationale:** The Barekyne **Bare night cream** combines 2% Kojic Acid Dipalmitate, 3% Niacinamide, and 1.5% Alpha Arbutin. Kojic Acid Dipalmitate (the lipophilic, stable form) penetrates deeper to inhibit melanin synthesis at the source. Niacinamide blocks melanosome transfer from melanocytes to keratinocytes, while Alpha Arbutin gently suppresses tyrosinase activity. This triple-pathway approach ensures depigmentation at every stage of melanin production — optimized for nighttime when the skin's circadian repair mechanisms are most active.
 
 ### 5. Bare-hydra lotion (100ml): Comprehensive Hydration
 Systemic hydration is often overlooked in hyperpigmentation protocols. 
@@ -943,7 +943,7 @@ Our **"Total Clearance" ecosystem** — five tightly engineered SKUs — is desi
 | Bare-C20 serum | Hyperpigmentation, PIH, Dull Skin | 20% Vit C, 2% Niacinamide, Hyaluronic Acid |
 | Hybrid Invisible Bare-UV sunscreen | Photoprotection, PIH Prevention | Physical + Chemical dual filters, Zero white cast |
 | Cicaglow facewash | Acne, Oily Skin, Comedonal Acne | Glycolic Acid, Salicylic Acid, Vitamin C, Cica |
-| Advanced Bare night cream | Barrier Repair, Anti-Ageing, Retinol Therapy | Retinol, Ceramides, Peptides |
+| Bare night cream | Triple-Pathway Overnight Depigmentation | 2% Kojic Acid Dipalmitate, 3% Niacinamide, 1.5% Alpha Arbutin |
 | Bare-hydra lotion 100ml | Year-round Hydration, Brightening | Vitamin C, Dermawhite™ Technology |
 
 Each SKU is formulated specifically for **melanin-rich Indian skin** (Fitzpatrick III–VI) — not adapted from Western formulations but engineered from the ground up for Indian dermatological conditions.

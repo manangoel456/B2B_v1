@@ -391,7 +391,7 @@ export const CITY_SEO_DATA: CitySEOData[] = [
       "Kollam", "Malappuram", "Palakkad"
     ],
     regionalDermaFacts:
-      "Kerala's year-round high humidity and tropical UV exposure creates persistent acne, hyperpigmentation, and TEWL-related skin barrier issues. Barekyne's Advanced Bare night cream (Ceramides + Retinol + Peptides) is exceptionally well-positioned for Kerala's barrier-repair need.",
+      "Kerala's year-round high humidity and tropical UV exposure creates persistent acne, hyperpigmentation, and TEWL-related skin barrier issues. Barekyne's Bare night cream (Kojic Acid Dipalmitate + Niacinamide + Alpha Arbutin) delivers triple-pathway overnight depigmentation — exceptionally well-positioned for Kerala's pigmentation and dark spot concerns.",
     canonicalUrl: "https://barekyne.in/skincare-distributor/kochi",
     ogImage: "/og/kochi-franchise.jpg",
     structuredData: {

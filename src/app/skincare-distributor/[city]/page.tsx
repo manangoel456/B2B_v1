@@ -854,10 +854,10 @@ export default async function CityFranchisePage(
                 mechanism: "AHA + BHA dual exfoliation with anti-inflammatory modulation",
               },
               {
-                name: "Advanced Bare night cream",
-                actives: "Retinol · Ceramides · Peptides",
-                indication: "Barrier Repair · Anti-Ageing · TEWL Reduction",
-                mechanism: "Collagen synthesis + ceramide barrier restoration",
+                name: "Bare night cream",
+                actives: "Kojic Acid Dipalmitate · Niacinamide · Alpha Arbutin",
+                indication: "Dark Spots · Melasma · Post-Inflammatory Hyperpigmentation",
+                mechanism: "Triple-pathway overnight depigmentation — synthesis, transfer & expression",
               },
               {
                 name: "Bare-hydra lotion",
